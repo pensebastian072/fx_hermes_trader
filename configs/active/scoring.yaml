@@ -1,0 +1,43 @@
+# Milestone 1 scoring stub configuration.
+# The stub maps TradingView signal names to deterministic scores.
+# Real engines (trend, mean reversion, patterns, rates, regime) come later.
+
+long_threshold: 70
+short_threshold: -70
+
+signal_scores:
+  long_candidate: 75
+  short_candidate: -75
+  long_strong: 85
+  short_strong: -85
+  watch: 0
+
+# Synthetic stop/target geometry for the stub (fraction of entry price)
+stop_distance_pct: 0.003
+reward_risk: 2.0
+
+# Regime-gated ensemble (PROJECT_PLAN.md 29.2).
+# FinalScore_t = sum_k P(Regime_k | X_t) * Model_k(X_t)
+ensemble:
+  enabled: true
+  n_regimes: 3
+  warmup_bars: 120
+  specialists:
+    TREND: trend_following
+    LOW_VOL_RANGE: mean_reversion
+    HIGH_VOL_CRISIS: capital_preservation
+  # trained sklearn models (optional); rule-based specialists used when absent
+  models_dir: data/artifacts/models
+
+# Reference only in Milestone 1 - future weighted scoring formula (PROJECT_PLAN.md section 8)
+weights:
+  trend_score: 0.20
+  mean_reversion_score: 0.15
+  chart_pattern_score: 0.15
+  rate_differential_score: 0.15
+  central_bank_score: 0.10
+  volatility_score: 0.10
+  intermarket_score: 0.05
+  session_score: 0.05
+  execution_quality_score: 0.03
+  portfolio_risk_score: 0.02

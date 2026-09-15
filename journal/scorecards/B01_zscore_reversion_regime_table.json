@@ -1,0 +1,3616 @@
+{
+  "battery_id": "B01_zscore_reversion",
+  "combo_idx": 124,
+  "n_trials_charged": 160,
+  "year_pooled": [
+    {
+      "year": 2008,
+      "n_trades": 7633,
+      "distinct_session_days": 304,
+      "day_cluster_ratio": 25.11,
+      "profit_factor": 1.0076,
+      "sharpe": 0.0019083962111846283,
+      "dsr_ratio": -2.5215
+    },
+    {
+      "year": 2009,
+      "n_trades": 8195,
+      "distinct_session_days": 304,
+      "day_cluster_ratio": 26.96,
+      "profit_factor": 1.0395,
+      "sharpe": 0.014283259841647963,
+      "dsr_ratio": -1.3986
+    },
+    {
+      "year": 2010,
+      "n_trades": 8131,
+      "distinct_session_days": 305,
+      "day_cluster_ratio": 26.66,
+      "profit_factor": 1.0289,
+      "sharpe": 0.01056742796289537,
+      "dsr_ratio": -1.7398
+    },
+    {
+      "year": 2011,
+      "n_trades": 8154,
+      "distinct_session_days": 302,
+      "day_cluster_ratio": 27.0,
+      "profit_factor": 1.024,
+      "sharpe": 0.008065390023355719,
+      "dsr_ratio": -1.9652
+    },
+    {
+      "year": 2012,
+      "n_trades": 7934,
+      "distinct_session_days": 300,
+      "day_cluster_ratio": 26.45,
+      "profit_factor": 0.8497,
+      "sharpe": -0.061269628384804174,
+      "dsr_ratio": -8.1535
+    },
+    {
+      "year": 2013,
+      "n_trades": 8249,
+      "distinct_session_days": 301,
+      "day_cluster_ratio": 27.41,
+      "profit_factor": 0.868,
+      "sharpe": -0.05191915953921166,
+      "dsr_ratio": -7.4032
+    },
+    {
+      "year": 2014,
+      "n_trades": 8125,
+      "distinct_session_days": 301,
+      "day_cluster_ratio": 26.99,
+      "profit_factor": 0.9219,
+      "sharpe": -0.029310788757238172,
+      "dsr_ratio": -5.338
+    },
+    {
+      "year": 2015,
+      "n_trades": 8073,
+      "distinct_session_days": 304,
+      "day_cluster_ratio": 26.56,
+      "profit_factor": 0.9712,
+      "sharpe": -0.009371248047703775,
+      "dsr_ratio": -3.5325
+    },
+    {
+      "year": 2016,
+      "n_trades": 8170,
+      "distinct_session_days": 303,
+      "day_cluster_ratio": 26.96,
+      "profit_factor": 1.0132,
+      "sharpe": 0.004659993495817537,
+      "dsr_ratio": -2.2707
+    },
+    {
+      "year": 2017,
+      "n_trades": 8149,
+      "distinct_session_days": 302,
+      "day_cluster_ratio": 26.98,
+      "profit_factor": 0.9411,
+      "sharpe": -0.022872034756671624,
+      "dsr_ratio": -4.7559
+    },
+    {
+      "year": 2018,
+      "n_trades": 8108,
+      "distinct_session_days": 307,
+      "day_cluster_ratio": 26.41,
+      "profit_factor": 0.9936,
+      "sharpe": -0.002443014968655969,
+      "dsr_ratio": -2.9117
+    },
+    {
+      "year": 2019,
+      "n_trades": 8082,
+      "distinct_session_days": 304,
+      "day_cluster_ratio": 26.59,
+      "profit_factor": 0.8674,
+      "sharpe": -0.0513181346096149,
+      "dsr_ratio": -7.3135
+    },
+    {
+      "year": 2020,
+      "n_trades": 8031,
+      "distinct_session_days": 304,
+      "day_cluster_ratio": 26.42,
+      "profit_factor": 1.006,
+      "sharpe": 0.0020669219055061186,
+      "dsr_ratio": -2.5065
+    },
+    {
+      "year": 2021,
+      "n_trades": 7970,
+      "distinct_session_days": 304,
+      "day_cluster_ratio": 26.22,
+      "profit_factor": 0.9305,
+      "sharpe": -0.027203656021961342,
+      "dsr_ratio": -5.1227
+    },
+    {
+      "year": 2022,
+      "n_trades": 7926,
+      "distinct_session_days": 304,
+      "day_cluster_ratio": 26.07,
+      "profit_factor": 0.9803,
+      "sharpe": -0.007323076918780814,
+      "dsr_ratio": -3.3432
+    }
+  ],
+  "year_consistency": {
+    "n_years": 15,
+    "n_years_pf_above_1": 6,
+    "frac_years_positive": 0.4
+  },
+  "cross_pair_correlation_by_year": {
+    "2008": {
+      "n_days": 304,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.1189,
+      "max_corr": 0.6863,
+      "min_corr": -0.2226
+    },
+    "2009": {
+      "n_days": 304,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.0924,
+      "max_corr": 0.5303,
+      "min_corr": -0.1604
+    },
+    "2010": {
+      "n_days": 305,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.091,
+      "max_corr": 0.4654,
+      "min_corr": -0.2328
+    },
+    "2011": {
+      "n_days": 302,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.091,
+      "max_corr": 0.5896,
+      "min_corr": -0.4262
+    },
+    "2012": {
+      "n_days": 300,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.0867,
+      "max_corr": 0.6874,
+      "min_corr": -0.1366
+    },
+    "2013": {
+      "n_days": 301,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.095,
+      "max_corr": 0.6298,
+      "min_corr": -0.2153
+    },
+    "2014": {
+      "n_days": 301,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.0835,
+      "max_corr": 0.7046,
+      "min_corr": -0.1595
+    },
+    "2015": {
+      "n_days": 304,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.1088,
+      "max_corr": 0.7303,
+      "min_corr": -0.6679
+    },
+    "2016": {
+      "n_days": 303,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.0949,
+      "max_corr": 0.434,
+      "min_corr": -0.2628
+    },
+    "2017": {
+      "n_days": 302,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.0722,
+      "max_corr": 0.3967,
+      "min_corr": -0.2385
+    },
+    "2018": {
+      "n_days": 307,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.0707,
+      "max_corr": 0.318,
+      "min_corr": -0.1759
+    },
+    "2019": {
+      "n_days": 304,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.0832,
+      "max_corr": 0.4228,
+      "min_corr": -0.2047
+    },
+    "2020": {
+      "n_days": 304,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.1153,
+      "max_corr": 0.5989,
+      "min_corr": -0.2553
+    },
+    "2021": {
+      "n_days": 304,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.0789,
+      "max_corr": 0.3511,
+      "min_corr": -0.1799
+    },
+    "2022": {
+      "n_days": 304,
+      "n_pairs": 28,
+      "mean_abs_corr": 0.0807,
+      "max_corr": 0.4349,
+      "min_corr": -0.1908
+    }
+  },
+  "year_pair": [
+    {
+      "year": 2008,
+      "pair": "AUDCAD",
+      "n_trades": 294,
+      "profit_factor": 0.8286,
+      "sharpe": -0.06288719222396368,
+      "dsr_ratio": -1.1196
+    },
+    {
+      "year": 2008,
+      "pair": "AUDCHF",
+      "n_trades": 223,
+      "profit_factor": 0.786,
+      "sharpe": -0.0739364496585409,
+      "dsr_ratio": -1.0829
+    },
+    {
+      "year": 2008,
+      "pair": "AUDJPY",
+      "n_trades": 290,
+      "profit_factor": 0.8723,
+      "sharpe": -0.03948729848306157,
+      "dsr_ratio": -0.6674
+    },
+    {
+      "year": 2008,
+      "pair": "AUDNZD",
+      "n_trades": 291,
+      "profit_factor": 1.1131,
+      "sharpe": 0.037858349246857444,
+      "dsr_ratio": 0.6513
+    },
+    {
+      "year": 2008,
+      "pair": "AUDUSD",
+      "n_trades": 295,
+      "profit_factor": 0.9914,
+      "sharpe": -0.002721308954050436,
+      "dsr_ratio": -0.0467
+    },
+    {
+      "year": 2008,
+      "pair": "CADCHF",
+      "n_trades": 212,
+      "profit_factor": 1.039,
+      "sharpe": 0.014021487228872325,
+      "dsr_ratio": 0.2036
+    },
+    {
+      "year": 2008,
+      "pair": "CADJPY",
+      "n_trades": 291,
+      "profit_factor": 0.8059,
+      "sharpe": -0.07297699414611009,
+      "dsr_ratio": -1.2419
+    },
+    {
+      "year": 2008,
+      "pair": "CHFJPY",
+      "n_trades": 296,
+      "profit_factor": 1.1424,
+      "sharpe": 0.043726242705622594,
+      "dsr_ratio": 0.7575
+    },
+    {
+      "year": 2008,
+      "pair": "EURAUD",
+      "n_trades": 292,
+      "profit_factor": 0.8547,
+      "sharpe": -0.051869416782115964,
+      "dsr_ratio": -0.9162
+    },
+    {
+      "year": 2008,
+      "pair": "EURCAD",
+      "n_trades": 281,
+      "profit_factor": 1.2575,
+      "sharpe": 0.08366488136205776,
+      "dsr_ratio": 1.387
+    },
+    {
+      "year": 2008,
+      "pair": "EURCHF",
+      "n_trades": 283,
+      "profit_factor": 0.92,
+      "sharpe": -0.030571316948888844,
+      "dsr_ratio": -0.5121
+    },
+    {
+      "year": 2008,
+      "pair": "EURGBP",
+      "n_trades": 279,
+      "profit_factor": 0.875,
+      "sharpe": -0.04695496614035738,
+      "dsr_ratio": -0.7985
+    },
+    {
+      "year": 2008,
+      "pair": "EURJPY",
+      "n_trades": 297,
+      "profit_factor": 0.7407,
+      "sharpe": -0.09885496555805824,
+      "dsr_ratio": -1.717
+    },
+    {
+      "year": 2008,
+      "pair": "EURNZD",
+      "n_trades": 219,
+      "profit_factor": 0.9473,
+      "sharpe": -0.01957693332751047,
+      "dsr_ratio": -0.2915
+    },
+    {
+      "year": 2008,
+      "pair": "EURUSD",
+      "n_trades": 301,
+      "profit_factor": 0.8978,
+      "sharpe": -0.038756000684974506,
+      "dsr_ratio": -0.6724
+    },
+    {
+      "year": 2008,
+      "pair": "GBPAUD",
+      "n_trades": 281,
+      "profit_factor": 0.9854,
+      "sharpe": -0.005069671181576419,
+      "dsr_ratio": -0.085
+    },
+    {
+      "year": 2008,
+      "pair": "GBPCAD",
+      "n_trades": 284,
+      "profit_factor": 1.1367,
+      "sharpe": 0.04633083124685919,
+      "dsr_ratio": 0.7829
+    },
+    {
+      "year": 2008,
+      "pair": "GBPCHF",
+      "n_trades": 285,
+      "profit_factor": 0.9287,
+      "sharpe": -0.02556373906304449,
+      "dsr_ratio": -0.4234
+    },
+    {
+      "year": 2008,
+      "pair": "GBPJPY",
+      "n_trades": 296,
+      "profit_factor": 0.8712,
+      "sharpe": -0.04319194910085225,
+      "dsr_ratio": -0.7312
+    },
+    {
+      "year": 2008,
+      "pair": "GBPNZD",
+      "n_trades": 211,
+      "profit_factor": 1.3055,
+      "sharpe": 0.09623666996931522,
+      "dsr_ratio": 1.386
+    },
+    {
+      "year": 2008,
+      "pair": "GBPUSD",
+      "n_trades": 285,
+      "profit_factor": 1.0299,
+      "sharpe": 0.010407565088872273,
+      "dsr_ratio": 0.1751
+    },
+    {
+      "year": 2008,
+      "pair": "NZDCAD",
+      "n_trades": 219,
+      "profit_factor": 0.9304,
+      "sharpe": -0.027280223458906745,
+      "dsr_ratio": -0.4033
+    },
+    {
+      "year": 2008,
+      "pair": "NZDCHF",
+      "n_trades": 220,
+      "profit_factor": 1.2346,
+      "sharpe": 0.07602386983279796,
+      "dsr_ratio": 1.1179
+    },
+    {
+      "year": 2008,
+      "pair": "NZDJPY",
+      "n_trades": 289,
+      "profit_factor": 1.0495,
+      "sharpe": 0.015389060976401423,
+      "dsr_ratio": 0.2626
+    },
+    {
+      "year": 2008,
+      "pair": "NZDUSD",
+      "n_trades": 282,
+      "profit_factor": 2.1888,
+      "sharpe": 0.08128415899332223,
+      "dsr_ratio": 3.3534
+    },
+    {
+      "year": 2008,
+      "pair": "USDCAD",
+      "n_trades": 253,
+      "profit_factor": 1.5448,
+      "sharpe": 0.15052900908844088,
+      "dsr_ratio": 2.4098
+    },
+    {
+      "year": 2008,
+      "pair": "USDCHF",
+      "n_trades": 290,
+      "profit_factor": 0.8069,
+      "sharpe": -0.07847457357728839,
+      "dsr_ratio": -1.3181
+    },
+    {
+      "year": 2008,
+      "pair": "USDJPY",
+      "n_trades": 294,
+      "profit_factor": 0.9952,
+      "sharpe": -0.0016894947495207883,
+      "dsr_ratio": -0.0289
+    },
+    {
+      "year": 2009,
+      "pair": "AUDCAD",
+      "n_trades": 299,
+      "profit_factor": 1.4823,
+      "sharpe": 0.1531026191438138,
+      "dsr_ratio": 2.7478
+    },
+    {
+      "year": 2009,
+      "pair": "AUDCHF",
+      "n_trades": 290,
+      "profit_factor": 1.0172,
+      "sharpe": 0.006186718176201428,
+      "dsr_ratio": 0.1051
+    },
+    {
+      "year": 2009,
+      "pair": "AUDJPY",
+      "n_trades": 298,
+      "profit_factor": 1.0126,
+      "sharpe": 0.004800962967005094,
+      "dsr_ratio": 0.0827
+    },
+    {
+      "year": 2009,
+      "pair": "AUDNZD",
+      "n_trades": 297,
+      "profit_factor": 1.4539,
+      "sharpe": 0.14017663333206626,
+      "dsr_ratio": 2.4009
+    },
+    {
+      "year": 2009,
+      "pair": "AUDUSD",
+      "n_trades": 295,
+      "profit_factor": 1.3677,
+      "sharpe": 0.12388128201701172,
+      "dsr_ratio": 2.1339
+    },
+    {
+      "year": 2009,
+      "pair": "CADCHF",
+      "n_trades": 284,
+      "profit_factor": 0.9888,
+      "sharpe": -0.003908816615592543,
+      "dsr_ratio": -0.0658
+    },
+    {
+      "year": 2009,
+      "pair": "CADJPY",
+      "n_trades": 290,
+      "profit_factor": 0.7459,
+      "sharpe": -0.11529081206123006,
+      "dsr_ratio": -1.9456
+    },
+    {
+      "year": 2009,
+      "pair": "CHFJPY",
+      "n_trades": 300,
+      "profit_factor": 0.8825,
+      "sharpe": -0.0481359609691361,
+      "dsr_ratio": -0.8275
+    },
+    {
+      "year": 2009,
+      "pair": "EURAUD",
+      "n_trades": 286,
+      "profit_factor": 1.0699,
+      "sharpe": 0.025192676444937143,
+      "dsr_ratio": 0.4255
+    },
+    {
+      "year": 2009,
+      "pair": "EURCAD",
+      "n_trades": 285,
+      "profit_factor": 0.9759,
+      "sharpe": -0.008821914396589326,
+      "dsr_ratio": -0.1488
+    },
+    {
+      "year": 2009,
+      "pair": "EURCHF",
+      "n_trades": 282,
+      "profit_factor": 1.0369,
+      "sharpe": 0.010215698343228198,
+      "dsr_ratio": 0.1737
+    },
+    {
+      "year": 2009,
+      "pair": "EURGBP",
+      "n_trades": 288,
+      "profit_factor": 1.0559,
+      "sharpe": 0.020976256188698392,
+      "dsr_ratio": 0.3564
+    },
+    {
+      "year": 2009,
+      "pair": "EURJPY",
+      "n_trades": 307,
+      "profit_factor": 0.829,
+      "sharpe": -0.07351165759653253,
+      "dsr_ratio": -1.2811
+    },
+    {
+      "year": 2009,
+      "pair": "EURNZD",
+      "n_trades": 299,
+      "profit_factor": 1.1063,
+      "sharpe": 0.036933452795896486,
+      "dsr_ratio": 0.6425
+    },
+    {
+      "year": 2009,
+      "pair": "EURUSD",
+      "n_trades": 296,
+      "profit_factor": 0.9585,
+      "sharpe": -0.015791877554884353,
+      "dsr_ratio": -0.2705
+    },
+    {
+      "year": 2009,
+      "pair": "GBPAUD",
+      "n_trades": 292,
+      "profit_factor": 1.3353,
+      "sharpe": 0.11296034720881079,
+      "dsr_ratio": 1.9173
+    },
+    {
+      "year": 2009,
+      "pair": "GBPCAD",
+      "n_trades": 287,
+      "profit_factor": 1.1121,
+      "sharpe": 0.04121812611462315,
+      "dsr_ratio": 0.6978
+    },
+    {
+      "year": 2009,
+      "pair": "GBPCHF",
+      "n_trades": 284,
+      "profit_factor": 0.9287,
+      "sharpe": -0.027625392396239155,
+      "dsr_ratio": -0.4654
+    },
+    {
+      "year": 2009,
+      "pair": "GBPJPY",
+      "n_trades": 298,
+      "profit_factor": 0.7844,
+      "sharpe": -0.09131066488790628,
+      "dsr_ratio": -1.5593
+    },
+    {
+      "year": 2009,
+      "pair": "GBPNZD",
+      "n_trades": 302,
+      "profit_factor": 1.1599,
+      "sharpe": 0.05714384702439659,
+      "dsr_ratio": 0.9898
+    },
+    {
+      "year": 2009,
+      "pair": "GBPUSD",
+      "n_trades": 291,
+      "profit_factor": 1.0439,
+      "sharpe": 0.01670547605168662,
+      "dsr_ratio": 0.2844
+    },
+    {
+      "year": 2009,
+      "pair": "NZDCAD",
+      "n_trades": 294,
+      "profit_factor": 1.062,
+      "sharpe": 0.0234358962588896,
+      "dsr_ratio": 0.3995
+    },
+    {
+      "year": 2009,
+      "pair": "NZDCHF",
+      "n_trades": 299,
+      "profit_factor": 1.4827,
+      "sharpe": 0.13890481849946526,
+      "dsr_ratio": 2.4715
+    },
+    {
+      "year": 2009,
+      "pair": "NZDJPY",
+      "n_trades": 297,
+      "profit_factor": 0.9732,
+      "sharpe": -0.01051138915299514,
+      "dsr_ratio": -0.1808
+    },
+    {
+      "year": 2009,
+      "pair": "NZDUSD",
+      "n_trades": 291,
+      "profit_factor": 1.0567,
+      "sharpe": 0.02216988786285352,
+      "dsr_ratio": 0.3767
+    },
+    {
+      "year": 2009,
+      "pair": "USDCAD",
+      "n_trades": 267,
+      "profit_factor": 0.9797,
+      "sharpe": -0.008079887944662942,
+      "dsr_ratio": -0.1316
+    },
+    {
+      "year": 2009,
+      "pair": "USDCHF",
+      "n_trades": 295,
+      "profit_factor": 1.1997,
+      "sharpe": 0.06745315547091116,
+      "dsr_ratio": 1.1452
+    },
+    {
+      "year": 2009,
+      "pair": "USDJPY",
+      "n_trades": 302,
+      "profit_factor": 0.8377,
+      "sharpe": -0.06957478799324725,
+      "dsr_ratio": -1.2106
+    },
+    {
+      "year": 2010,
+      "pair": "AUDCAD",
+      "n_trades": 290,
+      "profit_factor": 1.1078,
+      "sharpe": 0.039376546003142894,
+      "dsr_ratio": 0.6651
+    },
+    {
+      "year": 2010,
+      "pair": "AUDCHF",
+      "n_trades": 296,
+      "profit_factor": 0.8927,
+      "sharpe": -0.042391250656247076,
+      "dsr_ratio": -0.7319
+    },
+    {
+      "year": 2010,
+      "pair": "AUDJPY",
+      "n_trades": 294,
+      "profit_factor": 0.9371,
+      "sharpe": -0.023030402781985492,
+      "dsr_ratio": -0.3957
+    },
+    {
+      "year": 2010,
+      "pair": "AUDNZD",
+      "n_trades": 292,
+      "profit_factor": 1.1855,
+      "sharpe": 0.06618757690202759,
+      "dsr_ratio": 1.1358
+    },
+    {
+      "year": 2010,
+      "pair": "AUDUSD",
+      "n_trades": 294,
+      "profit_factor": 0.9287,
+      "sharpe": -0.027578449570802174,
+      "dsr_ratio": -0.4729
+    },
+    {
+      "year": 2010,
+      "pair": "CADCHF",
+      "n_trades": 284,
+      "profit_factor": 1.0496,
+      "sharpe": 0.018341085428617385,
+      "dsr_ratio": 0.3089
+    },
+    {
+      "year": 2010,
+      "pair": "CADJPY",
+      "n_trades": 293,
+      "profit_factor": 0.8361,
+      "sharpe": -0.0639291582356965,
+      "dsr_ratio": -1.1006
+    },
+    {
+      "year": 2010,
+      "pair": "CHFJPY",
+      "n_trades": 294,
+      "profit_factor": 1.2931,
+      "sharpe": 0.0963873957998868,
+      "dsr_ratio": 1.6433
+    },
+    {
+      "year": 2010,
+      "pair": "EURAUD",
+      "n_trades": 294,
+      "profit_factor": 1.1608,
+      "sharpe": 0.0553224950544041,
+      "dsr_ratio": 0.9439
+    },
+    {
+      "year": 2010,
+      "pair": "EURCAD",
+      "n_trades": 288,
+      "profit_factor": 0.9632,
+      "sharpe": -0.01405509607889682,
+      "dsr_ratio": -0.2382
+    },
+    {
+      "year": 2010,
+      "pair": "EURCHF",
+      "n_trades": 287,
+      "profit_factor": 1.1197,
+      "sharpe": 0.040759733446788446,
+      "dsr_ratio": 0.6899
+    },
+    {
+      "year": 2010,
+      "pair": "EURGBP",
+      "n_trades": 293,
+      "profit_factor": 1.098,
+      "sharpe": 0.037338775971207015,
+      "dsr_ratio": 0.6366
+    },
+    {
+      "year": 2010,
+      "pair": "EURJPY",
+      "n_trades": 297,
+      "profit_factor": 1.0742,
+      "sharpe": 0.026823269779394147,
+      "dsr_ratio": 0.462
+    },
+    {
+      "year": 2010,
+      "pair": "EURNZD",
+      "n_trades": 291,
+      "profit_factor": 1.0999,
+      "sharpe": 0.03558857238002389,
+      "dsr_ratio": 0.612
+    },
+    {
+      "year": 2010,
+      "pair": "EURUSD",
+      "n_trades": 294,
+      "profit_factor": 1.2041,
+      "sharpe": 0.07182636465729021,
+      "dsr_ratio": 1.2379
+    },
+    {
+      "year": 2010,
+      "pair": "GBPAUD",
+      "n_trades": 291,
+      "profit_factor": 0.9233,
+      "sharpe": -0.030083596011597515,
+      "dsr_ratio": -0.512
+    },
+    {
+      "year": 2010,
+      "pair": "GBPCAD",
+      "n_trades": 287,
+      "profit_factor": 1.0561,
+      "sharpe": 0.020903257706849587,
+      "dsr_ratio": 0.3524
+    },
+    {
+      "year": 2010,
+      "pair": "GBPCHF",
+      "n_trades": 279,
+      "profit_factor": 1.0932,
+      "sharpe": 0.03516377773335813,
+      "dsr_ratio": 0.5859
+    },
+    {
+      "year": 2010,
+      "pair": "GBPJPY",
+      "n_trades": 293,
+      "profit_factor": 1.0644,
+      "sharpe": 0.023275377178007293,
+      "dsr_ratio": 0.3964
+    },
+    {
+      "year": 2010,
+      "pair": "GBPNZD",
+      "n_trades": 287,
+      "profit_factor": 1.1162,
+      "sharpe": 0.04336492000520308,
+      "dsr_ratio": 0.7346
+    },
+    {
+      "year": 2010,
+      "pair": "GBPUSD",
+      "n_trades": 287,
+      "profit_factor": 0.8622,
+      "sharpe": -0.05965092566939019,
+      "dsr_ratio": -1.0127
+    },
+    {
+      "year": 2010,
+      "pair": "NZDCAD",
+      "n_trades": 298,
+      "profit_factor": 0.9,
+      "sharpe": -0.03998442151180419,
+      "dsr_ratio": -0.6923
+    },
+    {
+      "year": 2010,
+      "pair": "NZDCHF",
+      "n_trades": 284,
+      "profit_factor": 0.8108,
+      "sharpe": -0.08088314230306012,
+      "dsr_ratio": -1.3548
+    },
+    {
+      "year": 2010,
+      "pair": "NZDJPY",
+      "n_trades": 294,
+      "profit_factor": 0.9883,
+      "sharpe": -0.004401137530285674,
+      "dsr_ratio": -0.0754
+    },
+    {
+      "year": 2010,
+      "pair": "NZDUSD",
+      "n_trades": 287,
+      "profit_factor": 1.0552,
+      "sharpe": 0.021015437370042897,
+      "dsr_ratio": 0.3557
+    },
+    {
+      "year": 2010,
+      "pair": "USDCAD",
+      "n_trades": 275,
+      "profit_factor": 0.9404,
+      "sharpe": -0.023553275354156522,
+      "dsr_ratio": -0.3911
+    },
+    {
+      "year": 2010,
+      "pair": "USDCHF",
+      "n_trades": 289,
+      "profit_factor": 1.5473,
+      "sharpe": 0.17278901334420987,
+      "dsr_ratio": 2.9529
+    },
+    {
+      "year": 2010,
+      "pair": "USDJPY",
+      "n_trades": 299,
+      "profit_factor": 1.0272,
+      "sharpe": 0.009794354399556752,
+      "dsr_ratio": 0.1685
+    },
+    {
+      "year": 2011,
+      "pair": "AUDCAD",
+      "n_trades": 294,
+      "profit_factor": 1.3911,
+      "sharpe": 0.13001170073904725,
+      "dsr_ratio": 2.2684
+    },
+    {
+      "year": 2011,
+      "pair": "AUDCHF",
+      "n_trades": 292,
+      "profit_factor": 0.741,
+      "sharpe": -0.09554713853625423,
+      "dsr_ratio": -1.867
+    },
+    {
+      "year": 2011,
+      "pair": "AUDJPY",
+      "n_trades": 295,
+      "profit_factor": 1.0692,
+      "sharpe": 0.023604848731330643,
+      "dsr_ratio": 0.4087
+    },
+    {
+      "year": 2011,
+      "pair": "AUDNZD",
+      "n_trades": 295,
+      "profit_factor": 1.3654,
+      "sharpe": 0.12109798846332094,
+      "dsr_ratio": 2.0738
+    },
+    {
+      "year": 2011,
+      "pair": "AUDUSD",
+      "n_trades": 293,
+      "profit_factor": 1.0946,
+      "sharpe": 0.03449357466736439,
+      "dsr_ratio": 0.5892
+    },
+    {
+      "year": 2011,
+      "pair": "CADCHF",
+      "n_trades": 284,
+      "profit_factor": 0.9214,
+      "sharpe": -0.026088334922574237,
+      "dsr_ratio": -0.4588
+    },
+    {
+      "year": 2011,
+      "pair": "CADJPY",
+      "n_trades": 294,
+      "profit_factor": 0.9047,
+      "sharpe": -0.03614341567624258,
+      "dsr_ratio": -0.6169
+    },
+    {
+      "year": 2011,
+      "pair": "CHFJPY",
+      "n_trades": 300,
+      "profit_factor": 1.1602,
+      "sharpe": 0.046665835111758286,
+      "dsr_ratio": 0.8348
+    },
+    {
+      "year": 2011,
+      "pair": "EURAUD",
+      "n_trades": 292,
+      "profit_factor": 0.8075,
+      "sharpe": -0.08036616507080299,
+      "dsr_ratio": -1.3681
+    },
+    {
+      "year": 2011,
+      "pair": "EURCAD",
+      "n_trades": 286,
+      "profit_factor": 0.8843,
+      "sharpe": -0.047695370319386976,
+      "dsr_ratio": -0.8075
+    },
+    {
+      "year": 2011,
+      "pair": "EURCHF",
+      "n_trades": 292,
+      "profit_factor": 1.0504,
+      "sharpe": 0.013771044887201777,
+      "dsr_ratio": 0.2402
+    },
+    {
+      "year": 2011,
+      "pair": "EURGBP",
+      "n_trades": 289,
+      "profit_factor": 0.9127,
+      "sharpe": -0.034615390708868134,
+      "dsr_ratio": -0.5868
+    },
+    {
+      "year": 2011,
+      "pair": "EURJPY",
+      "n_trades": 295,
+      "profit_factor": 1.2928,
+      "sharpe": 0.0934044287769824,
+      "dsr_ratio": 1.5571
+    },
+    {
+      "year": 2011,
+      "pair": "EURNZD",
+      "n_trades": 294,
+      "profit_factor": 1.1192,
+      "sharpe": 0.04254756826306278,
+      "dsr_ratio": 0.7318
+    },
+    {
+      "year": 2011,
+      "pair": "EURUSD",
+      "n_trades": 300,
+      "profit_factor": 1.2129,
+      "sharpe": 0.07641449506115275,
+      "dsr_ratio": 1.3203
+    },
+    {
+      "year": 2011,
+      "pair": "GBPAUD",
+      "n_trades": 288,
+      "profit_factor": 0.9438,
+      "sharpe": -0.022092052888669767,
+      "dsr_ratio": -0.3734
+    },
+    {
+      "year": 2011,
+      "pair": "GBPCAD",
+      "n_trades": 280,
+      "profit_factor": 1.0474,
+      "sharpe": 0.018195962424047578,
+      "dsr_ratio": 0.304
+    },
+    {
+      "year": 2011,
+      "pair": "GBPCHF",
+      "n_trades": 289,
+      "profit_factor": 0.7259,
+      "sharpe": -0.09751588487652191,
+      "dsr_ratio": -1.9059
+    },
+    {
+      "year": 2011,
+      "pair": "GBPJPY",
+      "n_trades": 295,
+      "profit_factor": 1.0368,
+      "sharpe": 0.012909700111034011,
+      "dsr_ratio": 0.2231
+    },
+    {
+      "year": 2011,
+      "pair": "GBPNZD",
+      "n_trades": 289,
+      "profit_factor": 0.9786,
+      "sharpe": -0.008447590234767174,
+      "dsr_ratio": -0.1432
+    },
+    {
+      "year": 2011,
+      "pair": "GBPUSD",
+      "n_trades": 286,
+      "profit_factor": 1.1072,
+      "sharpe": 0.040698711157301434,
+      "dsr_ratio": 0.6886
+    },
+    {
+      "year": 2011,
+      "pair": "NZDCAD",
+      "n_trades": 296,
+      "profit_factor": 1.2501,
+      "sharpe": 0.08575162057459476,
+      "dsr_ratio": 1.474
+    },
+    {
+      "year": 2011,
+      "pair": "NZDCHF",
+      "n_trades": 294,
+      "profit_factor": 1.2119,
+      "sharpe": 0.06107706747342385,
+      "dsr_ratio": 1.0854
+    },
+    {
+      "year": 2011,
+      "pair": "NZDJPY",
+      "n_trades": 292,
+      "profit_factor": 1.1735,
+      "sharpe": 0.05772312556143599,
+      "dsr_ratio": 0.9865
+    },
+    {
+      "year": 2011,
+      "pair": "NZDUSD",
+      "n_trades": 290,
+      "profit_factor": 0.8,
+      "sharpe": -0.0840638358569158,
+      "dsr_ratio": -1.4343
+    },
+    {
+      "year": 2011,
+      "pair": "USDCAD",
+      "n_trades": 276,
+      "profit_factor": 0.9601,
+      "sharpe": -0.01573381965226335,
+      "dsr_ratio": -0.2604
+    },
+    {
+      "year": 2011,
+      "pair": "USDCHF",
+      "n_trades": 296,
+      "profit_factor": 0.9196,
+      "sharpe": -0.025463293578835002,
+      "dsr_ratio": -0.4605
+    },
+    {
+      "year": 2011,
+      "pair": "USDJPY",
+      "n_trades": 288,
+      "profit_factor": 1.2965,
+      "sharpe": 0.08690934600630898,
+      "dsr_ratio": 1.5805
+    },
+    {
+      "year": 2012,
+      "pair": "AUDCAD",
+      "n_trades": 287,
+      "profit_factor": 0.8023,
+      "sharpe": -0.08579185809106524,
+      "dsr_ratio": -1.4457
+    },
+    {
+      "year": 2012,
+      "pair": "AUDCHF",
+      "n_trades": 286,
+      "profit_factor": 0.7861,
+      "sharpe": -0.09812396734795883,
+      "dsr_ratio": -1.6461
+    },
+    {
+      "year": 2012,
+      "pair": "AUDJPY",
+      "n_trades": 25,
+      "profit_factor": 1.9104,
+      "sharpe": 0.26532546444996263,
+      "dsr_ratio": 1.2639
+    },
+    {
+      "year": 2012,
+      "pair": "AUDNZD",
+      "n_trades": 297,
+      "profit_factor": 0.8379,
+      "sharpe": -0.0698466681654169,
+      "dsr_ratio": -1.2046
+    },
+    {
+      "year": 2012,
+      "pair": "AUDUSD",
+      "n_trades": 300,
+      "profit_factor": 0.8451,
+      "sharpe": -0.06466967297560403,
+      "dsr_ratio": -1.1171
+    },
+    {
+      "year": 2012,
+      "pair": "CADCHF",
+      "n_trades": 288,
+      "profit_factor": 0.6771,
+      "sharpe": -0.1465842603519989,
+      "dsr_ratio": -2.4635
+    },
+    {
+      "year": 2012,
+      "pair": "CADJPY",
+      "n_trades": 294,
+      "profit_factor": 0.7752,
+      "sharpe": -0.09755620071614537,
+      "dsr_ratio": -1.6787
+    },
+    {
+      "year": 2012,
+      "pair": "CHFJPY",
+      "n_trades": 296,
+      "profit_factor": 0.7783,
+      "sharpe": -0.09892066033559592,
+      "dsr_ratio": -1.6844
+    },
+    {
+      "year": 2012,
+      "pair": "EURAUD",
+      "n_trades": 295,
+      "profit_factor": 0.7273,
+      "sharpe": -0.12911267723195163,
+      "dsr_ratio": -2.215
+    },
+    {
+      "year": 2012,
+      "pair": "EURCAD",
+      "n_trades": 292,
+      "profit_factor": 0.8096,
+      "sharpe": -0.08172670672459204,
+      "dsr_ratio": -1.4124
+    },
+    {
+      "year": 2012,
+      "pair": "EURCHF",
+      "n_trades": 288,
+      "profit_factor": 0.4437,
+      "sharpe": -0.25385813911320365,
+      "dsr_ratio": -4.3464
+    },
+    {
+      "year": 2012,
+      "pair": "EURGBP",
+      "n_trades": 294,
+      "profit_factor": 0.831,
+      "sharpe": -0.07061891684547156,
+      "dsr_ratio": -1.1815
+    },
+    {
+      "year": 2012,
+      "pair": "EURJPY",
+      "n_trades": 297,
+      "profit_factor": 0.8055,
+      "sharpe": -0.08631958796676395,
+      "dsr_ratio": -1.4671
+    },
+    {
+      "year": 2012,
+      "pair": "EURNZD",
+      "n_trades": 293,
+      "profit_factor": 0.7859,
+      "sharpe": -0.09627092899614192,
+      "dsr_ratio": -1.6548
+    },
+    {
+      "year": 2012,
+      "pair": "EURUSD",
+      "n_trades": 300,
+      "profit_factor": 1.0546,
+      "sharpe": 0.0203717409991263,
+      "dsr_ratio": 0.3523
+    },
+    {
+      "year": 2012,
+      "pair": "GBPAUD",
+      "n_trades": 289,
+      "profit_factor": 1.0827,
+      "sharpe": 0.031727103703827024,
+      "dsr_ratio": 0.5379
+    },
+    {
+      "year": 2012,
+      "pair": "GBPCAD",
+      "n_trades": 283,
+      "profit_factor": 1.1374,
+      "sharpe": 0.04948176844186295,
+      "dsr_ratio": 0.8261
+    },
+    {
+      "year": 2012,
+      "pair": "GBPCHF",
+      "n_trades": 290,
+      "profit_factor": 0.9707,
+      "sharpe": -0.01144836574555589,
+      "dsr_ratio": -0.1945
+    },
+    {
+      "year": 2012,
+      "pair": "GBPJPY",
+      "n_trades": 299,
+      "profit_factor": 0.6381,
+      "sharpe": -0.17034176804030307,
+      "dsr_ratio": -3.0075
+    },
+    {
+      "year": 2012,
+      "pair": "GBPNZD",
+      "n_trades": 292,
+      "profit_factor": 1.2433,
+      "sharpe": 0.08595081962005877,
+      "dsr_ratio": 1.466
+    },
+    {
+      "year": 2012,
+      "pair": "GBPUSD",
+      "n_trades": 289,
+      "profit_factor": 0.7681,
+      "sharpe": -0.10442468636053186,
+      "dsr_ratio": -1.7725
+    },
+    {
+      "year": 2012,
+      "pair": "NZDCAD",
+      "n_trades": 291,
+      "profit_factor": 0.8626,
+      "sharpe": -0.05820631893884399,
+      "dsr_ratio": -0.9883
+    },
+    {
+      "year": 2012,
+      "pair": "NZDCHF",
+      "n_trades": 289,
+      "profit_factor": 0.8383,
+      "sharpe": -0.07176811466497436,
+      "dsr_ratio": -1.2238
+    },
+    {
+      "year": 2012,
+      "pair": "NZDJPY",
+      "n_trades": 296,
+      "profit_factor": 0.7571,
+      "sharpe": -0.10620251098519215,
+      "dsr_ratio": -1.8487
+    },
+    {
+      "year": 2012,
+      "pair": "NZDUSD",
+      "n_trades": 295,
+      "profit_factor": 1.0658,
+      "sharpe": 0.025078845122957192,
+      "dsr_ratio": 0.4316
+    },
+    {
+      "year": 2012,
+      "pair": "USDCAD",
+      "n_trades": 286,
+      "profit_factor": 1.0152,
+      "sharpe": 0.005990529461656507,
+      "dsr_ratio": 0.1012
+    },
+    {
+      "year": 2012,
+      "pair": "USDCHF",
+      "n_trades": 298,
+      "profit_factor": 1.0501,
+      "sharpe": 0.018769775122266425,
+      "dsr_ratio": 0.3232
+    },
+    {
+      "year": 2012,
+      "pair": "USDJPY",
+      "n_trades": 305,
+      "profit_factor": 0.6607,
+      "sharpe": -0.156484343816478,
+      "dsr_ratio": -2.7666
+    },
+    {
+      "year": 2013,
+      "pair": "AUDCAD",
+      "n_trades": 293,
+      "profit_factor": 0.9209,
+      "sharpe": -0.031214726537253074,
+      "dsr_ratio": -0.5349
+    },
+    {
+      "year": 2013,
+      "pair": "AUDCHF",
+      "n_trades": 293,
+      "profit_factor": 0.7814,
+      "sharpe": -0.09604103874619263,
+      "dsr_ratio": -1.6282
+    },
+    {
+      "year": 2013,
+      "pair": "AUDJPY",
+      "n_trades": 292,
+      "profit_factor": 0.8951,
+      "sharpe": -0.04226438365006729,
+      "dsr_ratio": -0.7279
+    },
+    {
+      "year": 2013,
+      "pair": "AUDNZD",
+      "n_trades": 298,
+      "profit_factor": 1.0345,
+      "sharpe": 0.013026751554017325,
+      "dsr_ratio": 0.2246
+    },
+    {
+      "year": 2013,
+      "pair": "AUDUSD",
+      "n_trades": 300,
+      "profit_factor": 0.9712,
+      "sharpe": -0.01094716422511078,
+      "dsr_ratio": -0.1902
+    },
+    {
+      "year": 2013,
+      "pair": "CADCHF",
+      "n_trades": 288,
+      "profit_factor": 0.8268,
+      "sharpe": -0.07430158952874491,
+      "dsr_ratio": -1.257
+    },
+    {
+      "year": 2013,
+      "pair": "CADJPY",
+      "n_trades": 301,
+      "profit_factor": 0.8232,
+      "sharpe": -0.06819042815700127,
+      "dsr_ratio": -1.1692
+    },
+    {
+      "year": 2013,
+      "pair": "CHFJPY",
+      "n_trades": 292,
+      "profit_factor": 0.7184,
+      "sharpe": -0.11676582294499008,
+      "dsr_ratio": -1.9716
+    },
+    {
+      "year": 2013,
+      "pair": "EURAUD",
+      "n_trades": 297,
+      "profit_factor": 0.8569,
+      "sharpe": -0.06072986381168654,
+      "dsr_ratio": -1.0438
+    },
+    {
+      "year": 2013,
+      "pair": "EURCAD",
+      "n_trades": 281,
+      "profit_factor": 1.105,
+      "sharpe": 0.0375107918647651,
+      "dsr_ratio": 0.6283
+    },
+    {
+      "year": 2013,
+      "pair": "EURCHF",
+      "n_trades": 296,
+      "profit_factor": 0.683,
+      "sharpe": -0.1313108391144007,
+      "dsr_ratio": -2.1978
+    },
+    {
+      "year": 2013,
+      "pair": "EURGBP",
+      "n_trades": 288,
+      "profit_factor": 0.5914,
+      "sharpe": -0.1900315053243475,
+      "dsr_ratio": -3.3416
+    },
+    {
+      "year": 2013,
+      "pair": "EURJPY",
+      "n_trades": 298,
+      "profit_factor": 0.743,
+      "sharpe": -0.10638283742956124,
+      "dsr_ratio": -1.8335
+    },
+    {
+      "year": 2013,
+      "pair": "EURNZD",
+      "n_trades": 297,
+      "profit_factor": 0.7777,
+      "sharpe": -0.09701073315203981,
+      "dsr_ratio": -1.659
+    },
+    {
+      "year": 2013,
+      "pair": "EURUSD",
+      "n_trades": 300,
+      "profit_factor": 0.9656,
+      "sharpe": -0.012790784196551774,
+      "dsr_ratio": -0.2216
+    },
+    {
+      "year": 2013,
+      "pair": "GBPAUD",
+      "n_trades": 291,
+      "profit_factor": 1.023,
+      "sharpe": 0.008820264820371,
+      "dsr_ratio": 0.1502
+    },
+    {
+      "year": 2013,
+      "pair": "GBPCAD",
+      "n_trades": 283,
+      "profit_factor": 0.6318,
+      "sharpe": -0.17486712498110143,
+      "dsr_ratio": -2.9091
+    },
+    {
+      "year": 2013,
+      "pair": "GBPCHF",
+      "n_trades": 289,
+      "profit_factor": 0.9236,
+      "sharpe": -0.02993126359712335,
+      "dsr_ratio": -0.5087
+    },
+    {
+      "year": 2013,
+      "pair": "GBPJPY",
+      "n_trades": 297,
+      "profit_factor": 0.885,
+      "sharpe": -0.04450513209619381,
+      "dsr_ratio": -0.7543
+    },
+    {
+      "year": 2013,
+      "pair": "GBPNZD",
+      "n_trades": 302,
+      "profit_factor": 0.698,
+      "sharpe": -0.1391820069108949,
+      "dsr_ratio": -2.378
+    },
+    {
+      "year": 2013,
+      "pair": "GBPUSD",
+      "n_trades": 292,
+      "profit_factor": 0.9912,
+      "sharpe": -0.0034074377533622868,
+      "dsr_ratio": -0.0582
+    },
+    {
+      "year": 2013,
+      "pair": "NZDCAD",
+      "n_trades": 296,
+      "profit_factor": 0.823,
+      "sharpe": -0.0759842430372361,
+      "dsr_ratio": -1.2954
+    },
+    {
+      "year": 2013,
+      "pair": "NZDCHF",
+      "n_trades": 300,
+      "profit_factor": 0.8247,
+      "sharpe": -0.07482776280013811,
+      "dsr_ratio": -1.2896
+    },
+    {
+      "year": 2013,
+      "pair": "NZDJPY",
+      "n_trades": 303,
+      "profit_factor": 1.0204,
+      "sharpe": 0.007659873501094691,
+      "dsr_ratio": 0.133
+    },
+    {
+      "year": 2013,
+      "pair": "NZDUSD",
+      "n_trades": 299,
+      "profit_factor": 0.8415,
+      "sharpe": -0.06637183830381195,
+      "dsr_ratio": -1.1438
+    },
+    {
+      "year": 2013,
+      "pair": "USDCAD",
+      "n_trades": 286,
+      "profit_factor": 0.9543,
+      "sharpe": -0.017484247092457248,
+      "dsr_ratio": -0.2933
+    },
+    {
+      "year": 2013,
+      "pair": "USDCHF",
+      "n_trades": 295,
+      "profit_factor": 1.2398,
+      "sharpe": 0.08015540981746191,
+      "dsr_ratio": 1.389
+    },
+    {
+      "year": 2013,
+      "pair": "USDJPY",
+      "n_trades": 302,
+      "profit_factor": 1.0303,
+      "sharpe": 0.010616165348684816,
+      "dsr_ratio": 0.1848
+    },
+    {
+      "year": 2014,
+      "pair": "AUDCAD",
+      "n_trades": 288,
+      "profit_factor": 1.0002,
+      "sharpe": 6.0124584074298186e-05,
+      "dsr_ratio": 0.001
+    },
+    {
+      "year": 2014,
+      "pair": "AUDCHF",
+      "n_trades": 296,
+      "profit_factor": 0.8981,
+      "sharpe": -0.03974491096308427,
+      "dsr_ratio": -0.6928
+    },
+    {
+      "year": 2014,
+      "pair": "AUDJPY",
+      "n_trades": 289,
+      "profit_factor": 0.9006,
+      "sharpe": -0.036825498940636074,
+      "dsr_ratio": -0.6261
+    },
+    {
+      "year": 2014,
+      "pair": "AUDNZD",
+      "n_trades": 290,
+      "profit_factor": 0.813,
+      "sharpe": -0.07352700185255147,
+      "dsr_ratio": -1.2308
+    },
+    {
+      "year": 2014,
+      "pair": "AUDUSD",
+      "n_trades": 306,
+      "profit_factor": 1.1286,
+      "sharpe": 0.04565325829609807,
+      "dsr_ratio": 0.7998
+    },
+    {
+      "year": 2014,
+      "pair": "CADCHF",
+      "n_trades": 277,
+      "profit_factor": 0.8198,
+      "sharpe": -0.07342546649741491,
+      "dsr_ratio": -1.2163
+    },
+    {
+      "year": 2014,
+      "pair": "CADJPY",
+      "n_trades": 293,
+      "profit_factor": 0.7876,
+      "sharpe": -0.08697305782236633,
+      "dsr_ratio": -1.529
+    },
+    {
+      "year": 2014,
+      "pair": "CHFJPY",
+      "n_trades": 294,
+      "profit_factor": 0.8062,
+      "sharpe": -0.07866978701902844,
+      "dsr_ratio": -1.3758
+    },
+    {
+      "year": 2014,
+      "pair": "EURAUD",
+      "n_trades": 302,
+      "profit_factor": 0.8554,
+      "sharpe": -0.05710547113344819,
+      "dsr_ratio": -0.9826
+    },
+    {
+      "year": 2014,
+      "pair": "EURCAD",
+      "n_trades": 273,
+      "profit_factor": 0.9228,
+      "sharpe": -0.02929317132895833,
+      "dsr_ratio": -0.4823
+    },
+    {
+      "year": 2014,
+      "pair": "EURCHF",
+      "n_trades": 289,
+      "profit_factor": 0.4908,
+      "sharpe": -0.24517379230463296,
+      "dsr_ratio": -4.3856
+    },
+    {
+      "year": 2014,
+      "pair": "EURGBP",
+      "n_trades": 281,
+      "profit_factor": 1.0701,
+      "sharpe": 0.025513044299777035,
+      "dsr_ratio": 0.4277
+    },
+    {
+      "year": 2014,
+      "pair": "EURJPY",
+      "n_trades": 302,
+      "profit_factor": 0.7996,
+      "sharpe": -0.07994073320281844,
+      "dsr_ratio": -1.4134
+    },
+    {
+      "year": 2014,
+      "pair": "EURNZD",
+      "n_trades": 291,
+      "profit_factor": 1.129,
+      "sharpe": 0.04490213090586811,
+      "dsr_ratio": 0.7639
+    },
+    {
+      "year": 2014,
+      "pair": "EURUSD",
+      "n_trades": 288,
+      "profit_factor": 0.9139,
+      "sharpe": -0.03276709834509418,
+      "dsr_ratio": -0.5584
+    },
+    {
+      "year": 2014,
+      "pair": "GBPAUD",
+      "n_trades": 288,
+      "profit_factor": 0.8983,
+      "sharpe": -0.04032168555370556,
+      "dsr_ratio": -0.6798
+    },
+    {
+      "year": 2014,
+      "pair": "GBPCAD",
+      "n_trades": 280,
+      "profit_factor": 0.844,
+      "sharpe": -0.06590023168791229,
+      "dsr_ratio": -1.1019
+    },
+    {
+      "year": 2014,
+      "pair": "GBPCHF",
+      "n_trades": 281,
+      "profit_factor": 0.8618,
+      "sharpe": -0.05527403627403611,
+      "dsr_ratio": -0.923
+    },
+    {
+      "year": 2014,
+      "pair": "GBPJPY",
+      "n_trades": 295,
+      "profit_factor": 0.695,
+      "sharpe": -0.12856247056183226,
+      "dsr_ratio": -2.314
+    },
+    {
+      "year": 2014,
+      "pair": "GBPNZD",
+      "n_trades": 291,
+      "profit_factor": 1.2399,
+      "sharpe": 0.07878180469086773,
+      "dsr_ratio": 1.3355
+    },
+    {
+      "year": 2014,
+      "pair": "GBPUSD",
+      "n_trades": 287,
+      "profit_factor": 1.184,
+      "sharpe": 0.06258742670331768,
+      "dsr_ratio": 1.0503
+    },
+    {
+      "year": 2014,
+      "pair": "NZDCAD",
+      "n_trades": 284,
+      "profit_factor": 0.757,
+      "sharpe": -0.10481794886689577,
+      "dsr_ratio": -1.754
+    },
+    {
+      "year": 2014,
+      "pair": "NZDCHF",
+      "n_trades": 295,
+      "profit_factor": 1.1007,
+      "sharpe": 0.03616638394947865,
+      "dsr_ratio": 0.6163
+    },
+    {
+      "year": 2014,
+      "pair": "NZDJPY",
+      "n_trades": 291,
+      "profit_factor": 0.9172,
+      "sharpe": -0.03072514023529206,
+      "dsr_ratio": -0.5226
+    },
+    {
+      "year": 2014,
+      "pair": "NZDUSD",
+      "n_trades": 299,
+      "profit_factor": 1.1605,
+      "sharpe": 0.05511707118136429,
+      "dsr_ratio": 0.9577
+    },
+    {
+      "year": 2014,
+      "pair": "USDCAD",
+      "n_trades": 286,
+      "profit_factor": 0.8728,
+      "sharpe": -0.05030835868205358,
+      "dsr_ratio": -0.8463
+    },
+    {
+      "year": 2014,
+      "pair": "USDCHF",
+      "n_trades": 288,
+      "profit_factor": 0.8733,
+      "sharpe": -0.04990661722829102,
+      "dsr_ratio": -0.8492
+    },
+    {
+      "year": 2014,
+      "pair": "USDJPY",
+      "n_trades": 301,
+      "profit_factor": 0.9679,
+      "sharpe": -0.011333353667538392,
+      "dsr_ratio": -0.1968
+    },
+    {
+      "year": 2015,
+      "pair": "AUDCAD",
+      "n_trades": 292,
+      "profit_factor": 1.1548,
+      "sharpe": 0.055162191044021036,
+      "dsr_ratio": 0.9475
+    },
+    {
+      "year": 2015,
+      "pair": "AUDCHF",
+      "n_trades": 289,
+      "profit_factor": 0.7998,
+      "sharpe": -0.06760390570616517,
+      "dsr_ratio": -1.2762
+    },
+    {
+      "year": 2015,
+      "pair": "AUDJPY",
+      "n_trades": 298,
+      "profit_factor": 0.7118,
+      "sharpe": -0.12530661147369124,
+      "dsr_ratio": -2.1883
+    },
+    {
+      "year": 2015,
+      "pair": "AUDNZD",
+      "n_trades": 288,
+      "profit_factor": 0.8688,
+      "sharpe": -0.05248057879174696,
+      "dsr_ratio": -0.8857
+    },
+    {
+      "year": 2015,
+      "pair": "AUDUSD",
+      "n_trades": 293,
+      "profit_factor": 0.9585,
+      "sharpe": -0.016499860911123695,
+      "dsr_ratio": -0.2812
+    },
+    {
+      "year": 2015,
+      "pair": "CADCHF",
+      "n_trades": 280,
+      "profit_factor": 1.1286,
+      "sharpe": 0.028090576870066122,
+      "dsr_ratio": 0.5362
+    },
+    {
+      "year": 2015,
+      "pair": "CADJPY",
+      "n_trades": 285,
+      "profit_factor": 1.0651,
+      "sharpe": 0.023362079044916193,
+      "dsr_ratio": 0.3923
+    },
+    {
+      "year": 2015,
+      "pair": "CHFJPY",
+      "n_trades": 286,
+      "profit_factor": 1.1987,
+      "sharpe": 0.04472347730101794,
+      "dsr_ratio": 0.6417
+    },
+    {
+      "year": 2015,
+      "pair": "EURAUD",
+      "n_trades": 294,
+      "profit_factor": 0.7819,
+      "sharpe": -0.09064062074142111,
+      "dsr_ratio": -1.556
+    },
+    {
+      "year": 2015,
+      "pair": "EURCAD",
+      "n_trades": 280,
+      "profit_factor": 0.8369,
+      "sharpe": -0.06574577785955789,
+      "dsr_ratio": -1.0772
+    },
+    {
+      "year": 2015,
+      "pair": "EURCHF",
+      "n_trades": 290,
+      "profit_factor": 0.6595,
+      "sharpe": -0.07583669504780031,
+      "dsr_ratio": -2.0389
+    },
+    {
+      "year": 2015,
+      "pair": "EURGBP",
+      "n_trades": 285,
+      "profit_factor": 1.0815,
+      "sharpe": 0.030808377487874416,
+      "dsr_ratio": 0.5188
+    },
+    {
+      "year": 2015,
+      "pair": "EURJPY",
+      "n_trades": 287,
+      "profit_factor": 1.0522,
+      "sharpe": 0.018229632945063655,
+      "dsr_ratio": 0.3091
+    },
+    {
+      "year": 2015,
+      "pair": "EURNZD",
+      "n_trades": 293,
+      "profit_factor": 0.8152,
+      "sharpe": -0.07565596136110221,
+      "dsr_ratio": -1.2966
+    },
+    {
+      "year": 2015,
+      "pair": "EURUSD",
+      "n_trades": 288,
+      "profit_factor": 0.9091,
+      "sharpe": -0.03629459925215353,
+      "dsr_ratio": -0.6111
+    },
+    {
+      "year": 2015,
+      "pair": "GBPAUD",
+      "n_trades": 292,
+      "profit_factor": 0.888,
+      "sharpe": -0.045312376462716755,
+      "dsr_ratio": -0.7681
+    },
+    {
+      "year": 2015,
+      "pair": "GBPCAD",
+      "n_trades": 272,
+      "profit_factor": 1.1774,
+      "sharpe": 0.062211676130638875,
+      "dsr_ratio": 1.0187
+    },
+    {
+      "year": 2015,
+      "pair": "GBPCHF",
+      "n_trades": 278,
+      "profit_factor": 1.6821,
+      "sharpe": 0.13309122069809376,
+      "dsr_ratio": 3.3421
+    },
+    {
+      "year": 2015,
+      "pair": "GBPJPY",
+      "n_trades": 293,
+      "profit_factor": 0.944,
+      "sharpe": -0.021572192501123952,
+      "dsr_ratio": -0.371
+    },
+    {
+      "year": 2015,
+      "pair": "GBPNZD",
+      "n_trades": 294,
+      "profit_factor": 0.8517,
+      "sharpe": -0.0624035668635493,
+      "dsr_ratio": -1.078
+    },
+    {
+      "year": 2015,
+      "pair": "GBPUSD",
+      "n_trades": 281,
+      "profit_factor": 1.153,
+      "sharpe": 0.05443841042066323,
+      "dsr_ratio": 0.911
+    },
+    {
+      "year": 2015,
+      "pair": "NZDCAD",
+      "n_trades": 293,
+      "profit_factor": 1.0126,
+      "sharpe": 0.004822447386162995,
+      "dsr_ratio": 0.0824
+    },
+    {
+      "year": 2015,
+      "pair": "NZDCHF",
+      "n_trades": 295,
+      "profit_factor": 0.8193,
+      "sharpe": -0.057839067951068565,
+      "dsr_ratio": -1.1735
+    },
+    {
+      "year": 2015,
+      "pair": "NZDJPY",
+      "n_trades": 296,
+      "profit_factor": 0.984,
+      "sharpe": -0.005858095147549424,
+      "dsr_ratio": -0.1008
+    },
+    {
+      "year": 2015,
+      "pair": "NZDUSD",
+      "n_trades": 297,
+      "profit_factor": 1.0255,
+      "sharpe": 0.009553108093866678,
+      "dsr_ratio": 0.1645
+    },
+    {
+      "year": 2015,
+      "pair": "USDCAD",
+      "n_trades": 275,
+      "profit_factor": 1.0056,
+      "sharpe": 0.002116871194080905,
+      "dsr_ratio": 0.0351
+    },
+    {
+      "year": 2015,
+      "pair": "USDCHF",
+      "n_trades": 285,
+      "profit_factor": 1.2329,
+      "sharpe": 0.05598020384174574,
+      "dsr_ratio": 1.138
+    },
+    {
+      "year": 2015,
+      "pair": "USDJPY",
+      "n_trades": 294,
+      "profit_factor": 1.1494,
+      "sharpe": 0.050564544875344404,
+      "dsr_ratio": 0.8563
+    },
+    {
+      "year": 2016,
+      "pair": "AUDCAD",
+      "n_trades": 295,
+      "profit_factor": 1.1299,
+      "sharpe": 0.045905576784709634,
+      "dsr_ratio": 0.7821
+    },
+    {
+      "year": 2016,
+      "pair": "AUDCHF",
+      "n_trades": 285,
+      "profit_factor": 1.4256,
+      "sharpe": 0.1295424721233056,
+      "dsr_ratio": 2.2311
+    },
+    {
+      "year": 2016,
+      "pair": "AUDJPY",
+      "n_trades": 301,
+      "profit_factor": 0.846,
+      "sharpe": -0.06167798220431861,
+      "dsr_ratio": -1.0432
+    },
+    {
+      "year": 2016,
+      "pair": "AUDNZD",
+      "n_trades": 287,
+      "profit_factor": 1.1886,
+      "sharpe": 0.06326257321768565,
+      "dsr_ratio": 1.0589
+    },
+    {
+      "year": 2016,
+      "pair": "AUDUSD",
+      "n_trades": 289,
+      "profit_factor": 1.5635,
+      "sharpe": 0.1686662994763713,
+      "dsr_ratio": 2.8961
+    },
+    {
+      "year": 2016,
+      "pair": "CADCHF",
+      "n_trades": 294,
+      "profit_factor": 1.1974,
+      "sharpe": 0.06909312098061,
+      "dsr_ratio": 1.1879
+    },
+    {
+      "year": 2016,
+      "pair": "CADJPY",
+      "n_trades": 283,
+      "profit_factor": 0.8807,
+      "sharpe": -0.04866666571238538,
+      "dsr_ratio": -0.8073
+    },
+    {
+      "year": 2016,
+      "pair": "CHFJPY",
+      "n_trades": 295,
+      "profit_factor": 1.0472,
+      "sharpe": 0.015736912388472232,
+      "dsr_ratio": 0.2742
+    },
+    {
+      "year": 2016,
+      "pair": "EURAUD",
+      "n_trades": 294,
+      "profit_factor": 1.1058,
+      "sharpe": 0.03611593852178936,
+      "dsr_ratio": 0.6197
+    },
+    {
+      "year": 2016,
+      "pair": "EURCAD",
+      "n_trades": 291,
+      "profit_factor": 0.9505,
+      "sharpe": -0.01929370829299642,
+      "dsr_ratio": -0.3275
+    },
+    {
+      "year": 2016,
+      "pair": "EURCHF",
+      "n_trades": 295,
+      "profit_factor": 1.1878,
+      "sharpe": 0.0655473613562161,
+      "dsr_ratio": 1.131
+    },
+    {
+      "year": 2016,
+      "pair": "EURGBP",
+      "n_trades": 284,
+      "profit_factor": 0.8895,
+      "sharpe": -0.04353532066262955,
+      "dsr_ratio": -0.7395
+    },
+    {
+      "year": 2016,
+      "pair": "EURJPY",
+      "n_trades": 296,
+      "profit_factor": 0.9917,
+      "sharpe": -0.002999407464850805,
+      "dsr_ratio": -0.0515
+    },
+    {
+      "year": 2016,
+      "pair": "EURNZD",
+      "n_trades": 296,
+      "profit_factor": 0.9716,
+      "sharpe": -0.010640982218038483,
+      "dsr_ratio": -0.1823
+    },
+    {
+      "year": 2016,
+      "pair": "EURUSD",
+      "n_trades": 292,
+      "profit_factor": 1.2831,
+      "sharpe": 0.09369481600064812,
+      "dsr_ratio": 1.582
+    },
+    {
+      "year": 2016,
+      "pair": "GBPAUD",
+      "n_trades": 293,
+      "profit_factor": 1.1625,
+      "sharpe": 0.05393857799005188,
+      "dsr_ratio": 0.8978
+    },
+    {
+      "year": 2016,
+      "pair": "GBPCAD",
+      "n_trades": 292,
+      "profit_factor": 1.1965,
+      "sharpe": 0.061185989287182684,
+      "dsr_ratio": 1.138
+    },
+    {
+      "year": 2016,
+      "pair": "GBPCHF",
+      "n_trades": 290,
+      "profit_factor": 0.8794,
+      "sharpe": -0.044685565999101264,
+      "dsr_ratio": -0.791
+    },
+    {
+      "year": 2016,
+      "pair": "GBPJPY",
+      "n_trades": 296,
+      "profit_factor": 0.8776,
+      "sharpe": -0.04417910070667375,
+      "dsr_ratio": -0.785
+    },
+    {
+      "year": 2016,
+      "pair": "GBPNZD",
+      "n_trades": 289,
+      "profit_factor": 0.8272,
+      "sharpe": -0.06940639502964566,
+      "dsr_ratio": -1.2088
+    },
+    {
+      "year": 2016,
+      "pair": "GBPUSD",
+      "n_trades": 290,
+      "profit_factor": 1.0103,
+      "sharpe": 0.0035235822698240792,
+      "dsr_ratio": 0.0598
+    },
+    {
+      "year": 2016,
+      "pair": "NZDCAD",
+      "n_trades": 290,
+      "profit_factor": 0.9103,
+      "sharpe": -0.03489128252662491,
+      "dsr_ratio": -0.5911
+    },
+    {
+      "year": 2016,
+      "pair": "NZDCHF",
+      "n_trades": 292,
+      "profit_factor": 1.0998,
+      "sharpe": 0.036725855961969305,
+      "dsr_ratio": 0.6273
+    },
+    {
+      "year": 2016,
+      "pair": "NZDJPY",
+      "n_trades": 296,
+      "profit_factor": 0.7495,
+      "sharpe": -0.10053703182654104,
+      "dsr_ratio": -1.6311
+    },
+    {
+      "year": 2016,
+      "pair": "NZDUSD",
+      "n_trades": 299,
+      "profit_factor": 1.1298,
+      "sharpe": 0.04818269623903432,
+      "dsr_ratio": 0.8307
+    },
+    {
+      "year": 2016,
+      "pair": "USDCAD",
+      "n_trades": 278,
+      "profit_factor": 0.6236,
+      "sharpe": -0.17658823200966214,
+      "dsr_ratio": -3.0145
+    },
+    {
+      "year": 2016,
+      "pair": "USDCHF",
+      "n_trades": 294,
+      "profit_factor": 1.0216,
+      "sharpe": 0.007983792239564105,
+      "dsr_ratio": 0.1364
+    },
+    {
+      "year": 2016,
+      "pair": "USDJPY",
+      "n_trades": 294,
+      "profit_factor": 1.0778,
+      "sharpe": 0.027026965858027163,
+      "dsr_ratio": 0.464
+    },
+    {
+      "year": 2017,
+      "pair": "AUDCAD",
+      "n_trades": 283,
+      "profit_factor": 0.9023,
+      "sharpe": -0.03859058570152577,
+      "dsr_ratio": -0.6471
+    },
+    {
+      "year": 2017,
+      "pair": "AUDCHF",
+      "n_trades": 296,
+      "profit_factor": 0.8857,
+      "sharpe": -0.047668264708004365,
+      "dsr_ratio": -0.8199
+    },
+    {
+      "year": 2017,
+      "pair": "AUDJPY",
+      "n_trades": 292,
+      "profit_factor": 0.8098,
+      "sharpe": -0.08167742525831827,
+      "dsr_ratio": -1.384
+    },
+    {
+      "year": 2017,
+      "pair": "AUDNZD",
+      "n_trades": 281,
+      "profit_factor": 0.9273,
+      "sharpe": -0.0283322871016416,
+      "dsr_ratio": -0.4771
+    },
+    {
+      "year": 2017,
+      "pair": "AUDUSD",
+      "n_trades": 299,
+      "profit_factor": 0.9791,
+      "sharpe": -0.007954447544430423,
+      "dsr_ratio": -0.1373
+    },
+    {
+      "year": 2017,
+      "pair": "CADCHF",
+      "n_trades": 282,
+      "profit_factor": 0.9183,
+      "sharpe": -0.03281111582130783,
+      "dsr_ratio": -0.5527
+    },
+    {
+      "year": 2017,
+      "pair": "CADJPY",
+      "n_trades": 288,
+      "profit_factor": 0.8788,
+      "sharpe": -0.049634472496747545,
+      "dsr_ratio": -0.8413
+    },
+    {
+      "year": 2017,
+      "pair": "CHFJPY",
+      "n_trades": 295,
+      "profit_factor": 0.849,
+      "sharpe": -0.061351479364382636,
+      "dsr_ratio": -1.0685
+    },
+    {
+      "year": 2017,
+      "pair": "EURAUD",
+      "n_trades": 290,
+      "profit_factor": 0.9499,
+      "sharpe": -0.020136277233717602,
+      "dsr_ratio": -0.3422
+    },
+    {
+      "year": 2017,
+      "pair": "EURCAD",
+      "n_trades": 285,
+      "profit_factor": 1.0756,
+      "sharpe": 0.02788250238908303,
+      "dsr_ratio": 0.4708
+    },
+    {
+      "year": 2017,
+      "pair": "EURCHF",
+      "n_trades": 289,
+      "profit_factor": 0.6817,
+      "sharpe": -0.13926315499475314,
+      "dsr_ratio": -2.4266
+    },
+    {
+      "year": 2017,
+      "pair": "EURGBP",
+      "n_trades": 290,
+      "profit_factor": 0.983,
+      "sharpe": -0.006512478115188694,
+      "dsr_ratio": -0.1106
+    },
+    {
+      "year": 2017,
+      "pair": "EURJPY",
+      "n_trades": 298,
+      "profit_factor": 0.6586,
+      "sharpe": -0.15514651114003639,
+      "dsr_ratio": -2.802
+    },
+    {
+      "year": 2017,
+      "pair": "EURNZD",
+      "n_trades": 293,
+      "profit_factor": 0.9678,
+      "sharpe": -0.012526342595655642,
+      "dsr_ratio": -0.2141
+    },
+    {
+      "year": 2017,
+      "pair": "EURUSD",
+      "n_trades": 297,
+      "profit_factor": 0.9169,
+      "sharpe": -0.03351591433992345,
+      "dsr_ratio": -0.5761
+    },
+    {
+      "year": 2017,
+      "pair": "GBPAUD",
+      "n_trades": 290,
+      "profit_factor": 1.0823,
+      "sharpe": 0.02942741834542173,
+      "dsr_ratio": 0.5032
+    },
+    {
+      "year": 2017,
+      "pair": "GBPCAD",
+      "n_trades": 289,
+      "profit_factor": 0.7851,
+      "sharpe": -0.08894808806688402,
+      "dsr_ratio": -1.5412
+    },
+    {
+      "year": 2017,
+      "pair": "GBPCHF",
+      "n_trades": 295,
+      "profit_factor": 1.0179,
+      "sharpe": 0.006817450126554869,
+      "dsr_ratio": 0.1169
+    },
+    {
+      "year": 2017,
+      "pair": "GBPJPY",
+      "n_trades": 297,
+      "profit_factor": 0.8162,
+      "sharpe": -0.07623089368445804,
+      "dsr_ratio": -1.296
+    },
+    {
+      "year": 2017,
+      "pair": "GBPNZD",
+      "n_trades": 292,
+      "profit_factor": 1.0181,
+      "sharpe": 0.006771766731304421,
+      "dsr_ratio": 0.1156
+    },
+    {
+      "year": 2017,
+      "pair": "GBPUSD",
+      "n_trades": 289,
+      "profit_factor": 0.9441,
+      "sharpe": -0.021227618742016983,
+      "dsr_ratio": -0.3625
+    },
+    {
+      "year": 2017,
+      "pair": "NZDCAD",
+      "n_trades": 285,
+      "profit_factor": 1.0307,
+      "sharpe": 0.011763618948294014,
+      "dsr_ratio": 0.1981
+    },
+    {
+      "year": 2017,
+      "pair": "NZDCHF",
+      "n_trades": 285,
+      "profit_factor": 1.1582,
+      "sharpe": 0.05653160714281318,
+      "dsr_ratio": 0.9595
+    },
+    {
+      "year": 2017,
+      "pair": "NZDJPY",
+      "n_trades": 294,
+      "profit_factor": 1.1578,
+      "sharpe": 0.056613482981914084,
+      "dsr_ratio": 0.9778
+    },
+    {
+      "year": 2017,
+      "pair": "NZDUSD",
+      "n_trades": 298,
+      "profit_factor": 1.2871,
+      "sharpe": 0.09482816975869508,
+      "dsr_ratio": 1.6314
+    },
+    {
+      "year": 2017,
+      "pair": "USDCAD",
+      "n_trades": 286,
+      "profit_factor": 0.9125,
+      "sharpe": -0.03396105916248862,
+      "dsr_ratio": -0.5736
+    },
+    {
+      "year": 2017,
+      "pair": "USDCHF",
+      "n_trades": 287,
+      "profit_factor": 0.8324,
+      "sharpe": -0.06915175093664921,
+      "dsr_ratio": -1.1612
+    },
+    {
+      "year": 2017,
+      "pair": "USDJPY",
+      "n_trades": 304,
+      "profit_factor": 0.9627,
+      "sharpe": -0.014557512398082803,
+      "dsr_ratio": -0.2528
+    },
+    {
+      "year": 2018,
+      "pair": "AUDCAD",
+      "n_trades": 288,
+      "profit_factor": 0.839,
+      "sharpe": -0.066782300719346,
+      "dsr_ratio": -1.1314
+    },
+    {
+      "year": 2018,
+      "pair": "AUDCHF",
+      "n_trades": 295,
+      "profit_factor": 1.2053,
+      "sharpe": 0.07452445166975206,
+      "dsr_ratio": 1.2705
+    },
+    {
+      "year": 2018,
+      "pair": "AUDJPY",
+      "n_trades": 294,
+      "profit_factor": 0.9543,
+      "sharpe": -0.018014601164872086,
+      "dsr_ratio": -0.3081
+    },
+    {
+      "year": 2018,
+      "pair": "AUDNZD",
+      "n_trades": 285,
+      "profit_factor": 1.034,
+      "sharpe": 0.012728238348040963,
+      "dsr_ratio": 0.2148
+    },
+    {
+      "year": 2018,
+      "pair": "AUDUSD",
+      "n_trades": 285,
+      "profit_factor": 0.9533,
+      "sharpe": -0.018027694180740243,
+      "dsr_ratio": -0.304
+    },
+    {
+      "year": 2018,
+      "pair": "CADCHF",
+      "n_trades": 283,
+      "profit_factor": 0.8678,
+      "sharpe": -0.05401272606192687,
+      "dsr_ratio": -0.9103
+    },
+    {
+      "year": 2018,
+      "pair": "CADJPY",
+      "n_trades": 291,
+      "profit_factor": 0.6466,
+      "sharpe": -0.1674006788941381,
+      "dsr_ratio": -2.7163
+    },
+    {
+      "year": 2018,
+      "pair": "CHFJPY",
+      "n_trades": 292,
+      "profit_factor": 1.0838,
+      "sharpe": 0.03178239927043636,
+      "dsr_ratio": 0.5417
+    },
+    {
+      "year": 2018,
+      "pair": "EURAUD",
+      "n_trades": 300,
+      "profit_factor": 0.9968,
+      "sharpe": -0.0012398041348805446,
+      "dsr_ratio": -0.0214
+    },
+    {
+      "year": 2018,
+      "pair": "EURCAD",
+      "n_trades": 283,
+      "profit_factor": 1.0441,
+      "sharpe": 0.01661936965264119,
+      "dsr_ratio": 0.2781
+    },
+    {
+      "year": 2018,
+      "pair": "EURCHF",
+      "n_trades": 288,
+      "profit_factor": 0.6598,
+      "sharpe": -0.15396226364840637,
+      "dsr_ratio": -2.5743
+    },
+    {
+      "year": 2018,
+      "pair": "EURGBP",
+      "n_trades": 290,
+      "profit_factor": 1.0543,
+      "sharpe": 0.01957948184119754,
+      "dsr_ratio": 0.3345
+    },
+    {
+      "year": 2018,
+      "pair": "EURJPY",
+      "n_trades": 297,
+      "profit_factor": 0.8805,
+      "sharpe": -0.04901679842068284,
+      "dsr_ratio": -0.8388
+    },
+    {
+      "year": 2018,
+      "pair": "EURNZD",
+      "n_trades": 285,
+      "profit_factor": 0.9804,
+      "sharpe": -0.007555035351127654,
+      "dsr_ratio": -0.1273
+    },
+    {
+      "year": 2018,
+      "pair": "EURUSD",
+      "n_trades": 292,
+      "profit_factor": 0.9437,
+      "sharpe": -0.022958309407500807,
+      "dsr_ratio": -0.3893
+    },
+    {
+      "year": 2018,
+      "pair": "GBPAUD",
+      "n_trades": 296,
+      "profit_factor": 0.8792,
+      "sharpe": -0.05018376322693006,
+      "dsr_ratio": -0.8631
+    },
+    {
+      "year": 2018,
+      "pair": "GBPCAD",
+      "n_trades": 281,
+      "profit_factor": 1.2647,
+      "sharpe": 0.0913987167950401,
+      "dsr_ratio": 1.5503
+    },
+    {
+      "year": 2018,
+      "pair": "GBPCHF",
+      "n_trades": 287,
+      "profit_factor": 0.9674,
+      "sharpe": -0.012456059651797247,
+      "dsr_ratio": -0.2107
+    },
+    {
+      "year": 2018,
+      "pair": "GBPJPY",
+      "n_trades": 295,
+      "profit_factor": 1.0471,
+      "sharpe": 0.017538281491430642,
+      "dsr_ratio": 0.3011
+    },
+    {
+      "year": 2018,
+      "pair": "GBPNZD",
+      "n_trades": 292,
+      "profit_factor": 0.9675,
+      "sharpe": -0.012392928478298272,
+      "dsr_ratio": -0.212
+    },
+    {
+      "year": 2018,
+      "pair": "GBPUSD",
+      "n_trades": 283,
+      "profit_factor": 1.0723,
+      "sharpe": 0.026867078070618847,
+      "dsr_ratio": 0.4483
+    },
+    {
+      "year": 2018,
+      "pair": "NZDCAD",
+      "n_trades": 283,
+      "profit_factor": 1.4106,
+      "sharpe": 0.13275275316251592,
+      "dsr_ratio": 2.2376
+    },
+    {
+      "year": 2018,
+      "pair": "NZDCHF",
+      "n_trades": 294,
+      "profit_factor": 1.3863,
+      "sharpe": 0.12826796910695845,
+      "dsr_ratio": 2.1898
+    },
+    {
+      "year": 2018,
+      "pair": "NZDJPY",
+      "n_trades": 290,
+      "profit_factor": 0.8811,
+      "sharpe": -0.04937762192686104,
+      "dsr_ratio": -0.8377
+    },
+    {
+      "year": 2018,
+      "pair": "NZDUSD",
+      "n_trades": 290,
+      "profit_factor": 0.9303,
+      "sharpe": -0.028500725962195786,
+      "dsr_ratio": -0.4856
+    },
+    {
+      "year": 2018,
+      "pair": "USDCAD",
+      "n_trades": 285,
+      "profit_factor": 1.2044,
+      "sharpe": 0.07136230418418553,
+      "dsr_ratio": 1.1991
+    },
+    {
+      "year": 2018,
+      "pair": "USDCHF",
+      "n_trades": 285,
+      "profit_factor": 1.1718,
+      "sharpe": 0.0613036990146065,
+      "dsr_ratio": 1.0306
+    },
+    {
+      "year": 2018,
+      "pair": "USDJPY",
+      "n_trades": 299,
+      "profit_factor": 0.9146,
+      "sharpe": -0.034512560054257686,
+      "dsr_ratio": -0.5947
+    },
+    {
+      "year": 2019,
+      "pair": "AUDCAD",
+      "n_trades": 283,
+      "profit_factor": 0.8071,
+      "sharpe": -0.08034811649907393,
+      "dsr_ratio": -1.3317
+    },
+    {
+      "year": 2019,
+      "pair": "AUDCHF",
+      "n_trades": 286,
+      "profit_factor": 0.9146,
+      "sharpe": -0.03443379815165519,
+      "dsr_ratio": -0.5836
+    },
+    {
+      "year": 2019,
+      "pair": "AUDJPY",
+      "n_trades": 299,
+      "profit_factor": 0.6687,
+      "sharpe": -0.14426490918877638,
+      "dsr_ratio": -2.5866
+    },
+    {
+      "year": 2019,
+      "pair": "AUDNZD",
+      "n_trades": 285,
+      "profit_factor": 0.7823,
+      "sharpe": -0.08580136509609043,
+      "dsr_ratio": -1.4334
+    },
+    {
+      "year": 2019,
+      "pair": "AUDUSD",
+      "n_trades": 296,
+      "profit_factor": 0.947,
+      "sharpe": -0.02131378948918804,
+      "dsr_ratio": -0.3659
+    },
+    {
+      "year": 2019,
+      "pair": "CADCHF",
+      "n_trades": 281,
+      "profit_factor": 0.8653,
+      "sharpe": -0.05503450268190073,
+      "dsr_ratio": -0.9183
+    },
+    {
+      "year": 2019,
+      "pair": "CADJPY",
+      "n_trades": 293,
+      "profit_factor": 0.7024,
+      "sharpe": -0.13327963631928044,
+      "dsr_ratio": -2.304
+    },
+    {
+      "year": 2019,
+      "pair": "CHFJPY",
+      "n_trades": 289,
+      "profit_factor": 0.6316,
+      "sharpe": -0.16826849805552052,
+      "dsr_ratio": -2.8903
+    },
+    {
+      "year": 2019,
+      "pair": "EURAUD",
+      "n_trades": 296,
+      "profit_factor": 1.1976,
+      "sharpe": 0.06702895472752078,
+      "dsr_ratio": 1.1724
+    },
+    {
+      "year": 2019,
+      "pair": "EURCAD",
+      "n_trades": 279,
+      "profit_factor": 1.0221,
+      "sharpe": 0.008044553046508886,
+      "dsr_ratio": 0.1339
+    },
+    {
+      "year": 2019,
+      "pair": "EURCHF",
+      "n_trades": 280,
+      "profit_factor": 0.97,
+      "sharpe": -0.01176630206052075,
+      "dsr_ratio": -0.1966
+    },
+    {
+      "year": 2019,
+      "pair": "EURGBP",
+      "n_trades": 290,
+      "profit_factor": 0.8285,
+      "sharpe": -0.0678044557530044,
+      "dsr_ratio": -1.1444
+    },
+    {
+      "year": 2019,
+      "pair": "EURJPY",
+      "n_trades": 292,
+      "profit_factor": 0.7097,
+      "sharpe": -0.12029826353408168,
+      "dsr_ratio": -2.0986
+    },
+    {
+      "year": 2019,
+      "pair": "EURNZD",
+      "n_trades": 300,
+      "profit_factor": 1.0488,
+      "sharpe": 0.017876428942806014,
+      "dsr_ratio": 0.3082
+    },
+    {
+      "year": 2019,
+      "pair": "EURUSD",
+      "n_trades": 287,
+      "profit_factor": 0.9048,
+      "sharpe": -0.036341486534791974,
+      "dsr_ratio": -0.6121
+    },
+    {
+      "year": 2019,
+      "pair": "GBPAUD",
+      "n_trades": 290,
+      "profit_factor": 0.8632,
+      "sharpe": -0.05543155785057955,
+      "dsr_ratio": -0.9448
+    },
+    {
+      "year": 2019,
+      "pair": "GBPCAD",
+      "n_trades": 281,
+      "profit_factor": 0.9898,
+      "sharpe": -0.0037834570947596893,
+      "dsr_ratio": -0.0633
+    },
+    {
+      "year": 2019,
+      "pair": "GBPCHF",
+      "n_trades": 284,
+      "profit_factor": 0.8097,
+      "sharpe": -0.07378640615425176,
+      "dsr_ratio": -1.2765
+    },
+    {
+      "year": 2019,
+      "pair": "GBPJPY",
+      "n_trades": 295,
+      "profit_factor": 0.7813,
+      "sharpe": -0.087254048320334,
+      "dsr_ratio": -1.448
+    },
+    {
+      "year": 2019,
+      "pair": "GBPNZD",
+      "n_trades": 286,
+      "profit_factor": 0.8664,
+      "sharpe": -0.05361509305008115,
+      "dsr_ratio": -0.8998
+    },
+    {
+      "year": 2019,
+      "pair": "GBPUSD",
+      "n_trades": 288,
+      "profit_factor": 0.7886,
+      "sharpe": -0.08516577565449458,
+      "dsr_ratio": -1.4482
+    },
+    {
+      "year": 2019,
+      "pair": "NZDCAD",
+      "n_trades": 283,
+      "profit_factor": 1.0844,
+      "sharpe": 0.031438833468093334,
+      "dsr_ratio": 0.5306
+    },
+    {
+      "year": 2019,
+      "pair": "NZDCHF",
+      "n_trades": 287,
+      "profit_factor": 0.9176,
+      "sharpe": -0.032515365736211145,
+      "dsr_ratio": -0.5456
+    },
+    {
+      "year": 2019,
+      "pair": "NZDJPY",
+      "n_trades": 291,
+      "profit_factor": 0.9729,
+      "sharpe": -0.010033315316202763,
+      "dsr_ratio": -0.1713
+    },
+    {
+      "year": 2019,
+      "pair": "NZDUSD",
+      "n_trades": 298,
+      "profit_factor": 0.7807,
+      "sharpe": -0.09013373762563712,
+      "dsr_ratio": -1.5915
+    },
+    {
+      "year": 2019,
+      "pair": "USDCAD",
+      "n_trades": 282,
+      "profit_factor": 1.0062,
+      "sharpe": 0.0023136952874450445,
+      "dsr_ratio": 0.0388
+    },
+    {
+      "year": 2019,
+      "pair": "USDCHF",
+      "n_trades": 285,
+      "profit_factor": 0.9769,
+      "sharpe": -0.008655791616349823,
+      "dsr_ratio": -0.1457
+    },
+    {
+      "year": 2019,
+      "pair": "USDJPY",
+      "n_trades": 296,
+      "profit_factor": 0.816,
+      "sharpe": -0.0708498349165098,
+      "dsr_ratio": -1.2509
+    },
+    {
+      "year": 2020,
+      "pair": "AUDCAD",
+      "n_trades": 295,
+      "profit_factor": 1.1318,
+      "sharpe": 0.043101963487304364,
+      "dsr_ratio": 0.7462
+    },
+    {
+      "year": 2020,
+      "pair": "AUDCHF",
+      "n_trades": 288,
+      "profit_factor": 1.2145,
+      "sharpe": 0.06744399200216009,
+      "dsr_ratio": 1.1629
+    },
+    {
+      "year": 2020,
+      "pair": "AUDJPY",
+      "n_trades": 291,
+      "profit_factor": 0.8945,
+      "sharpe": -0.03693868917912261,
+      "dsr_ratio": -0.6234
+    },
+    {
+      "year": 2020,
+      "pair": "AUDNZD",
+      "n_trades": 292,
+      "profit_factor": 0.8733,
+      "sharpe": -0.050322538739043896,
+      "dsr_ratio": -0.8516
+    },
+    {
+      "year": 2020,
+      "pair": "AUDUSD",
+      "n_trades": 295,
+      "profit_factor": 1.2851,
+      "sharpe": 0.08853923565132053,
+      "dsr_ratio": 1.5073
+    },
+    {
+      "year": 2020,
+      "pair": "CADCHF",
+      "n_trades": 279,
+      "profit_factor": 1.0642,
+      "sharpe": 0.022278804036505367,
+      "dsr_ratio": 0.3753
+    },
+    {
+      "year": 2020,
+      "pair": "CADJPY",
+      "n_trades": 288,
+      "profit_factor": 1.0682,
+      "sharpe": 0.023423271771052332,
+      "dsr_ratio": 0.3961
+    },
+    {
+      "year": 2020,
+      "pair": "CHFJPY",
+      "n_trades": 290,
+      "profit_factor": 1.267,
+      "sharpe": 0.08783757421238132,
+      "dsr_ratio": 1.511
+    },
+    {
+      "year": 2020,
+      "pair": "EURAUD",
+      "n_trades": 293,
+      "profit_factor": 1.1342,
+      "sharpe": 0.04379172430288033,
+      "dsr_ratio": 0.7554
+    },
+    {
+      "year": 2020,
+      "pair": "EURCAD",
+      "n_trades": 277,
+      "profit_factor": 0.928,
+      "sharpe": -0.026431197691235055,
+      "dsr_ratio": -0.434
+    },
+    {
+      "year": 2020,
+      "pair": "EURCHF",
+      "n_trades": 282,
+      "profit_factor": 0.8098,
+      "sharpe": -0.0763933536429969,
+      "dsr_ratio": -1.2841
+    },
+    {
+      "year": 2020,
+      "pair": "EURGBP",
+      "n_trades": 284,
+      "profit_factor": 0.9922,
+      "sharpe": -0.0030177227794985595,
+      "dsr_ratio": -0.0507
+    },
+    {
+      "year": 2020,
+      "pair": "EURJPY",
+      "n_trades": 293,
+      "profit_factor": 0.8273,
+      "sharpe": -0.06989349360304331,
+      "dsr_ratio": -1.1853
+    },
+    {
+      "year": 2020,
+      "pair": "EURNZD",
+      "n_trades": 280,
+      "profit_factor": 0.9509,
+      "sharpe": -0.015422966838910555,
+      "dsr_ratio": -0.2514
+    },
+    {
+      "year": 2020,
+      "pair": "EURUSD",
+      "n_trades": 290,
+      "profit_factor": 0.8411,
+      "sharpe": -0.0628865875692457,
+      "dsr_ratio": -1.0405
+    },
+    {
+      "year": 2020,
+      "pair": "GBPAUD",
+      "n_trades": 292,
+      "profit_factor": 1.1939,
+      "sharpe": 0.0664681432304892,
+      "dsr_ratio": 1.1484
+    },
+    {
+      "year": 2020,
+      "pair": "GBPCAD",
+      "n_trades": 268,
+      "profit_factor": 0.8759,
+      "sharpe": -0.04774259765851548,
+      "dsr_ratio": -0.7782
+    },
+    {
+      "year": 2020,
+      "pair": "GBPCHF",
+      "n_trades": 282,
+      "profit_factor": 0.8484,
+      "sharpe": -0.059244729205329145,
+      "dsr_ratio": -1.0021
+    },
+    {
+      "year": 2020,
+      "pair": "GBPJPY",
+      "n_trades": 295,
+      "profit_factor": 0.8668,
+      "sharpe": -0.05260975244404333,
+      "dsr_ratio": -0.9235
+    },
+    {
+      "year": 2020,
+      "pair": "GBPNZD",
+      "n_trades": 282,
+      "profit_factor": 1.398,
+      "sharpe": 0.12479617674326893,
+      "dsr_ratio": 2.1695
+    },
+    {
+      "year": 2020,
+      "pair": "GBPUSD",
+      "n_trades": 280,
+      "profit_factor": 1.001,
+      "sharpe": 0.0003737913829406229,
+      "dsr_ratio": 0.0062
+    },
+    {
+      "year": 2020,
+      "pair": "NZDCAD",
+      "n_trades": 283,
+      "profit_factor": 1.2066,
+      "sharpe": 0.06568184573096413,
+      "dsr_ratio": 1.122
+    },
+    {
+      "year": 2020,
+      "pair": "NZDCHF",
+      "n_trades": 287,
+      "profit_factor": 0.8938,
+      "sharpe": -0.04121725566764857,
+      "dsr_ratio": -0.6971
+    },
+    {
+      "year": 2020,
+      "pair": "NZDJPY",
+      "n_trades": 289,
+      "profit_factor": 1.1152,
+      "sharpe": 0.036933904192074145,
+      "dsr_ratio": 0.6351
+    },
+    {
+      "year": 2020,
+      "pair": "NZDUSD",
+      "n_trades": 295,
+      "profit_factor": 0.8729,
+      "sharpe": -0.04788180209434482,
+      "dsr_ratio": -0.8267
+    },
+    {
+      "year": 2020,
+      "pair": "USDCAD",
+      "n_trades": 287,
+      "profit_factor": 0.9369,
+      "sharpe": -0.023447385194277286,
+      "dsr_ratio": -0.3997
+    },
+    {
+      "year": 2020,
+      "pair": "USDCHF",
+      "n_trades": 283,
+      "profit_factor": 0.8943,
+      "sharpe": -0.04178150228980629,
+      "dsr_ratio": -0.6988
+    },
+    {
+      "year": 2020,
+      "pair": "USDJPY",
+      "n_trades": 291,
+      "profit_factor": 0.7921,
+      "sharpe": -0.07449013373323451,
+      "dsr_ratio": -1.2544
+    },
+    {
+      "year": 2021,
+      "pair": "AUDCAD",
+      "n_trades": 291,
+      "profit_factor": 0.998,
+      "sharpe": -0.0007727374222529382,
+      "dsr_ratio": -0.0132
+    },
+    {
+      "year": 2021,
+      "pair": "AUDCHF",
+      "n_trades": 286,
+      "profit_factor": 1.2797,
+      "sharpe": 0.09164186335870231,
+      "dsr_ratio": 1.5493
+    },
+    {
+      "year": 2021,
+      "pair": "AUDJPY",
+      "n_trades": 287,
+      "profit_factor": 1.0702,
+      "sharpe": 0.025237561096334717,
+      "dsr_ratio": 0.4292
+    },
+    {
+      "year": 2021,
+      "pair": "AUDNZD",
+      "n_trades": 284,
+      "profit_factor": 0.9853,
+      "sharpe": -0.005514481076942998,
+      "dsr_ratio": -0.0928
+    },
+    {
+      "year": 2021,
+      "pair": "AUDUSD",
+      "n_trades": 278,
+      "profit_factor": 1.0638,
+      "sharpe": 0.024765824619088547,
+      "dsr_ratio": 0.4119
+    },
+    {
+      "year": 2021,
+      "pair": "CADCHF",
+      "n_trades": 285,
+      "profit_factor": 0.7681,
+      "sharpe": -0.10175791001165138,
+      "dsr_ratio": -1.7262
+    },
+    {
+      "year": 2021,
+      "pair": "CADJPY",
+      "n_trades": 287,
+      "profit_factor": 0.6893,
+      "sharpe": -0.13686959822192624,
+      "dsr_ratio": -2.3632
+    },
+    {
+      "year": 2021,
+      "pair": "CHFJPY",
+      "n_trades": 286,
+      "profit_factor": 0.8548,
+      "sharpe": -0.060495705378816184,
+      "dsr_ratio": -1.0342
+    },
+    {
+      "year": 2021,
+      "pair": "EURAUD",
+      "n_trades": 285,
+      "profit_factor": 0.9175,
+      "sharpe": -0.031811187143525564,
+      "dsr_ratio": -0.5364
+    },
+    {
+      "year": 2021,
+      "pair": "EURCAD",
+      "n_trades": 282,
+      "profit_factor": 0.7514,
+      "sharpe": -0.10909101369757579,
+      "dsr_ratio": -1.8762
+    },
+    {
+      "year": 2021,
+      "pair": "EURCHF",
+      "n_trades": 279,
+      "profit_factor": 0.7532,
+      "sharpe": -0.11023038503255558,
+      "dsr_ratio": -1.8547
+    },
+    {
+      "year": 2021,
+      "pair": "EURGBP",
+      "n_trades": 276,
+      "profit_factor": 1.1152,
+      "sharpe": 0.04159374621569715,
+      "dsr_ratio": 0.6887
+    },
+    {
+      "year": 2021,
+      "pair": "EURJPY",
+      "n_trades": 293,
+      "profit_factor": 0.9764,
+      "sharpe": -0.009334799869253934,
+      "dsr_ratio": -0.1596
+    },
+    {
+      "year": 2021,
+      "pair": "EURNZD",
+      "n_trades": 278,
+      "profit_factor": 0.8367,
+      "sharpe": -0.06835409889924292,
+      "dsr_ratio": -1.1382
+    },
+    {
+      "year": 2021,
+      "pair": "EURUSD",
+      "n_trades": 281,
+      "profit_factor": 0.9391,
+      "sharpe": -0.023645924052159976,
+      "dsr_ratio": -0.3957
+    },
+    {
+      "year": 2021,
+      "pair": "GBPAUD",
+      "n_trades": 284,
+      "profit_factor": 1.0401,
+      "sharpe": 0.015393051390963789,
+      "dsr_ratio": 0.2588
+    },
+    {
+      "year": 2021,
+      "pair": "GBPCAD",
+      "n_trades": 274,
+      "profit_factor": 1.1464,
+      "sharpe": 0.05150921714436721,
+      "dsr_ratio": 0.8444
+    },
+    {
+      "year": 2021,
+      "pair": "GBPCHF",
+      "n_trades": 281,
+      "profit_factor": 1.0318,
+      "sharpe": 0.011836496542513853,
+      "dsr_ratio": 0.198
+    },
+    {
+      "year": 2021,
+      "pair": "GBPJPY",
+      "n_trades": 286,
+      "profit_factor": 0.6432,
+      "sharpe": -0.16686277843704847,
+      "dsr_ratio": -2.8455
+    },
+    {
+      "year": 2021,
+      "pair": "GBPNZD",
+      "n_trades": 277,
+      "profit_factor": 1.1732,
+      "sharpe": 0.06268924656147778,
+      "dsr_ratio": 1.0462
+    },
+    {
+      "year": 2021,
+      "pair": "GBPUSD",
+      "n_trades": 281,
+      "profit_factor": 1.0009,
+      "sharpe": 0.0003376293633314722,
+      "dsr_ratio": 0.0056
+    },
+    {
+      "year": 2021,
+      "pair": "NZDCAD",
+      "n_trades": 288,
+      "profit_factor": 0.8515,
+      "sharpe": -0.0629931391930047,
+      "dsr_ratio": -1.0651
+    },
+    {
+      "year": 2021,
+      "pair": "NZDCHF",
+      "n_trades": 295,
+      "profit_factor": 1.1031,
+      "sharpe": 0.03789512615657353,
+      "dsr_ratio": 0.646
+    },
+    {
+      "year": 2021,
+      "pair": "NZDJPY",
+      "n_trades": 296,
+      "profit_factor": 0.6905,
+      "sharpe": -0.1425730763225863,
+      "dsr_ratio": -2.462
+    },
+    {
+      "year": 2021,
+      "pair": "NZDUSD",
+      "n_trades": 297,
+      "profit_factor": 0.9457,
+      "sharpe": -0.022363410673755742,
+      "dsr_ratio": -0.3843
+    },
+    {
+      "year": 2021,
+      "pair": "USDCAD",
+      "n_trades": 286,
+      "profit_factor": 0.9818,
+      "sharpe": -0.007153861722832084,
+      "dsr_ratio": -0.1207
+    },
+    {
+      "year": 2021,
+      "pair": "USDCHF",
+      "n_trades": 279,
+      "profit_factor": 1.2013,
+      "sharpe": 0.07159187148234442,
+      "dsr_ratio": 1.1783
+    },
+    {
+      "year": 2021,
+      "pair": "USDJPY",
+      "n_trades": 288,
+      "profit_factor": 0.6917,
+      "sharpe": -0.14601588414994174,
+      "dsr_ratio": -2.5004
+    },
+    {
+      "year": 2022,
+      "pair": "AUDCAD",
+      "n_trades": 279,
+      "profit_factor": 0.8424,
+      "sharpe": -0.06557495310427566,
+      "dsr_ratio": -1.106
+    },
+    {
+      "year": 2022,
+      "pair": "AUDCHF",
+      "n_trades": 279,
+      "profit_factor": 1.1329,
+      "sharpe": 0.046368384166445904,
+      "dsr_ratio": 0.7809
+    },
+    {
+      "year": 2022,
+      "pair": "AUDJPY",
+      "n_trades": 284,
+      "profit_factor": 1.0431,
+      "sharpe": 0.015879993938833853,
+      "dsr_ratio": 0.2681
+    },
+    {
+      "year": 2022,
+      "pair": "AUDNZD",
+      "n_trades": 276,
+      "profit_factor": 1.0977,
+      "sharpe": 0.03647785614750424,
+      "dsr_ratio": 0.6078
+    },
+    {
+      "year": 2022,
+      "pair": "AUDUSD",
+      "n_trades": 287,
+      "profit_factor": 0.7892,
+      "sharpe": -0.09208194602474411,
+      "dsr_ratio": -1.5568
+    },
+    {
+      "year": 2022,
+      "pair": "CADCHF",
+      "n_trades": 285,
+      "profit_factor": 1.1769,
+      "sharpe": 0.061837506882832474,
+      "dsr_ratio": 1.0253
+    },
+    {
+      "year": 2022,
+      "pair": "CADJPY",
+      "n_trades": 288,
+      "profit_factor": 0.913,
+      "sharpe": -0.035431360494410924,
+      "dsr_ratio": -0.5957
+    },
+    {
+      "year": 2022,
+      "pair": "CHFJPY",
+      "n_trades": 287,
+      "profit_factor": 0.8799,
+      "sharpe": -0.04538790388680217,
+      "dsr_ratio": -0.7529
+    },
+    {
+      "year": 2022,
+      "pair": "EURAUD",
+      "n_trades": 286,
+      "profit_factor": 1.0493,
+      "sharpe": 0.018453200295624722,
+      "dsr_ratio": 0.3112
+    },
+    {
+      "year": 2022,
+      "pair": "EURCAD",
+      "n_trades": 276,
+      "profit_factor": 0.9379,
+      "sharpe": -0.02577960518955343,
+      "dsr_ratio": -0.4261
+    },
+    {
+      "year": 2022,
+      "pair": "EURCHF",
+      "n_trades": 282,
+      "profit_factor": 1.0079,
+      "sharpe": 0.003015845395039082,
+      "dsr_ratio": 0.0505
+    },
+    {
+      "year": 2022,
+      "pair": "EURGBP",
+      "n_trades": 285,
+      "profit_factor": 1.3984,
+      "sharpe": 0.1251033581101477,
+      "dsr_ratio": 2.176
+    },
+    {
+      "year": 2022,
+      "pair": "EURJPY",
+      "n_trades": 294,
+      "profit_factor": 0.9457,
+      "sharpe": -0.02101370295707409,
+      "dsr_ratio": -0.3589
+    },
+    {
+      "year": 2022,
+      "pair": "EURNZD",
+      "n_trades": 287,
+      "profit_factor": 0.9433,
+      "sharpe": -0.02232789229638106,
+      "dsr_ratio": -0.3772
+    },
+    {
+      "year": 2022,
+      "pair": "EURUSD",
+      "n_trades": 286,
+      "profit_factor": 0.9941,
+      "sharpe": -0.0023170981570501126,
+      "dsr_ratio": -0.0391
+    },
+    {
+      "year": 2022,
+      "pair": "GBPAUD",
+      "n_trades": 283,
+      "profit_factor": 1.097,
+      "sharpe": 0.035135428669611384,
+      "dsr_ratio": 0.5954
+    },
+    {
+      "year": 2022,
+      "pair": "GBPCAD",
+      "n_trades": 276,
+      "profit_factor": 0.9459,
+      "sharpe": -0.02028836498600404,
+      "dsr_ratio": -0.3377
+    },
+    {
+      "year": 2022,
+      "pair": "GBPCHF",
+      "n_trades": 283,
+      "profit_factor": 1.0758,
+      "sharpe": 0.025826334429818402,
+      "dsr_ratio": 0.4283
+    },
+    {
+      "year": 2022,
+      "pair": "GBPJPY",
+      "n_trades": 289,
+      "profit_factor": 1.0963,
+      "sharpe": 0.033527881690706994,
+      "dsr_ratio": 0.5712
+    },
+    {
+      "year": 2022,
+      "pair": "GBPNZD",
+      "n_trades": 267,
+      "profit_factor": 1.1226,
+      "sharpe": 0.04176050315973,
+      "dsr_ratio": 0.6736
+    },
+    {
+      "year": 2022,
+      "pair": "GBPUSD",
+      "n_trades": 282,
+      "profit_factor": 0.7882,
+      "sharpe": -0.08453557406737075,
+      "dsr_ratio": -1.3885
+    },
+    {
+      "year": 2022,
+      "pair": "NZDCAD",
+      "n_trades": 282,
+      "profit_factor": 0.7249,
+      "sharpe": -0.122416006733851,
+      "dsr_ratio": -2.004
+    },
+    {
+      "year": 2022,
+      "pair": "NZDCHF",
+      "n_trades": 282,
+      "profit_factor": 1.1135,
+      "sharpe": 0.04119452871980061,
+      "dsr_ratio": 0.6891
+    },
+    {
+      "year": 2022,
+      "pair": "NZDJPY",
+      "n_trades": 285,
+      "profit_factor": 0.9062,
+      "sharpe": -0.0372278796847458,
+      "dsr_ratio": -0.6192
+    },
+    {
+      "year": 2022,
+      "pair": "NZDUSD",
+      "n_trades": 282,
+      "profit_factor": 0.9187,
+      "sharpe": -0.0316154184503233,
+      "dsr_ratio": -0.5273
+    },
+    {
+      "year": 2022,
+      "pair": "USDCAD",
+      "n_trades": 281,
+      "profit_factor": 0.8818,
+      "sharpe": -0.0476088228566919,
+      "dsr_ratio": -0.789
+    },
+    {
+      "year": 2022,
+      "pair": "USDCHF",
+      "n_trades": 276,
+      "profit_factor": 1.2499,
+      "sharpe": 0.0824690435115086,
+      "dsr_ratio": 1.3769
+    },
+    {
+      "year": 2022,
+      "pair": "USDJPY",
+      "n_trades": 297,
+      "profit_factor": 0.8843,
+      "sharpe": -0.042358751753894745,
+      "dsr_ratio": -0.7253
+    }
+  ]
+}

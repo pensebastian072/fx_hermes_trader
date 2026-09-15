@@ -1,0 +1,81 @@
+{
+  "battery_id": "B01_zscore_reversion_SMOKE",
+  "winning_combo": {
+    "lookback_min": 60,
+    "entry_z": 3.0,
+    "exit_rule": "inner_band",
+    "session": "24h",
+    "signal_family": "zscore_only"
+  },
+  "per_pair": [
+    {
+      "pair": "EURUSD",
+      "n_trades": 446,
+      "profit_factor": 1.1894295603353124,
+      "sharpe": 0.03951849565225469,
+      "dsr_ratio": 0.9393,
+      "dsr_prob": 0.8262
+    },
+    {
+      "pair": "USDJPY",
+      "n_trades": 488,
+      "profit_factor": 1.0504193848230736,
+      "sharpe": 0.014648795767686469,
+      "dsr_ratio": 0.324,
+      "dsr_prob": 0.627
+    },
+    {
+      "pair": "EURGBP",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    }
+  ],
+  "clustering": {
+    "n_trades": 934,
+    "distinct_entry_minutes": 931,
+    "distinct_session_days": 64,
+    "minute_cluster_ratio": 1.003,
+    "day_cluster_ratio": 14.594
+  },
+  "pooled_verdict": {
+    "passes": false,
+    "deflated_sharpe": {
+      "sr": 0.0287,
+      "ratio": -0.1101,
+      "prob": 0.4562,
+      "n": 934,
+      "n_trials": 4,
+      "psr_z": 0.942,
+      "bracket": 1.0521,
+      "sr_star": 0.032024,
+      "sigma_sr": 0.030438
+    },
+    "pbo": 0.2262,
+    "profit_factor": 1.1218,
+    "sharpe": 0.028673083890874345,
+    "n_trades": 934,
+    "thresholds": {
+      "deflated_sharpe_min": 1.645,
+      "pbo_max": 0.5
+    },
+    "reasons": [
+      "deflated_sharpe_ratio -0.1101 <= 1.645"
+    ],
+    "bootstrap_ci": {
+      "device": "cuda",
+      "n_boot": 10000,
+      "n_perm": 10000,
+      "sharpe_ci": [
+        -0.039,
+        0.0819
+      ],
+      "sharpe_prob_positive": 0.8027,
+      "mean": 5.1e-05,
+      "perm_p_value": 0.1971
+    }
+  },
+  "shadow": true
+}

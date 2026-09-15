@@ -1,0 +1,8 @@
+# Version 1 priority pairs. Alerts for symbols not in this list are rejected.
+pairs:
+  - USDJPY
+  - EURUSD
+  - EURJPY
+  - GBPUSD
+  - AUDUSD
+  - USDCAD

@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ruff_cache/
+data/logs/*.jsonl
+data/raw/
+data/processed/
+data/features/
+data/artifacts/
+data/screenshots/
+reports/daily/*.md
+reports/hermes/*.md
+reports/weekly/*.md
+reports/experiments/*.md
+graphify-out/
+# Battery trade logs: ~45MB per year-file, 610MB and growing. Regenerable by
+# re-running the battery, and the research RECORD that matters (registrations,
+# scorecards, RESULTS.md) is committed. Keeps journal/data/probe_report.json.
+journal/data/*_checkpoint/

@@ -1,0 +1,5 @@
+# GPU research extras for gpu_meanrev/ (1-minute FX mean-reversion study).
+# Installed separately from requirements.txt: torch needs the cu121 index,
+# everything else is a normal PyPI install. See setup_gpu_venv.ps1.
+huggingface_hub>=0.24
+numpy>=1.26

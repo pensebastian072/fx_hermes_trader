@@ -1,0 +1,909 @@
+{
+  "battery_id": "B02_mtf_confluence",
+  "note": "post-hoc diagnostics on a CLOSED, REJECTED battery; selects nothing",
+  "n_trades_all_arms": 11504860,
+  "n_trades_control_arm": 5565372,
+  "q1_cost_breakeven": {
+    "assumed_round_trip_bp": 1.0,
+    "gross_edge_bps": 0.4057,
+    "breakeven_round_trip_bp": 0.4057,
+    "sweep": [
+      {
+        "round_trip_bp": 0.0,
+        "net_bps": 0.4057,
+        "profit_factor": 1.1451,
+        "sharpe": 0.032539
+      },
+      {
+        "round_trip_bp": 0.1,
+        "net_bps": 0.3057,
+        "profit_factor": 1.108,
+        "sharpe": 0.024519
+      },
+      {
+        "round_trip_bp": 0.2,
+        "net_bps": 0.2057,
+        "profit_factor": 1.0718,
+        "sharpe": 0.016498
+      },
+      {
+        "round_trip_bp": 0.3,
+        "net_bps": 0.1057,
+        "profit_factor": 1.0364,
+        "sharpe": 0.008478
+      },
+      {
+        "round_trip_bp": 0.4,
+        "net_bps": 0.0057,
+        "profit_factor": 1.0019,
+        "sharpe": 0.000458
+      },
+      {
+        "round_trip_bp": 0.5,
+        "net_bps": -0.0943,
+        "profit_factor": 0.9683,
+        "sharpe": -0.007563
+      },
+      {
+        "round_trip_bp": 0.75,
+        "net_bps": -0.3443,
+        "profit_factor": 0.888,
+        "sharpe": -0.027614
+      },
+      {
+        "round_trip_bp": 1.0,
+        "net_bps": -0.5943,
+        "profit_factor": 0.8132,
+        "sharpe": -0.047665
+      },
+      {
+        "round_trip_bp": 1.5,
+        "net_bps": -1.0943,
+        "profit_factor": 0.6804,
+        "sharpe": -0.087768
+      },
+      {
+        "round_trip_bp": 2.0,
+        "net_bps": -1.5943,
+        "profit_factor": 0.5696,
+        "sharpe": -0.12787
+      },
+      {
+        "round_trip_bp": 3.0,
+        "net_bps": -2.5943,
+        "profit_factor": 0.4043,
+        "sharpe": -0.208075
+      }
+    ]
+  },
+  "q2_exit_hour_utc": [
+    {
+      "hour_utc": 0,
+      "n_trades": 240496,
+      "gross_bps": 0.8074,
+      "net_bps": -0.1926
+    },
+    {
+      "hour_utc": 1,
+      "n_trades": 255510,
+      "gross_bps": 0.7563,
+      "net_bps": -0.2437
+    },
+    {
+      "hour_utc": 2,
+      "n_trades": 227920,
+      "gross_bps": 0.4042,
+      "net_bps": -0.5958
+    },
+    {
+      "hour_utc": 3,
+      "n_trades": 218603,
+      "gross_bps": 0.0003,
+      "net_bps": -0.9997
+    },
+    {
+      "hour_utc": 4,
+      "n_trades": 214983,
+      "gross_bps": 0.0217,
+      "net_bps": -0.9783
+    },
+    {
+      "hour_utc": 5,
+      "n_trades": 226949,
+      "gross_bps": 0.2743,
+      "net_bps": -0.7257
+    },
+    {
+      "hour_utc": 6,
+      "n_trades": 246798,
+      "gross_bps": 0.4557,
+      "net_bps": -0.5443
+    },
+    {
+      "hour_utc": 7,
+      "n_trades": 279221,
+      "gross_bps": 1.0172,
+      "net_bps": 0.0172
+    },
+    {
+      "hour_utc": 8,
+      "n_trades": 258184,
+      "gross_bps": 0.7996,
+      "net_bps": -0.2004
+    },
+    {
+      "hour_utc": 9,
+      "n_trades": 229226,
+      "gross_bps": 0.1428,
+      "net_bps": -0.8572
+    },
+    {
+      "hour_utc": 10,
+      "n_trades": 219331,
+      "gross_bps": -0.0692,
+      "net_bps": -1.0692
+    },
+    {
+      "hour_utc": 11,
+      "n_trades": 224795,
+      "gross_bps": 0.024,
+      "net_bps": -0.976
+    },
+    {
+      "hour_utc": 12,
+      "n_trades": 231296,
+      "gross_bps": 0.3071,
+      "net_bps": -0.6929
+    },
+    {
+      "hour_utc": 13,
+      "n_trades": 256495,
+      "gross_bps": 1.0785,
+      "net_bps": 0.0785
+    },
+    {
+      "hour_utc": 14,
+      "n_trades": 242378,
+      "gross_bps": 0.6781,
+      "net_bps": -0.3219
+    },
+    {
+      "hour_utc": 15,
+      "n_trades": 241041,
+      "gross_bps": 0.4472,
+      "net_bps": -0.5528
+    },
+    {
+      "hour_utc": 16,
+      "n_trades": 213479,
+      "gross_bps": -0.3055,
+      "net_bps": -1.3055
+    },
+    {
+      "hour_utc": 17,
+      "n_trades": 207573,
+      "gross_bps": -0.3631,
+      "net_bps": -1.3631
+    },
+    {
+      "hour_utc": 18,
+      "n_trades": 211271,
+      "gross_bps": -0.1911,
+      "net_bps": -1.1911
+    },
+    {
+      "hour_utc": 19,
+      "n_trades": 219888,
+      "gross_bps": 0.1374,
+      "net_bps": -0.8626
+    },
+    {
+      "hour_utc": 20,
+      "n_trades": 215310,
+      "gross_bps": 0.0652,
+      "net_bps": -0.9348
+    },
+    {
+      "hour_utc": 21,
+      "n_trades": 218134,
+      "gross_bps": 0.1768,
+      "net_bps": -0.8232
+    },
+    {
+      "hour_utc": 22,
+      "n_trades": 241084,
+      "gross_bps": 1.4565,
+      "net_bps": 0.4565
+    },
+    {
+      "hour_utc": 23,
+      "n_trades": 225407,
+      "gross_bps": 0.9434,
+      "net_bps": -0.0566
+    }
+  ],
+  "q2b_hour_bucket_by_year": {
+    "caveat": "EXIT hour, not entry hour \u2014 see docstring",
+    "buckets": [
+      {
+        "bucket": "21-02 rollover/Asia",
+        "n_trades": 1408551,
+        "gross_bps": 0.7681,
+        "share_of_gross_pnl_pct": 47.9,
+        "breakeven_round_trip_bp": 0.7681,
+        "breakeven_round_trip_pips": 0.84,
+        "gross_bps_by_year": {
+          "2015": 0.9285,
+          "2016": 0.8245,
+          "2017": 0.7639,
+          "2018": 0.8063,
+          "2019": 0.6252,
+          "2020": 0.6431,
+          "2021": 0.7359,
+          "2022": 0.8143
+        },
+        "breakeven_pips_2022": 0.9
+      },
+      {
+        "bucket": "07-12 London",
+        "n_trades": 1442053,
+        "gross_bps": 0.4053,
+        "share_of_gross_pnl_pct": 25.9,
+        "breakeven_round_trip_bp": 0.4053,
+        "breakeven_round_trip_pips": 0.45,
+        "gross_bps_by_year": {
+          "2015": 0.7541,
+          "2016": 0.637,
+          "2017": 0.3206,
+          "2018": 0.4117,
+          "2019": 0.3782,
+          "2020": 0.1907,
+          "2021": 0.2599,
+          "2022": 0.2841
+        },
+        "breakeven_pips_2022": 0.31
+      },
+      {
+        "bucket": "13-15 LDN/NY overlap",
+        "n_trades": 739914,
+        "gross_bps": 0.7417,
+        "share_of_gross_pnl_pct": 24.3,
+        "breakeven_round_trip_bp": 0.7417,
+        "breakeven_round_trip_pips": 0.82,
+        "gross_bps_by_year": {
+          "2015": 1.0906,
+          "2016": 0.9196,
+          "2017": 0.84,
+          "2018": 0.6002,
+          "2019": 0.6298,
+          "2020": 0.5995,
+          "2021": 0.6752,
+          "2022": 0.585
+        },
+        "breakeven_pips_2022": 0.64
+      },
+      {
+        "bucket": "other (03-06, 16-20)",
+        "n_trades": 1974854,
+        "gross_bps": 0.0216,
+        "share_of_gross_pnl_pct": 1.9,
+        "breakeven_round_trip_bp": 0.0216,
+        "breakeven_round_trip_pips": 0.02,
+        "gross_bps_by_year": {
+          "2015": 0.2128,
+          "2016": 0.1021,
+          "2017": 0.1399,
+          "2018": 0.0355,
+          "2019": 0.0633,
+          "2020": -0.0653,
+          "2021": -0.0728,
+          "2022": -0.247
+        },
+        "breakeven_pips_2022": -0.27
+      }
+    ]
+  },
+  "q3_pair_year": [
+    {
+      "pair": "AUDUSD",
+      "year": 2015,
+      "n_trades": 99755,
+      "gross_bps": 0.725,
+      "gross_pf": 1.1804
+    },
+    {
+      "pair": "AUDUSD",
+      "year": 2016,
+      "n_trades": 99511,
+      "gross_bps": 0.779,
+      "gross_pf": 1.2132
+    },
+    {
+      "pair": "AUDUSD",
+      "year": 2017,
+      "n_trades": 99511,
+      "gross_bps": 0.494,
+      "gross_pf": 1.1939
+    },
+    {
+      "pair": "AUDUSD",
+      "year": 2018,
+      "n_trades": 99859,
+      "gross_bps": 0.4916,
+      "gross_pf": 1.1779
+    },
+    {
+      "pair": "AUDUSD",
+      "year": 2019,
+      "n_trades": 99452,
+      "gross_bps": 0.4767,
+      "gross_pf": 1.2202
+    },
+    {
+      "pair": "AUDUSD",
+      "year": 2020,
+      "n_trades": 98248,
+      "gross_bps": 0.36,
+      "gross_pf": 1.0865
+    },
+    {
+      "pair": "AUDUSD",
+      "year": 2021,
+      "n_trades": 98742,
+      "gross_bps": 0.3887,
+      "gross_pf": 1.1316
+    },
+    {
+      "pair": "AUDUSD",
+      "year": 2022,
+      "n_trades": 98959,
+      "gross_bps": 0.2515,
+      "gross_pf": 1.0555
+    },
+    {
+      "pair": "EURUSD",
+      "year": 2015,
+      "n_trades": 98701,
+      "gross_bps": 0.4493,
+      "gross_pf": 1.1253
+    },
+    {
+      "pair": "EURUSD",
+      "year": 2016,
+      "n_trades": 100696,
+      "gross_bps": 0.517,
+      "gross_pf": 1.2042
+    },
+    {
+      "pair": "EURUSD",
+      "year": 2017,
+      "n_trades": 100007,
+      "gross_bps": 0.3577,
+      "gross_pf": 1.1631
+    },
+    {
+      "pair": "EURUSD",
+      "year": 2018,
+      "n_trades": 101258,
+      "gross_bps": 0.363,
+      "gross_pf": 1.1588
+    },
+    {
+      "pair": "EURUSD",
+      "year": 2019,
+      "n_trades": 101080,
+      "gross_bps": 0.3191,
+      "gross_pf": 1.213
+    },
+    {
+      "pair": "EURUSD",
+      "year": 2020,
+      "n_trades": 98656,
+      "gross_bps": 0.2337,
+      "gross_pf": 1.0943
+    },
+    {
+      "pair": "EURUSD",
+      "year": 2021,
+      "n_trades": 100195,
+      "gross_bps": 0.2645,
+      "gross_pf": 1.1523
+    },
+    {
+      "pair": "EURUSD",
+      "year": 2022,
+      "n_trades": 99702,
+      "gross_bps": 0.2595,
+      "gross_pf": 1.0796
+    },
+    {
+      "pair": "GBPUSD",
+      "year": 2015,
+      "n_trades": 100978,
+      "gross_bps": 0.4982,
+      "gross_pf": 1.2015
+    },
+    {
+      "pair": "GBPUSD",
+      "year": 2016,
+      "n_trades": 99851,
+      "gross_bps": 0.3777,
+      "gross_pf": 1.1053
+    },
+    {
+      "pair": "GBPUSD",
+      "year": 2017,
+      "n_trades": 100667,
+      "gross_bps": 0.4366,
+      "gross_pf": 1.1744
+    },
+    {
+      "pair": "GBPUSD",
+      "year": 2018,
+      "n_trades": 100937,
+      "gross_bps": 0.3809,
+      "gross_pf": 1.1469
+    },
+    {
+      "pair": "GBPUSD",
+      "year": 2019,
+      "n_trades": 100013,
+      "gross_bps": 0.4493,
+      "gross_pf": 1.1843
+    },
+    {
+      "pair": "GBPUSD",
+      "year": 2020,
+      "n_trades": 97957,
+      "gross_bps": 0.1544,
+      "gross_pf": 1.0437
+    },
+    {
+      "pair": "GBPUSD",
+      "year": 2021,
+      "n_trades": 99865,
+      "gross_bps": 0.4357,
+      "gross_pf": 1.2077
+    },
+    {
+      "pair": "GBPUSD",
+      "year": 2022,
+      "n_trades": 99424,
+      "gross_bps": 0.2691,
+      "gross_pf": 1.0725
+    },
+    {
+      "pair": "NZDUSD",
+      "year": 2015,
+      "n_trades": 99329,
+      "gross_bps": 0.9889,
+      "gross_pf": 1.2328
+    },
+    {
+      "pair": "NZDUSD",
+      "year": 2016,
+      "n_trades": 98288,
+      "gross_bps": 0.7194,
+      "gross_pf": 1.179
+    },
+    {
+      "pair": "NZDUSD",
+      "year": 2017,
+      "n_trades": 98138,
+      "gross_bps": 0.519,
+      "gross_pf": 1.1738
+    },
+    {
+      "pair": "NZDUSD",
+      "year": 2018,
+      "n_trades": 98875,
+      "gross_bps": 0.5596,
+      "gross_pf": 1.1982
+    },
+    {
+      "pair": "NZDUSD",
+      "year": 2019,
+      "n_trades": 98413,
+      "gross_bps": 0.5186,
+      "gross_pf": 1.2141
+    },
+    {
+      "pair": "NZDUSD",
+      "year": 2020,
+      "n_trades": 98403,
+      "gross_bps": 0.4236,
+      "gross_pf": 1.1069
+    },
+    {
+      "pair": "NZDUSD",
+      "year": 2021,
+      "n_trades": 98599,
+      "gross_bps": 0.4433,
+      "gross_pf": 1.142
+    },
+    {
+      "pair": "NZDUSD",
+      "year": 2022,
+      "n_trades": 98170,
+      "gross_bps": 0.3865,
+      "gross_pf": 1.0858
+    },
+    {
+      "pair": "USDCAD",
+      "year": 2015,
+      "n_trades": 99229,
+      "gross_bps": 0.4758,
+      "gross_pf": 1.1665
+    },
+    {
+      "pair": "USDCAD",
+      "year": 2016,
+      "n_trades": 98253,
+      "gross_bps": 0.4483,
+      "gross_pf": 1.1484
+    },
+    {
+      "pair": "USDCAD",
+      "year": 2017,
+      "n_trades": 98722,
+      "gross_bps": 0.3719,
+      "gross_pf": 1.167
+    },
+    {
+      "pair": "USDCAD",
+      "year": 2018,
+      "n_trades": 99732,
+      "gross_bps": 0.3652,
+      "gross_pf": 1.1693
+    },
+    {
+      "pair": "USDCAD",
+      "year": 2019,
+      "n_trades": 99241,
+      "gross_bps": 0.3013,
+      "gross_pf": 1.1928
+    },
+    {
+      "pair": "USDCAD",
+      "year": 2020,
+      "n_trades": 98127,
+      "gross_bps": 0.1555,
+      "gross_pf": 1.0598
+    },
+    {
+      "pair": "USDCAD",
+      "year": 2021,
+      "n_trades": 99194,
+      "gross_bps": 0.2899,
+      "gross_pf": 1.1307
+    },
+    {
+      "pair": "USDCAD",
+      "year": 2022,
+      "n_trades": 99644,
+      "gross_bps": 0.3758,
+      "gross_pf": 1.1398
+    },
+    {
+      "pair": "USDCHF",
+      "year": 2015,
+      "n_trades": 100350,
+      "gross_bps": 1.1066,
+      "gross_pf": 1.3121
+    },
+    {
+      "pair": "USDCHF",
+      "year": 2016,
+      "n_trades": 102616,
+      "gross_bps": 0.7832,
+      "gross_pf": 1.3286
+    },
+    {
+      "pair": "USDCHF",
+      "year": 2017,
+      "n_trades": 100974,
+      "gross_bps": 0.5891,
+      "gross_pf": 1.2746
+    },
+    {
+      "pair": "USDCHF",
+      "year": 2018,
+      "n_trades": 100726,
+      "gross_bps": 0.4115,
+      "gross_pf": 1.1955
+    },
+    {
+      "pair": "USDCHF",
+      "year": 2019,
+      "n_trades": 99784,
+      "gross_bps": 0.2683,
+      "gross_pf": 1.1524
+    },
+    {
+      "pair": "USDCHF",
+      "year": 2020,
+      "n_trades": 99766,
+      "gross_bps": 0.4415,
+      "gross_pf": 1.1946
+    },
+    {
+      "pair": "USDCHF",
+      "year": 2021,
+      "n_trades": 99018,
+      "gross_bps": 0.3288,
+      "gross_pf": 1.161
+    },
+    {
+      "pair": "USDCHF",
+      "year": 2022,
+      "n_trades": 98931,
+      "gross_bps": 0.4548,
+      "gross_pf": 1.1549
+    },
+    {
+      "pair": "USDJPY",
+      "year": 2015,
+      "n_trades": 98787,
+      "gross_bps": 0.2967,
+      "gross_pf": 1.1174
+    },
+    {
+      "pair": "USDJPY",
+      "year": 2016,
+      "n_trades": 97965,
+      "gross_bps": 0.0908,
+      "gross_pf": 1.0233
+    },
+    {
+      "pair": "USDJPY",
+      "year": 2017,
+      "n_trades": 98845,
+      "gross_bps": 0.2961,
+      "gross_pf": 1.1082
+    },
+    {
+      "pair": "USDJPY",
+      "year": 2018,
+      "n_trades": 99588,
+      "gross_bps": 0.2527,
+      "gross_pf": 1.1144
+    },
+    {
+      "pair": "USDJPY",
+      "year": 2019,
+      "n_trades": 99897,
+      "gross_bps": 0.2053,
+      "gross_pf": 1.1163
+    },
+    {
+      "pair": "USDJPY",
+      "year": 2020,
+      "n_trades": 98398,
+      "gross_bps": 0.1022,
+      "gross_pf": 1.0433
+    },
+    {
+      "pair": "USDJPY",
+      "year": 2021,
+      "n_trades": 98248,
+      "gross_bps": 0.091,
+      "gross_pf": 1.0501
+    },
+    {
+      "pair": "USDJPY",
+      "year": 2022,
+      "n_trades": 97098,
+      "gross_bps": -0.1214,
+      "gross_pf": 0.9661
+    }
+  ],
+  "q4_param_surface": {
+    "by_lookback_entryz_exit": [
+      {
+        "lookback_min": 20,
+        "entry_z": 1.5,
+        "exit_rule": "inner_band",
+        "n_trades": 1162730,
+        "gross_bps": 0.2232
+      },
+      {
+        "lookback_min": 20,
+        "entry_z": 1.5,
+        "exit_rule": "max_hold",
+        "n_trades": 244369,
+        "gross_bps": 0.2942
+      },
+      {
+        "lookback_min": 20,
+        "entry_z": 2.0,
+        "exit_rule": "inner_band",
+        "n_trades": 787265,
+        "gross_bps": 0.2777
+      },
+      {
+        "lookback_min": 20,
+        "entry_z": 2.0,
+        "exit_rule": "max_hold",
+        "n_trades": 224825,
+        "gross_bps": 0.2958
+      },
+      {
+        "lookback_min": 20,
+        "entry_z": 2.5,
+        "exit_rule": "inner_band",
+        "n_trades": 390581,
+        "gross_bps": 0.3609
+      },
+      {
+        "lookback_min": 20,
+        "entry_z": 2.5,
+        "exit_rule": "max_hold",
+        "n_trades": 176661,
+        "gross_bps": 0.4148
+      },
+      {
+        "lookback_min": 60,
+        "entry_z": 1.5,
+        "exit_rule": "inner_band",
+        "n_trades": 533797,
+        "gross_bps": 0.395
+      },
+      {
+        "lookback_min": 60,
+        "entry_z": 1.5,
+        "exit_rule": "max_hold",
+        "n_trades": 82718,
+        "gross_bps": 0.4505
+      },
+      {
+        "lookback_min": 60,
+        "entry_z": 2.0,
+        "exit_rule": "inner_band",
+        "n_trades": 369381,
+        "gross_bps": 0.4673
+      },
+      {
+        "lookback_min": 60,
+        "entry_z": 2.0,
+        "exit_rule": "max_hold",
+        "n_trades": 78494,
+        "gross_bps": 0.3713
+      },
+      {
+        "lookback_min": 60,
+        "entry_z": 2.5,
+        "exit_rule": "inner_band",
+        "n_trades": 234466,
+        "gross_bps": 0.5704
+      },
+      {
+        "lookback_min": 60,
+        "entry_z": 2.5,
+        "exit_rule": "max_hold",
+        "n_trades": 70599,
+        "gross_bps": 0.4905
+      },
+      {
+        "lookback_min": 120,
+        "entry_z": 1.5,
+        "exit_rule": "inner_band",
+        "n_trades": 308484,
+        "gross_bps": 0.5388
+      },
+      {
+        "lookback_min": 120,
+        "entry_z": 1.5,
+        "exit_rule": "max_hold",
+        "n_trades": 41301,
+        "gross_bps": 0.4494
+      },
+      {
+        "lookback_min": 120,
+        "entry_z": 2.0,
+        "exit_rule": "inner_band",
+        "n_trades": 211522,
+        "gross_bps": 0.6384
+      },
+      {
+        "lookback_min": 120,
+        "entry_z": 2.0,
+        "exit_rule": "max_hold",
+        "n_trades": 39438,
+        "gross_bps": 0.5317
+      },
+      {
+        "lookback_min": 120,
+        "entry_z": 2.5,
+        "exit_rule": "inner_band",
+        "n_trades": 140439,
+        "gross_bps": 0.7412
+      },
+      {
+        "lookback_min": 120,
+        "entry_z": 2.5,
+        "exit_rule": "max_hold",
+        "n_trades": 36342,
+        "gross_bps": 0.5226
+      },
+      {
+        "lookback_min": 240,
+        "entry_z": 1.5,
+        "exit_rule": "inner_band",
+        "n_trades": 174226,
+        "gross_bps": 0.6806
+      },
+      {
+        "lookback_min": 240,
+        "entry_z": 1.5,
+        "exit_rule": "max_hold",
+        "n_trades": 20370,
+        "gross_bps": 0.961
+      },
+      {
+        "lookback_min": 240,
+        "entry_z": 2.0,
+        "exit_rule": "inner_band",
+        "n_trades": 118325,
+        "gross_bps": 0.7745
+      },
+      {
+        "lookback_min": 240,
+        "entry_z": 2.0,
+        "exit_rule": "max_hold",
+        "n_trades": 19484,
+        "gross_bps": 0.7889
+      },
+      {
+        "lookback_min": 240,
+        "entry_z": 2.5,
+        "exit_rule": "inner_band",
+        "n_trades": 81429,
+        "gross_bps": 0.9098
+      },
+      {
+        "lookback_min": 240,
+        "entry_z": 2.5,
+        "exit_rule": "max_hold",
+        "n_trades": 18126,
+        "gross_bps": 1.4201
+      }
+    ]
+  },
+  "q5_effective_sample": {
+    "best_combo_64": {
+      "n_trades": 17368,
+      "n_days": 2314,
+      "trades_per_day": 7.51,
+      "per_trade": {
+        "sharpe": 0.010103,
+        "dsr_ratio": -1.0761
+      },
+      "daily_aggregated": {
+        "sharpe": 0.023359,
+        "dsr_ratio": -1.2877,
+        "mean_daily_bps": 0.5653,
+        "t_stat": 1.1236
+      }
+    },
+    "control_arm_all": {
+      "n_trades": 5565372,
+      "n_days": 2497,
+      "trades_per_day": 2228.82,
+      "per_trade": {
+        "sharpe": -0.047665,
+        "dsr_ratio": -98.1849
+      },
+      "daily_aggregated": {
+        "sharpe": -0.304491,
+        "dsr_ratio": -15.462,
+        "mean_daily_bps": -0.3925,
+        "t_stat": -15.2154
+      }
+    }
+  },
+  "gaps": [
+    "trade log stores EXIT ts only \u2014 no entry ts, no side, no hold duration, no entry z. Hour/side/holding-period attribution is not recoverable from it and needs re-instrumentation.",
+    "entry and exit both execute at the SAME bar's close that generated the signal \u2014 a zero-latency assumption never tested.",
+    "cost is a flat 0.5bp/side for every pair, hour and year; real major spreads vary by session and compressed over 2015-2022."
+  ]
+}

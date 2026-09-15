@@ -1,0 +1,342 @@
+{
+  "global_band_fix_at": "2026-08-05 21:37 (commit f877bec)",
+  "note": "read-only; deletes and recomputes are the user's call",
+  "per_pair": [
+    {
+      "pair": "EURUSD",
+      "rows_in": 8430457,
+      "dropped_nonpositive": 1,
+      "dropped_out_of_band": 1,
+      "dropped_off_scale": 0,
+      "dropped_nan": 20313,
+      "bad_years": [
+        2001
+      ],
+      "n_bad_bars": 2
+    },
+    {
+      "pair": "GBPUSD",
+      "rows_in": 8316239,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 19414,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "USDJPY",
+      "rows_in": 8392796,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 19128,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "USDCHF",
+      "rows_in": 8408510,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 7829,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "USDCAD",
+      "rows_in": 7502094,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 14760,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "AUDUSD",
+      "rows_in": 7790630,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 4,
+      "dropped_off_scale": 0,
+      "dropped_nan": 17918,
+      "bad_years": [
+        2000,
+        2005
+      ],
+      "n_bad_bars": 4
+    },
+    {
+      "pair": "NZDUSD",
+      "rows_in": 6688500,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "EURGBP",
+      "rows_in": 7710650,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 19651,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "EURJPY",
+      "rows_in": 8276903,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 20790,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "EURCHF",
+      "rows_in": 7634845,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 16947,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "EURAUD",
+      "rows_in": 8179415,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 20393,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "EURCAD",
+      "rows_in": 6599351,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "EURNZD",
+      "rows_in": 6236303,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "rows_in": 8264866,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 20773,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "GBPCHF",
+      "rows_in": 8164457,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 1,
+      "dropped_off_scale": 0,
+      "dropped_nan": 20667,
+      "bad_years": [
+        2007
+      ],
+      "n_bad_bars": 1
+    },
+    {
+      "pair": "GBPAUD",
+      "rows_in": 6404297,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "GBPCAD",
+      "rows_in": 6367412,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "GBPNZD",
+      "rows_in": 6208409,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "AUDJPY",
+      "rows_in": 7778003,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 8413,
+      "dropped_off_scale": 0,
+      "dropped_nan": 20517,
+      "bad_years": [
+        2005
+      ],
+      "n_bad_bars": 8413
+    },
+    {
+      "pair": "AUDCHF",
+      "rows_in": 6235167,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "AUDCAD",
+      "rows_in": 6368276,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "AUDNZD",
+      "rows_in": 6383714,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "NZDJPY",
+      "rows_in": 6734532,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "NZDCHF",
+      "rows_in": 6189401,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "NZDCAD",
+      "rows_in": 6157438,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "CADJPY",
+      "rows_in": 6590504,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "CADCHF",
+      "rows_in": 6190090,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 0,
+      "bad_years": [],
+      "n_bad_bars": 0
+    },
+    {
+      "pair": "CHFJPY",
+      "rows_in": 8122904,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "dropped_nan": 20396,
+      "bad_years": [],
+      "n_bad_bars": 0
+    }
+  ],
+  "battery_verdicts": {
+    "B01_zscore_reversion": {
+      "clean": false,
+      "contaminated_by": [
+        {
+          "pair": "EURUSD",
+          "years": [
+            2001
+          ],
+          "n_bad_bars": 2
+        },
+        {
+          "pair": "AUDUSD",
+          "years": [
+            2000,
+            2005
+          ],
+          "n_bad_bars": 4
+        },
+        {
+          "pair": "GBPCHF",
+          "years": [
+            2007
+          ],
+          "n_bad_bars": 1
+        },
+        {
+          "pair": "AUDJPY",
+          "years": [
+            2005
+          ],
+          "n_bad_bars": 8413
+        }
+      ],
+      "affected_years": [
+        2000,
+        2001,
+        2005,
+        2007
+      ]
+    },
+    "B02_mtf_confluence": {
+      "clean": true,
+      "contaminated_by": [],
+      "affected_years": []
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "battery_id": "B01_scaling_probe",
+  "winning_combo": {
+    "lookback_min": 240,
+    "entry_z": 2.5,
+    "exit_rule": "inner_band",
+    "session": "24h",
+    "signal_family": "zscore_only"
+  },
+  "per_pair": [
+    {
+      "pair": "EURUSD",
+      "n_trades": 5,
+      "profit_factor": Infinity,
+      "sharpe": 3.102361076595383,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "GBPUSD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "USDJPY",
+      "n_trades": 1,
+      "profit_factor": 0.0,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "USDCHF",
+      "n_trades": 2,
+      "profit_factor": Infinity,
+      "sharpe": 8.128228429078808,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "USDCAD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "AUDUSD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "NZDUSD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "EURGBP",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "EURJPY",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "EURCHF",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "EURAUD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "EURCAD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "EURNZD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "GBPJPY",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "GBPCHF",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "GBPAUD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "GBPCAD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "GBPNZD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "AUDJPY",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "AUDCHF",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "AUDCAD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "AUDNZD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "NZDJPY",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "NZDCHF",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "NZDCAD",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "CADJPY",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "CADCHF",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    },
+    {
+      "pair": "CHFJPY",
+      "n_trades": 0,
+      "profit_factor": null,
+      "sharpe": null,
+      "dsr_ratio": null,
+      "dsr_prob": null
+    }
+  ],
+  "clustering": {
+    "n_trades": 8,
+    "distinct_entry_minutes": 8,
+    "distinct_session_days": 1,
+    "minute_cluster_ratio": 1.0,
+    "day_cluster_ratio": 8.0
+  },
+  "pooled_verdict": {
+    "passes": false,
+    "deflated_sharpe": {
+      "sr": 1.6623,
+      "ratio": 0.3085,
+      "prob": 0.6211,
+      "n": 8,
+      "n_trials": 160,
+      "psr_z": 3.0003,
+      "bracket": 2.6918,
+      "sr_star": 1.491371,
+      "sigma_sr": 0.554051
+    },
+    "pbo": null,
+    "profit_factor": 95.0946,
+    "sharpe": 1.662292216690758,
+    "n_trades": 8,
+    "thresholds": {
+      "deflated_sharpe_min": 1.645,
+      "pbo_max": 0.5
+    },
+    "reasons": [
+      "deflated_sharpe_ratio 0.3085 <= 1.645",
+      "insufficient PnL for PBO (need >=40 trades)"
+    ],
+    "bootstrap_ci": {
+      "device": "cuda",
+      "n_boot": 10000,
+      "n_perm": 10000,
+      "sharpe_ci": [
+        0.9364,
+        5.2589
+      ],
+      "sharpe_prob_positive": 1.0,
+      "mean": 0.002269,
+      "perm_p_value": 0.009
+    }
+  },
+  "shadow": true
+}

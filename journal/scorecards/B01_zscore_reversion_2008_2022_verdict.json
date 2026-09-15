@@ -1,0 +1,77 @@
+{
+  "combo_idx": 124,
+  "combo": {
+    "lookback_min": 240,
+    "entry_z": 3.0,
+    "exit_rule": "max_hold",
+    "session": "24h",
+    "signal_family": "zscore_only",
+    "confluence_max": 1.01
+  },
+  "period": "2008-2022",
+  "per_trade": {
+    "passes": false,
+    "deflated_sharpe": {
+      "sr": -0.009,
+      "ratio": -5.6176,
+      "prob": 0.0,
+      "n": 120930,
+      "n_trials": 160,
+      "psr_z": -2.9258,
+      "bracket": 2.6918,
+      "sr_star": 0.008274,
+      "sigma_sr": 0.003074
+    },
+    "pbo": 0.0397,
+    "profit_factor": 0.9723,
+    "sharpe": -0.008993380674838573,
+    "n_trades": 120930,
+    "thresholds": {
+      "deflated_sharpe_min": 1.645,
+      "pbo_max": 0.5
+    },
+    "reasons": [
+      "deflated_sharpe_ratio -5.6176 <= 1.645"
+    ],
+    "bootstrap_ci": {
+      "device": "cuda",
+      "n_boot": 10000,
+      "n_perm": 10000,
+      "sharpe_ci": [
+        -0.015,
+        -0.003
+      ],
+      "sharpe_prob_positive": 0.0007,
+      "mean": -5.8e-05,
+      "perm_p_value": 0.9995
+    }
+  },
+  "day_aggregated": {
+    "passes": false,
+    "deflated_sharpe": {
+      "sr": -0.0294,
+      "ratio": -4.6789,
+      "prob": 0.0,
+      "n": 4549,
+      "n_trials": 160,
+      "psr_z": -1.9871,
+      "bracket": 2.6918,
+      "sr_star": 0.039866,
+      "sigma_sr": 0.014811
+    },
+    "pbo": 0.0,
+    "profit_factor": 0.9093,
+    "sharpe": -0.029430359050116678,
+    "n_trades": 4549,
+    "thresholds": {
+      "deflated_sharpe_min": 1.645,
+      "pbo_max": 0.5
+    },
+    "reasons": [
+      "deflated_sharpe_ratio -4.6789 <= 1.645"
+    ]
+  },
+  "n_days": 4549,
+  "daily_t_stat": -1.985,
+  "shadow": true
+}

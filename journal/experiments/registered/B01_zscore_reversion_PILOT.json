@@ -1,0 +1,65 @@
+{
+  "battery_id": "B01_zscore_reversion_PILOT",
+  "registered_at": "2026-08-04T20:13:03+00:00",
+  "hypothesis": "1-minute FX price shows short-horizon mean reversion detectable via a rolling z-score (and optionally Bollinger %B confirmation), net of realistic per-side costs, across FX majors + common crosses. Pure price-action only -- no macro/news/rate features this round.",
+  "dataset_family": "fx_1min_meanrev",
+  "pairs": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "USDCHF",
+    "USDCAD",
+    "AUDUSD",
+    "NZDUSD",
+    "EURGBP",
+    "EURJPY",
+    "EURCHF",
+    "EURAUD",
+    "EURCAD",
+    "EURNZD",
+    "GBPJPY",
+    "GBPCHF",
+    "GBPAUD",
+    "GBPCAD",
+    "GBPNZD",
+    "AUDJPY",
+    "AUDCHF",
+    "AUDCAD",
+    "AUDNZD",
+    "NZDJPY",
+    "NZDCHF",
+    "NZDCAD",
+    "CADJPY",
+    "CADCHF",
+    "CHFJPY"
+  ],
+  "param_grid": {
+    "lookback_min": [
+      20,
+      60,
+      120,
+      240,
+      480
+    ],
+    "entry_z": [
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "exit_rule": [
+      "inner_band",
+      "max_hold"
+    ],
+    "session": [
+      "24h",
+      "london_ny_overlap"
+    ],
+    "signal_family": [
+      "zscore_only",
+      "zscore_bollinger_confirm"
+    ]
+  },
+  "n_trials": 160,
+  "source": "elthariel/histdata_fx_1m"
+}

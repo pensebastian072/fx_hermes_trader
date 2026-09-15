@@ -1,0 +1,46 @@
+# Autonomy configuration. Milestone 1 supports ONLY paper mode.
+# The application refuses to start if mode is anything other than "paper".
+mode: paper
+
+hermes_permissions:
+  read_logs: true
+  read_market_data: true
+  read_screenshots: true
+  write_reports: true
+  create_experiments: true
+  run_backtests: true
+  run_walk_forward: true
+  modify_proposed_configs: true
+  promote_to_paper: true
+
+  submit_paper_orders: true
+  close_paper_orders: true
+  pause_paper_trading: true
+  reduce_paper_risk: true
+
+  # Hard-denied. There is no code path that can execute these in Milestone 1.
+  submit_live_orders: false
+  modify_live_config: false
+  increase_live_risk: false
+  disable_risk_breakers: false
+  remove_stop_losses: false
+
+promotion_gates:
+  min_profit_factor: 1.20
+  max_backtest_drawdown: 0.08
+  min_walk_forward_splits: 3
+  require_positive_oos: true
+  require_monte_carlo: true
+  require_slippage_test: true
+  require_event_blackout_test: true
+  require_human_approval_for_live: true
+
+event_blackouts:
+  cpi_minutes_before: 30
+  cpi_minutes_after: 30
+  nfp_minutes_before: 30
+  nfp_minutes_after: 30
+  fomc_minutes_before: 60
+  fomc_minutes_after: 120
+  central_bank_minutes_before: 30
+  central_bank_minutes_after: 60

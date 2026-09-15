@@ -1,0 +1,25 @@
+{
+  "series": {
+    "USD": "IR3TIB01USM156N",
+    "EUR": "IR3TIB01EZM156N",
+    "GBP": "IR3TIB01GBM156N",
+    "JPY": "IR3TIB01JPM156N",
+    "CHF": "IR3TIB01CHM156N",
+    "CAD": "IR3TIB01CAM156N",
+    "AUD": "IR3TIB01AUM156N",
+    "NZD": "IR3TIB01NZM156N"
+  },
+  "fetched_rows": 846,
+  "start": "1956-01-01",
+  "end": "2026-06-01",
+  "missing_per_currency": {
+    "USD": 102,
+    "EUR": 461,
+    "GBP": 17,
+    "JPY": 556,
+    "CHF": 522,
+    "CAD": 0,
+    "AUD": 144,
+    "NZD": 215
+  }
+}

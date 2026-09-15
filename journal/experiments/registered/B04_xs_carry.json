@@ -1,0 +1,83 @@
+{
+  "battery_id": "B04_xs_carry",
+  "registered_at": "2026-08-07T14:09:11+00:00",
+  "hypothesis": "Cross-sectional FX carry: sorting the 8 major currencies by lagged 3-month interbank rate (FRED OECD IR3TIB01, publication-lagged 1 month) and holding the top-k long against the bottom-k short earns a positive risk-adjusted return in-sample 2008-2022 at a turnover where transaction cost is not binding -- the constraint that killed B01/B02/B03, where a 0.406 bps gross edge faced a 1.0 bp round-trip cost. PRIMARY PRE-COMMITTED TEST: at least one of the 8 registered combos reaches gross annualised Sharpe >= 0.30 AND breakeven cost >= 2.0x assumed round-trip cost, on total return (spot + carry accrual). If not, B04 is a FAIL: stop, do not expand the grid, do not narrow the universe, do not spend the holdout. Reported with a per-year table (carry crashes rather than decays), a spot-only column (the interbank differential is not what a retail account earns), an effective-breadth note (8 currencies, ~7 independent bets, NOT 28 pairs), and the gate evaluated at both n_trials=8 and a conservative n_trials=288 charging every prior FX trial on this box. Carry is a heavily published premium: a pass is replication, not discovery.",
+  "dataset_family": "fx_xs_carry",
+  "pairs": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "USDCHF",
+    "USDCAD",
+    "AUDUSD",
+    "NZDUSD",
+    "EURGBP",
+    "EURJPY",
+    "EURCHF",
+    "EURAUD",
+    "EURCAD",
+    "EURNZD",
+    "GBPJPY",
+    "GBPCHF",
+    "GBPAUD",
+    "GBPCAD",
+    "GBPNZD",
+    "AUDJPY",
+    "AUDCHF",
+    "AUDCAD",
+    "AUDNZD",
+    "NZDJPY",
+    "NZDCHF",
+    "NZDCAD",
+    "CADJPY",
+    "CADCHF",
+    "CHFJPY"
+  ],
+  "param_grid": {
+    "k": [
+      2,
+      3
+    ],
+    "rebalance": [
+      "monthly",
+      "quarterly"
+    ],
+    "weighting": [
+      "equal",
+      "inverse_vol"
+    ],
+    "vol_lookback_days": [
+      60
+    ],
+    "publication_lag_months": [
+      1
+    ],
+    "rate_series": [
+      {
+        "USD": "IR3TIB01USM156N",
+        "EUR": "IR3TIB01EZM156N",
+        "GBP": "IR3TIB01GBM156N",
+        "JPY": "IR3TIB01JPM156N",
+        "CHF": "IR3TIB01CHM156N",
+        "CAD": "IR3TIB01CAM156N",
+        "AUD": "IR3TIB01AUM156N",
+        "NZD": "IR3TIB01NZM156N"
+      }
+    ],
+    "in_sample": [
+      "2008-01-01 .. 2023-01-01 (exclusive)"
+    ],
+    "kill_criterion": [
+      {
+        "metric_a": "ann_sharpe_gross_total",
+        "threshold_a": 0.3,
+        "metric_b": "breakeven_cost_multiple",
+        "threshold_b": 2.0,
+        "combine": "at least one combo must satisfy BOTH",
+        "on_failure": "report FAIL, stop, no grid expansion, no holdout spend"
+      }
+    ]
+  },
+  "n_trials": 8,
+  "source": "elthariel/histdata_fx_1m"
+}

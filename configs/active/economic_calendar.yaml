@@ -1,0 +1,43 @@
+# High-impact event schedule used to GENERATE blackout windows
+# (risk/economic_calendar.py). Window sizes come from autonomy.yaml
+# event_blackouts. NFP needs no dates here - first Friday of the month is
+# derived by rule.
+#
+# Explicit dates below are the published 2026 schedules as of 2026-06.
+# VERIFY against federalreserve.gov and bls.gov when extending into 2027;
+# Hermes may suggest updates but a human edits this file.
+
+rules:
+  nfp:
+    enabled: true
+    kind: nfp
+    name: "US Nonfarm Payrolls"
+    time_local: "08:30"
+    timezone: America/New_York
+
+explicit_events:
+  # FOMC rate decisions (statement 14:00 ET, second day of the meeting)
+  - { name: "FOMC rate decision", kind: fomc, date: 2026-01-28, time_local: "14:00", timezone: America/New_York }
+  - { name: "FOMC rate decision", kind: fomc, date: 2026-03-18, time_local: "14:00", timezone: America/New_York }
+  - { name: "FOMC rate decision", kind: fomc, date: 2026-04-29, time_local: "14:00", timezone: America/New_York }
+  - { name: "FOMC rate decision", kind: fomc, date: 2026-06-17, time_local: "14:00", timezone: America/New_York }
+  - { name: "FOMC rate decision", kind: fomc, date: 2026-07-29, time_local: "14:00", timezone: America/New_York }
+  - { name: "FOMC rate decision", kind: fomc, date: 2026-09-16, time_local: "14:00", timezone: America/New_York }
+  - { name: "FOMC rate decision", kind: fomc, date: 2026-10-28, time_local: "14:00", timezone: America/New_York }
+  - { name: "FOMC rate decision", kind: fomc, date: 2026-12-09, time_local: "14:00", timezone: America/New_York }
+
+  # US CPI releases 08:30 ET (BLS schedule - verify exact dates)
+  - { name: "US CPI", kind: cpi, date: 2026-06-10, time_local: "08:30", timezone: America/New_York }
+  - { name: "US CPI", kind: cpi, date: 2026-07-14, time_local: "08:30", timezone: America/New_York }
+  - { name: "US CPI", kind: cpi, date: 2026-08-12, time_local: "08:30", timezone: America/New_York }
+  - { name: "US CPI", kind: cpi, date: 2026-09-11, time_local: "08:30", timezone: America/New_York }
+  - { name: "US CPI", kind: cpi, date: 2026-10-13, time_local: "08:30", timezone: America/New_York }
+  - { name: "US CPI", kind: cpi, date: 2026-11-12, time_local: "08:30", timezone: America/New_York }
+  - { name: "US CPI", kind: cpi, date: 2026-12-10, time_local: "08:30", timezone: America/New_York }
+
+  # ECB monetary policy decisions 14:15 CET (verify against ecb.europa.eu)
+  - { name: "ECB rate decision", kind: central_bank, date: 2026-06-18, time_local: "14:15", timezone: Europe/Berlin }
+  - { name: "ECB rate decision", kind: central_bank, date: 2026-07-23, time_local: "14:15", timezone: Europe/Berlin }
+  - { name: "ECB rate decision", kind: central_bank, date: 2026-09-10, time_local: "14:15", timezone: Europe/Berlin }
+  - { name: "ECB rate decision", kind: central_bank, date: 2026-10-29, time_local: "14:15", timezone: Europe/Berlin }
+  - { name: "ECB rate decision", kind: central_bank, date: 2026-12-17, time_local: "14:15", timezone: Europe/Berlin }

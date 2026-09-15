@@ -1,0 +1,293 @@
+{
+  "note": "execution-latency sensitivity; B01/B02 both assume delay=0",
+  "years": [
+    {
+      "year": 2015,
+      "horizon_min": 960,
+      "curve": [
+        {
+          "delay_min": 0,
+          "n_events": 386690,
+          "signed_bps": 2.0449,
+          "pct_of_zero_latency": 100.0
+        },
+        {
+          "delay_min": 1,
+          "n_events": 386689,
+          "signed_bps": 1.9984,
+          "pct_of_zero_latency": 97.7
+        },
+        {
+          "delay_min": 2,
+          "n_events": 386688,
+          "signed_bps": 1.9675,
+          "pct_of_zero_latency": 96.2
+        },
+        {
+          "delay_min": 5,
+          "n_events": 386685,
+          "signed_bps": 1.8956,
+          "pct_of_zero_latency": 92.7
+        },
+        {
+          "delay_min": 10,
+          "n_events": 386675,
+          "signed_bps": 1.8198,
+          "pct_of_zero_latency": 89.0
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "horizon_min": 960,
+      "curve": [
+        {
+          "delay_min": 0,
+          "n_events": 382194,
+          "signed_bps": 2.0571,
+          "pct_of_zero_latency": 100.0
+        },
+        {
+          "delay_min": 1,
+          "n_events": 382193,
+          "signed_bps": 2.0124,
+          "pct_of_zero_latency": 97.8
+        },
+        {
+          "delay_min": 2,
+          "n_events": 382192,
+          "signed_bps": 1.9738,
+          "pct_of_zero_latency": 96.0
+        },
+        {
+          "delay_min": 5,
+          "n_events": 382190,
+          "signed_bps": 1.9076,
+          "pct_of_zero_latency": 92.7
+        },
+        {
+          "delay_min": 10,
+          "n_events": 382185,
+          "signed_bps": 1.8299,
+          "pct_of_zero_latency": 89.0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "horizon_min": 960,
+      "curve": [
+        {
+          "delay_min": 0,
+          "n_events": 383926,
+          "signed_bps": 1.0992,
+          "pct_of_zero_latency": 100.0
+        },
+        {
+          "delay_min": 1,
+          "n_events": 383924,
+          "signed_bps": 1.0584,
+          "pct_of_zero_latency": 96.3
+        },
+        {
+          "delay_min": 2,
+          "n_events": 383923,
+          "signed_bps": 1.0298,
+          "pct_of_zero_latency": 93.7
+        },
+        {
+          "delay_min": 5,
+          "n_events": 383920,
+          "signed_bps": 0.9717,
+          "pct_of_zero_latency": 88.4
+        },
+        {
+          "delay_min": 10,
+          "n_events": 383910,
+          "signed_bps": 0.9045,
+          "pct_of_zero_latency": 82.3
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "horizon_min": 960,
+      "curve": [
+        {
+          "delay_min": 0,
+          "n_events": 387380,
+          "signed_bps": 0.3409,
+          "pct_of_zero_latency": 100.0
+        },
+        {
+          "delay_min": 1,
+          "n_events": 387377,
+          "signed_bps": 0.2973,
+          "pct_of_zero_latency": 87.2
+        },
+        {
+          "delay_min": 2,
+          "n_events": 387375,
+          "signed_bps": 0.268,
+          "pct_of_zero_latency": 78.6
+        },
+        {
+          "delay_min": 5,
+          "n_events": 387374,
+          "signed_bps": 0.2035,
+          "pct_of_zero_latency": 59.7
+        },
+        {
+          "delay_min": 10,
+          "n_events": 387374,
+          "signed_bps": 0.144,
+          "pct_of_zero_latency": 42.2
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "horizon_min": 960,
+      "curve": [
+        {
+          "delay_min": 0,
+          "n_events": 380733,
+          "signed_bps": 0.7749,
+          "pct_of_zero_latency": 100.0
+        },
+        {
+          "delay_min": 1,
+          "n_events": 380729,
+          "signed_bps": 0.7423,
+          "pct_of_zero_latency": 95.8
+        },
+        {
+          "delay_min": 2,
+          "n_events": 380725,
+          "signed_bps": 0.7278,
+          "pct_of_zero_latency": 93.9
+        },
+        {
+          "delay_min": 5,
+          "n_events": 380713,
+          "signed_bps": 0.683,
+          "pct_of_zero_latency": 88.1
+        },
+        {
+          "delay_min": 10,
+          "n_events": 380705,
+          "signed_bps": 0.6502,
+          "pct_of_zero_latency": 83.9
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "horizon_min": 960,
+      "curve": [
+        {
+          "delay_min": 0,
+          "n_events": 388846,
+          "signed_bps": -0.5577,
+          "pct_of_zero_latency": 100.0
+        },
+        {
+          "delay_min": 1,
+          "n_events": 388842,
+          "signed_bps": -0.5851,
+          "pct_of_zero_latency": 104.9
+        },
+        {
+          "delay_min": 2,
+          "n_events": 388837,
+          "signed_bps": -0.6012,
+          "pct_of_zero_latency": 107.8
+        },
+        {
+          "delay_min": 5,
+          "n_events": 388831,
+          "signed_bps": -0.6342,
+          "pct_of_zero_latency": 113.7
+        },
+        {
+          "delay_min": 10,
+          "n_events": 388820,
+          "signed_bps": -0.6588,
+          "pct_of_zero_latency": 118.1
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "horizon_min": 960,
+      "curve": [
+        {
+          "delay_min": 0,
+          "n_events": 390756,
+          "signed_bps": 0.4116,
+          "pct_of_zero_latency": 100.0
+        },
+        {
+          "delay_min": 1,
+          "n_events": 390752,
+          "signed_bps": 0.3827,
+          "pct_of_zero_latency": 93.0
+        },
+        {
+          "delay_min": 2,
+          "n_events": 390749,
+          "signed_bps": 0.3609,
+          "pct_of_zero_latency": 87.7
+        },
+        {
+          "delay_min": 5,
+          "n_events": 390740,
+          "signed_bps": 0.3171,
+          "pct_of_zero_latency": 77.0
+        },
+        {
+          "delay_min": 10,
+          "n_events": 390724,
+          "signed_bps": 0.2803,
+          "pct_of_zero_latency": 68.1
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "horizon_min": 960,
+      "curve": [
+        {
+          "delay_min": 0,
+          "n_events": 393414,
+          "signed_bps": 0.935,
+          "pct_of_zero_latency": 100.0
+        },
+        {
+          "delay_min": 1,
+          "n_events": 393403,
+          "signed_bps": 0.9136,
+          "pct_of_zero_latency": 97.7
+        },
+        {
+          "delay_min": 2,
+          "n_events": 393391,
+          "signed_bps": 0.898,
+          "pct_of_zero_latency": 96.0
+        },
+        {
+          "delay_min": 5,
+          "n_events": 393378,
+          "signed_bps": 0.87,
+          "pct_of_zero_latency": 93.0
+        },
+        {
+          "delay_min": 10,
+          "n_events": 393347,
+          "signed_bps": 0.8358,
+          "pct_of_zero_latency": 89.4
+        }
+      ]
+    }
+  ]
+}

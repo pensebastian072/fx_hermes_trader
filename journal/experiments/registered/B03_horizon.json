@@ -1,0 +1,57 @@
+{
+  "battery_id": "B03_horizon",
+  "registered_at": "2026-08-06T19:25:08+00:00",
+  "hypothesis": "Gross edge per round trip scales with holding horizon while cost per round trip does not, so a z-score fade on 60-minute FX bars held for hours-to-days clears a realistic cost hurdle that the same fade held for minutes cannot. Tested on the 7 USD majors, per-year folds 2015-2022, pure price-action. PRIMARY PRE-COMMITTED TEST: at least one configuration reaches gross edge >= 2x assumed round-trip cost in >= 6 of 8 fold years; if not, B03 is a FAIL and no grid expansion follows. In-sample years generated this hypothesis (from B02's horizon curve) and are therefore design-only; the single confirmatory test is one evaluation of one frozen configuration on the locked 2023+ holdout.",
+  "dataset_family": "fx_1min_meanrev",
+  "pairs": [
+    "EURUSD",
+    "USDJPY",
+    "GBPUSD",
+    "AUDUSD",
+    "USDCAD",
+    "USDCHF",
+    "NZDUSD"
+  ],
+  "param_grid": {
+    "lookback_hours": [
+      12,
+      24,
+      48,
+      96
+    ],
+    "entry_z": [
+      1.5,
+      2.0,
+      2.5
+    ],
+    "hold_hours": [
+      6,
+      24,
+      72,
+      168
+    ],
+    "exit_rule": [
+      "fixed_hold"
+    ],
+    "session": [
+      "24h"
+    ],
+    "signal_family": [
+      "zscore_only"
+    ],
+    "bar_minutes": [
+      60
+    ],
+    "kill_criterion": [
+      {
+        "metric": "gross_edge_bps / assumed_round_trip_bp",
+        "threshold": 2.0,
+        "min_years_passing": 6,
+        "n_fold_years": 8,
+        "on_failure": "report FAIL, stop, do not expand grid or narrow universe"
+      }
+    ]
+  },
+  "n_trials": 48,
+  "source": "elthariel/histdata_fx_1m"
+}

@@ -1,0 +1,824 @@
+{
+  "note": "signal-level diagnostics on B02's inputs; selects nothing, charges no trial, holdout untouched",
+  "t_stat_warning": "t_stat_iid_naive assumes independent events. It is NOT: ~390k events per year overlap by up to 960 minutes and run across 7 USD-correlated pairs, so the effective sample is smaller than n by roughly an order of magnitude and these t-stats are inflated by about the square root of that. Use them to compare shapes across horizons, never as evidence of significance \u2014 the honest significance number for this study is the day-aggregated t=1.12 in B02_mtf_confluence_diagnostics.json.",
+  "params": {
+    "lookback_min": 240,
+    "entry_z": 2.0,
+    "pairs": [
+      "EURUSD",
+      "USDJPY",
+      "GBPUSD",
+      "AUDUSD",
+      "USDCAD",
+      "USDCHF",
+      "NZDUSD"
+    ],
+    "horizons_min": [
+      1,
+      5,
+      15,
+      30,
+      60,
+      120,
+      240,
+      480,
+      960
+    ],
+    "params_note": "lookback/entry_z are combo 64's, i.e. B02's ex-post best combo. Fine for diagnosing that result; any forward claim needs a fresh pre-registration."
+  },
+  "per_year": [
+    {
+      "year": 2015,
+      "n_bars": 372801,
+      "pct_cells_forward_filled": 0.473,
+      "pct_cells_nan_after_fill": 0.007,
+      "realised_vol_1m_bps": 2.0356,
+      "n_signal_events": 387769,
+      "events_per_pair_day": 213.1,
+      "forward_return_by_horizon": [
+        {
+          "horizon_min": 1,
+          "n_events": 387767,
+          "signed_bps": 0.0484,
+          "t_stat_iid_naive": 10.711
+        },
+        {
+          "horizon_min": 5,
+          "n_events": 387756,
+          "signed_bps": 0.1557,
+          "t_stat_iid_naive": 16.495
+        },
+        {
+          "horizon_min": 15,
+          "n_events": 387728,
+          "signed_bps": 0.2452,
+          "t_stat_iid_naive": 16.562
+        },
+        {
+          "horizon_min": 30,
+          "n_events": 387710,
+          "signed_bps": 0.3136,
+          "t_stat_iid_naive": 15.751
+        },
+        {
+          "horizon_min": 60,
+          "n_events": 387709,
+          "signed_bps": 0.3416,
+          "t_stat_iid_naive": 12.103
+        },
+        {
+          "horizon_min": 120,
+          "n_events": 387720,
+          "signed_bps": 0.4396,
+          "t_stat_iid_naive": 11.192
+        },
+        {
+          "horizon_min": 240,
+          "n_events": 387683,
+          "signed_bps": 0.8244,
+          "t_stat_iid_naive": 16.119
+        },
+        {
+          "horizon_min": 480,
+          "n_events": 387312,
+          "signed_bps": 1.0395,
+          "t_stat_iid_naive": 13.668
+        },
+        {
+          "horizon_min": 960,
+          "n_events": 386690,
+          "signed_bps": 2.0449,
+          "t_stat_iid_naive": 20.19
+        }
+      ],
+      "h960_by_stale_bucket": [
+        {
+          "label": "fill == 0",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.0,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 263501,
+          "signed_bps": 2.5761
+        },
+        {
+          "label": "fill <= 2% (INCLUDES fill==0)",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.02,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 355155,
+          "signed_bps": 2.4332
+        },
+        {
+          "label": "2% < fill <= 10%",
+          "stale_frac_lo": 0.02,
+          "stale_frac_hi": 0.1,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 30460,
+          "signed_bps": -2.5892
+        },
+        {
+          "label": "10% < fill <= 100%",
+          "stale_frac_lo": 0.1,
+          "stale_frac_hi": 1.01,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 1075,
+          "signed_bps": 5.077
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "n_bars": 373405,
+      "pct_cells_forward_filled": 0.524,
+      "pct_cells_nan_after_fill": 0.002,
+      "realised_vol_1m_bps": 1.999,
+      "n_signal_events": 383170,
+      "events_per_pair_day": 210.5,
+      "forward_return_by_horizon": [
+        {
+          "horizon_min": 1,
+          "n_events": 383166,
+          "signed_bps": 0.0503,
+          "t_stat_iid_naive": 10.911
+        },
+        {
+          "horizon_min": 5,
+          "n_events": 383150,
+          "signed_bps": 0.1815,
+          "t_stat_iid_naive": 19.583
+        },
+        {
+          "horizon_min": 15,
+          "n_events": 383113,
+          "signed_bps": 0.3588,
+          "t_stat_iid_naive": 24.744
+        },
+        {
+          "horizon_min": 30,
+          "n_events": 383042,
+          "signed_bps": 0.4991,
+          "t_stat_iid_naive": 25.874
+        },
+        {
+          "horizon_min": 60,
+          "n_events": 383021,
+          "signed_bps": 0.7302,
+          "t_stat_iid_naive": 28.061
+        },
+        {
+          "horizon_min": 120,
+          "n_events": 383023,
+          "signed_bps": 0.9104,
+          "t_stat_iid_naive": 24.675
+        },
+        {
+          "horizon_min": 240,
+          "n_events": 383003,
+          "signed_bps": 1.2771,
+          "t_stat_iid_naive": 24.952
+        },
+        {
+          "horizon_min": 480,
+          "n_events": 382720,
+          "signed_bps": 1.4378,
+          "t_stat_iid_naive": 19.501
+        },
+        {
+          "horizon_min": 960,
+          "n_events": 382194,
+          "signed_bps": 2.0571,
+          "t_stat_iid_naive": 21.404
+        }
+      ],
+      "h960_by_stale_bucket": [
+        {
+          "label": "fill == 0",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.0,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 271793,
+          "signed_bps": 1.8285
+        },
+        {
+          "label": "fill <= 2% (INCLUDES fill==0)",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.02,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 344658,
+          "signed_bps": 2.0068
+        },
+        {
+          "label": "2% < fill <= 10%",
+          "stale_frac_lo": 0.02,
+          "stale_frac_hi": 0.1,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 35654,
+          "signed_bps": 2.3495
+        },
+        {
+          "label": "10% < fill <= 100%",
+          "stale_frac_lo": 0.1,
+          "stale_frac_hi": 1.01,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 1882,
+          "signed_bps": 5.7152
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "n_bars": 372418,
+      "pct_cells_forward_filled": 0.78,
+      "pct_cells_nan_after_fill": 0.001,
+      "realised_vol_1m_bps": 1.4286,
+      "n_signal_events": 385304,
+      "events_per_pair_day": 211.7,
+      "forward_return_by_horizon": [
+        {
+          "horizon_min": 1,
+          "n_events": 385304,
+          "signed_bps": 0.0403,
+          "t_stat_iid_naive": 13.066
+        },
+        {
+          "horizon_min": 5,
+          "n_events": 385304,
+          "signed_bps": 0.1278,
+          "t_stat_iid_naive": 20.044
+        },
+        {
+          "horizon_min": 15,
+          "n_events": 385301,
+          "signed_bps": 0.2151,
+          "t_stat_iid_naive": 20.691
+        },
+        {
+          "horizon_min": 30,
+          "n_events": 385283,
+          "signed_bps": 0.2885,
+          "t_stat_iid_naive": 20.49
+        },
+        {
+          "horizon_min": 60,
+          "n_events": 385191,
+          "signed_bps": 0.4074,
+          "t_stat_iid_naive": 21.255
+        },
+        {
+          "horizon_min": 120,
+          "n_events": 385095,
+          "signed_bps": 0.4125,
+          "t_stat_iid_naive": 15.713
+        },
+        {
+          "horizon_min": 240,
+          "n_events": 385089,
+          "signed_bps": 0.4437,
+          "t_stat_iid_naive": 12.547
+        },
+        {
+          "horizon_min": 480,
+          "n_events": 384707,
+          "signed_bps": 0.5959,
+          "t_stat_iid_naive": 12.062
+        },
+        {
+          "horizon_min": 960,
+          "n_events": 383926,
+          "signed_bps": 1.0992,
+          "t_stat_iid_naive": 16.425
+        }
+      ],
+      "h960_by_stale_bucket": [
+        {
+          "label": "fill == 0",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.0,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 229829,
+          "signed_bps": 1.0749
+        },
+        {
+          "label": "fill <= 2% (INCLUDES fill==0)",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.02,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 327818,
+          "signed_bps": 0.7892
+        },
+        {
+          "label": "2% < fill <= 10%",
+          "stale_frac_lo": 0.02,
+          "stale_frac_hi": 0.1,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 53281,
+          "signed_bps": 2.8813
+        },
+        {
+          "label": "10% < fill <= 100%",
+          "stale_frac_lo": 0.1,
+          "stale_frac_hi": 1.01,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 2827,
+          "signed_bps": 3.4499
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "n_bars": 373555,
+      "pct_cells_forward_filled": 0.785,
+      "pct_cells_nan_after_fill": 0.004,
+      "realised_vol_1m_bps": 1.3611,
+      "n_signal_events": 388493,
+      "events_per_pair_day": 213.5,
+      "forward_return_by_horizon": [
+        {
+          "horizon_min": 1,
+          "n_events": 388491,
+          "signed_bps": 0.0407,
+          "t_stat_iid_naive": 14.546
+        },
+        {
+          "horizon_min": 5,
+          "n_events": 388481,
+          "signed_bps": 0.123,
+          "t_stat_iid_naive": 21.285
+        },
+        {
+          "horizon_min": 15,
+          "n_events": 388465,
+          "signed_bps": 0.2106,
+          "t_stat_iid_naive": 22.398
+        },
+        {
+          "horizon_min": 30,
+          "n_events": 388430,
+          "signed_bps": 0.3094,
+          "t_stat_iid_naive": 24.124
+        },
+        {
+          "horizon_min": 60,
+          "n_events": 388389,
+          "signed_bps": 0.3882,
+          "t_stat_iid_naive": 22.058
+        },
+        {
+          "horizon_min": 120,
+          "n_events": 388346,
+          "signed_bps": 0.5472,
+          "t_stat_iid_naive": 22.427
+        },
+        {
+          "horizon_min": 240,
+          "n_events": 388321,
+          "signed_bps": 0.5485,
+          "t_stat_iid_naive": 16.603
+        },
+        {
+          "horizon_min": 480,
+          "n_events": 388042,
+          "signed_bps": 0.7912,
+          "t_stat_iid_naive": 17.049
+        },
+        {
+          "horizon_min": 960,
+          "n_events": 387380,
+          "signed_bps": 0.3409,
+          "t_stat_iid_naive": 5.462
+        }
+      ],
+      "h960_by_stale_bucket": [
+        {
+          "label": "fill == 0",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.0,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 239169,
+          "signed_bps": 0.4071
+        },
+        {
+          "label": "fill <= 2% (INCLUDES fill==0)",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.02,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 332757,
+          "signed_bps": 0.2604
+        },
+        {
+          "label": "2% < fill <= 10%",
+          "stale_frac_lo": 0.02,
+          "stale_frac_hi": 0.1,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 52413,
+          "signed_bps": 0.7654
+        },
+        {
+          "label": "10% < fill <= 100%",
+          "stale_frac_lo": 0.1,
+          "stale_frac_hi": 1.01,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 2210,
+          "signed_bps": 2.3958
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "n_bars": 373251,
+      "pct_cells_forward_filled": 0.173,
+      "pct_cells_nan_after_fill": 0.142,
+      "realised_vol_1m_bps": 1.1841,
+      "n_signal_events": 382538,
+      "events_per_pair_day": 210.2,
+      "forward_return_by_horizon": [
+        {
+          "horizon_min": 1,
+          "n_events": 382533,
+          "signed_bps": 0.0338,
+          "t_stat_iid_naive": 12.633
+        },
+        {
+          "horizon_min": 5,
+          "n_events": 382512,
+          "signed_bps": 0.0972,
+          "t_stat_iid_naive": 16.901
+        },
+        {
+          "horizon_min": 15,
+          "n_events": 382462,
+          "signed_bps": 0.1666,
+          "t_stat_iid_naive": 17.998
+        },
+        {
+          "horizon_min": 30,
+          "n_events": 382423,
+          "signed_bps": 0.25,
+          "t_stat_iid_naive": 20.192
+        },
+        {
+          "horizon_min": 60,
+          "n_events": 382382,
+          "signed_bps": 0.3125,
+          "t_stat_iid_naive": 18.549
+        },
+        {
+          "horizon_min": 120,
+          "n_events": 382460,
+          "signed_bps": 0.3814,
+          "t_stat_iid_naive": 17.075
+        },
+        {
+          "horizon_min": 240,
+          "n_events": 382291,
+          "signed_bps": 0.4563,
+          "t_stat_iid_naive": 15.21
+        },
+        {
+          "horizon_min": 480,
+          "n_events": 381910,
+          "signed_bps": 0.5362,
+          "t_stat_iid_naive": 12.966
+        },
+        {
+          "horizon_min": 960,
+          "n_events": 380733,
+          "signed_bps": 0.7749,
+          "t_stat_iid_naive": 13.898
+        }
+      ],
+      "h960_by_stale_bucket": [
+        {
+          "label": "fill == 0",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.0,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 317127,
+          "signed_bps": 0.6525
+        },
+        {
+          "label": "fill <= 2% (INCLUDES fill==0)",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.02,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 373919,
+          "signed_bps": 0.7882
+        },
+        {
+          "label": "2% < fill <= 10%",
+          "stale_frac_lo": 0.02,
+          "stale_frac_hi": 0.1,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 6634,
+          "signed_bps": 0.283
+        },
+        {
+          "label": "10% < fill <= 100%",
+          "stale_frac_lo": 0.1,
+          "stale_frac_hi": 1.01,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 180,
+          "signed_bps": -8.8679
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "n_bars": 373768,
+      "pct_cells_forward_filled": 0.497,
+      "pct_cells_nan_after_fill": 0.008,
+      "realised_vol_1m_bps": 1.8263,
+      "n_signal_events": 389913,
+      "events_per_pair_day": 214.2,
+      "forward_return_by_horizon": [
+        {
+          "horizon_min": 1,
+          "n_events": 389906,
+          "signed_bps": 0.0294,
+          "t_stat_iid_naive": 7.594
+        },
+        {
+          "horizon_min": 5,
+          "n_events": 389889,
+          "signed_bps": 0.0809,
+          "t_stat_iid_naive": 10.066
+        },
+        {
+          "horizon_min": 15,
+          "n_events": 389864,
+          "signed_bps": 0.1328,
+          "t_stat_iid_naive": 10.199
+        },
+        {
+          "horizon_min": 30,
+          "n_events": 389849,
+          "signed_bps": 0.2087,
+          "t_stat_iid_naive": 11.782
+        },
+        {
+          "horizon_min": 60,
+          "n_events": 389848,
+          "signed_bps": 0.3342,
+          "t_stat_iid_naive": 13.819
+        },
+        {
+          "horizon_min": 120,
+          "n_events": 389836,
+          "signed_bps": 0.3558,
+          "t_stat_iid_naive": 10.788
+        },
+        {
+          "horizon_min": 240,
+          "n_events": 389839,
+          "signed_bps": 0.489,
+          "t_stat_iid_naive": 11.136
+        },
+        {
+          "horizon_min": 480,
+          "n_events": 389445,
+          "signed_bps": 0.2753,
+          "t_stat_iid_naive": 4.46
+        },
+        {
+          "horizon_min": 960,
+          "n_events": 388846,
+          "signed_bps": -0.5577,
+          "t_stat_iid_naive": -6.65
+        }
+      ],
+      "h960_by_stale_bucket": [
+        {
+          "label": "fill == 0",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.0,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 286234,
+          "signed_bps": -0.6906
+        },
+        {
+          "label": "fill <= 2% (INCLUDES fill==0)",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.02,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 354593,
+          "signed_bps": -0.532
+        },
+        {
+          "label": "2% < fill <= 10%",
+          "stale_frac_lo": 0.02,
+          "stale_frac_hi": 0.1,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 32915,
+          "signed_bps": -0.0192
+        },
+        {
+          "label": "10% < fill <= 100%",
+          "stale_frac_lo": 0.1,
+          "stale_frac_hi": 1.01,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 1338,
+          "signed_bps": -20.6346
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "n_bars": 373127,
+      "pct_cells_forward_filled": 1.111,
+      "pct_cells_nan_after_fill": 0.009,
+      "realised_vol_1m_bps": 1.255,
+      "n_signal_events": 391784,
+      "events_per_pair_day": 215.3,
+      "forward_return_by_horizon": [
+        {
+          "horizon_min": 1,
+          "n_events": 391775,
+          "signed_bps": 0.0292,
+          "t_stat_iid_naive": 11.574
+        },
+        {
+          "horizon_min": 5,
+          "n_events": 391755,
+          "signed_bps": 0.1002,
+          "t_stat_iid_naive": 18.866
+        },
+        {
+          "horizon_min": 15,
+          "n_events": 391732,
+          "signed_bps": 0.1491,
+          "t_stat_iid_naive": 17.062
+        },
+        {
+          "horizon_min": 30,
+          "n_events": 391704,
+          "signed_bps": 0.2118,
+          "t_stat_iid_naive": 17.44
+        },
+        {
+          "horizon_min": 60,
+          "n_events": 391682,
+          "signed_bps": 0.2462,
+          "t_stat_iid_naive": 14.381
+        },
+        {
+          "horizon_min": 120,
+          "n_events": 391654,
+          "signed_bps": 0.3386,
+          "t_stat_iid_naive": 14.558
+        },
+        {
+          "horizon_min": 240,
+          "n_events": 391671,
+          "signed_bps": 0.2101,
+          "t_stat_iid_naive": 6.883
+        },
+        {
+          "horizon_min": 480,
+          "n_events": 391388,
+          "signed_bps": 0.2729,
+          "t_stat_iid_naive": 6.245
+        },
+        {
+          "horizon_min": 960,
+          "n_events": 390756,
+          "signed_bps": 0.4116,
+          "t_stat_iid_naive": 6.878
+        }
+      ],
+      "h960_by_stale_bucket": [
+        {
+          "label": "fill == 0",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.0,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 218700,
+          "signed_bps": -0.0423
+        },
+        {
+          "label": "fill <= 2% (INCLUDES fill==0)",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.02,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 307209,
+          "signed_bps": 0.2826
+        },
+        {
+          "label": "2% < fill <= 10%",
+          "stale_frac_lo": 0.02,
+          "stale_frac_hi": 0.1,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 78529,
+          "signed_bps": 0.5869
+        },
+        {
+          "label": "10% < fill <= 100%",
+          "stale_frac_lo": 0.1,
+          "stale_frac_hi": 1.01,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 5018,
+          "signed_bps": 5.5644
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "n_bars": 374289,
+      "pct_cells_forward_filled": 0.701,
+      "pct_cells_nan_after_fill": 0.051,
+      "realised_vol_1m_bps": 1.9739,
+      "n_signal_events": 394509,
+      "events_per_pair_day": 216.8,
+      "forward_return_by_horizon": [
+        {
+          "horizon_min": 1,
+          "n_events": 394496,
+          "signed_bps": 0.0248,
+          "t_stat_iid_naive": 6.19
+        },
+        {
+          "horizon_min": 5,
+          "n_events": 394465,
+          "signed_bps": 0.0684,
+          "t_stat_iid_naive": 7.923
+        },
+        {
+          "horizon_min": 15,
+          "n_events": 394417,
+          "signed_bps": 0.13,
+          "t_stat_iid_naive": 9.145
+        },
+        {
+          "horizon_min": 30,
+          "n_events": 394401,
+          "signed_bps": 0.2092,
+          "t_stat_iid_naive": 10.613
+        },
+        {
+          "horizon_min": 60,
+          "n_events": 394409,
+          "signed_bps": 0.2648,
+          "t_stat_iid_naive": 9.678
+        },
+        {
+          "horizon_min": 120,
+          "n_events": 394367,
+          "signed_bps": 0.3283,
+          "t_stat_iid_naive": 8.697
+        },
+        {
+          "horizon_min": 240,
+          "n_events": 394322,
+          "signed_bps": 0.5135,
+          "t_stat_iid_naive": 10.122
+        },
+        {
+          "horizon_min": 480,
+          "n_events": 393911,
+          "signed_bps": 0.4165,
+          "t_stat_iid_naive": 5.758
+        },
+        {
+          "horizon_min": 960,
+          "n_events": 393414,
+          "signed_bps": 0.935,
+          "t_stat_iid_naive": 9.696
+        }
+      ],
+      "h960_by_stale_bucket": [
+        {
+          "label": "fill == 0",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.0,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 295508,
+          "signed_bps": 1.0219
+        },
+        {
+          "label": "fill <= 2% (INCLUDES fill==0)",
+          "stale_frac_lo": 0.0,
+          "stale_frac_hi": 0.02,
+          "disjoint_from_zero_bucket": false,
+          "n_events": 340859,
+          "signed_bps": 0.9822
+        },
+        {
+          "label": "2% < fill <= 10%",
+          "stale_frac_lo": 0.02,
+          "stale_frac_hi": 0.1,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 50211,
+          "signed_bps": 0.7758
+        },
+        {
+          "label": "10% < fill <= 100%",
+          "stale_frac_lo": 0.1,
+          "stale_frac_hi": 1.01,
+          "disjoint_from_zero_bucket": true,
+          "n_events": 2344,
+          "signed_bps": -2.5259
+        }
+      ]
+    }
+  ],
+  "elapsed_sec": 273.5
+}

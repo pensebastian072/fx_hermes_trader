@@ -1,0 +1,45 @@
+{
+  "battery_id": "B02_mtf_confluence",
+  "registered_at": "2026-08-05T22:22:43+00:00",
+  "hypothesis": "1-minute FX mean-reversion fades are more profitable when higher timeframes (15m/1h/4h/1d) DISAGREE on trend direction (range regime) than when they strongly agree (trend regime). Gating entries on |confluence| <= threshold should beat the unfiltered control arm (confluence_max=1.01) on the 7 USD majors, reported per year 2015-2022. Pure price-action only -- no macro/news features.",
+  "dataset_family": "fx_1min_meanrev",
+  "pairs": [
+    "EURUSD",
+    "USDJPY",
+    "GBPUSD",
+    "AUDUSD",
+    "USDCAD",
+    "USDCHF",
+    "NZDUSD"
+  ],
+  "param_grid": {
+    "lookback_min": [
+      20,
+      60,
+      120,
+      240
+    ],
+    "entry_z": [
+      1.5,
+      2.0,
+      2.5
+    ],
+    "exit_rule": [
+      "inner_band",
+      "max_hold"
+    ],
+    "session": [
+      "24h"
+    ],
+    "signal_family": [
+      "zscore_only"
+    ],
+    "confluence_max": [
+      0.34,
+      0.67,
+      1.01
+    ]
+  },
+  "n_trials": 72,
+  "source": "elthariel/histdata_fx_1m"
+}

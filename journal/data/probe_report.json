@@ -1,0 +1,66 @@
+{
+  "probed_pairs": [
+    "EURUSD",
+    "USDJPY",
+    "EURGBP"
+  ],
+  "profiles": [
+    {
+      "pair": "EURUSD",
+      "n_rows": 8430757,
+      "min_ts": "2000-05-30 22:27:00+00:00",
+      "max_ts": "2025-03-21 20:58:00+00:00",
+      "duplicate_timestamps": 300,
+      "monotonic": true,
+      "weekday_minutes_in_range": 9321032,
+      "coverage_pct_weekday": 90.45,
+      "file_size_mb": 79.55,
+      "gaps": {
+        "n_gaps": 526552,
+        "columns": [
+          "length",
+          "start",
+          "end"
+        ]
+      }
+    },
+    {
+      "pair": "USDJPY",
+      "n_rows": 8393156,
+      "min_ts": "2000-05-30 22:58:00+00:00",
+      "max_ts": "2025-03-21 20:58:00+00:00",
+      "duplicate_timestamps": 360,
+      "monotonic": true,
+      "weekday_minutes_in_range": 9321001,
+      "coverage_pct_weekday": 90.05,
+      "file_size_mb": 75.86,
+      "gaps": {
+        "n_gaps": 596316,
+        "columns": [
+          "length",
+          "start",
+          "end"
+        ]
+      }
+    },
+    {
+      "pair": "EURGBP",
+      "n_rows": 7711010,
+      "min_ts": "2002-03-04 00:04:00+00:00",
+      "max_ts": "2025-03-21 20:58:00+00:00",
+      "duplicate_timestamps": 360,
+      "monotonic": true,
+      "weekday_minutes_in_range": 8661415,
+      "coverage_pct_weekday": 89.03,
+      "file_size_mb": 66.87,
+      "gaps": {
+        "n_gaps": 590843,
+        "columns": [
+          "length",
+          "start",
+          "end"
+        ]
+      }
+    }
+  ]
+}

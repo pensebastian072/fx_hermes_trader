@@ -1,0 +1,289 @@
+{
+  "pairs": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "USDCHF",
+    "USDCAD",
+    "AUDUSD",
+    "NZDUSD",
+    "EURGBP",
+    "EURJPY",
+    "EURCHF",
+    "EURAUD",
+    "EURCAD",
+    "EURNZD",
+    "GBPJPY",
+    "GBPCHF",
+    "GBPAUD",
+    "GBPCAD",
+    "GBPNZD",
+    "AUDJPY",
+    "AUDCHF",
+    "AUDCAD",
+    "AUDNZD",
+    "NZDJPY",
+    "NZDCHF",
+    "NZDCAD",
+    "CADJPY",
+    "CADCHF",
+    "CHFJPY"
+  ],
+  "rows": 6386,
+  "start": "2000-05-30 00:00:00+00:00",
+  "end": "2025-03-21 00:00:00+00:00",
+  "sanitize": {
+    "EURUSD": {
+      "rows_in": 8430457,
+      "rows_out": 8410142,
+      "dropped_nan": 20313,
+      "dropped_nonpositive": 1,
+      "dropped_out_of_band": 1,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "GBPUSD": {
+      "rows_in": 8316239,
+      "rows_out": 8296825,
+      "dropped_nan": 19414,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "USDJPY": {
+      "rows_in": 8392796,
+      "rows_out": 8373668,
+      "dropped_nan": 19128,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "USDCHF": {
+      "rows_in": 8408510,
+      "rows_out": 8400681,
+      "dropped_nan": 7829,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "USDCAD": {
+      "rows_in": 7502094,
+      "rows_out": 7487334,
+      "dropped_nan": 14760,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "AUDUSD": {
+      "rows_in": 7790630,
+      "rows_out": 7772708,
+      "dropped_nan": 17918,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 4,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "NZDUSD": {
+      "rows_in": 6688500,
+      "rows_out": 6688500,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "EURGBP": {
+      "rows_in": 7710650,
+      "rows_out": 7690999,
+      "dropped_nan": 19651,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "EURJPY": {
+      "rows_in": 8276903,
+      "rows_out": 8256113,
+      "dropped_nan": 20790,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "EURCHF": {
+      "rows_in": 7634845,
+      "rows_out": 7617898,
+      "dropped_nan": 16947,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "EURAUD": {
+      "rows_in": 8179415,
+      "rows_out": 8159022,
+      "dropped_nan": 20393,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "EURCAD": {
+      "rows_in": 6599351,
+      "rows_out": 6599351,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "EURNZD": {
+      "rows_in": 6236303,
+      "rows_out": 6236303,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "GBPJPY": {
+      "rows_in": 8264866,
+      "rows_out": 8244093,
+      "dropped_nan": 20773,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "GBPCHF": {
+      "rows_in": 8164457,
+      "rows_out": 8143789,
+      "dropped_nan": 20667,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 1,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "GBPAUD": {
+      "rows_in": 6404297,
+      "rows_out": 6404297,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "GBPCAD": {
+      "rows_in": 6367412,
+      "rows_out": 6367412,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "GBPNZD": {
+      "rows_in": 6208409,
+      "rows_out": 6208409,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "AUDJPY": {
+      "rows_in": 7778003,
+      "rows_out": 7749073,
+      "dropped_nan": 20517,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 8413,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "AUDCHF": {
+      "rows_in": 6235167,
+      "rows_out": 6235167,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "AUDCAD": {
+      "rows_in": 6368276,
+      "rows_out": 6368276,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "AUDNZD": {
+      "rows_in": 6383714,
+      "rows_out": 6383714,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "NZDJPY": {
+      "rows_in": 6734532,
+      "rows_out": 6734532,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "NZDCHF": {
+      "rows_in": 6189401,
+      "rows_out": 6189401,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "NZDCAD": {
+      "rows_in": 6157438,
+      "rows_out": 6157438,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "CADJPY": {
+      "rows_in": 6590504,
+      "rows_out": 6590504,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "CADCHF": {
+      "rows_in": 6190090,
+      "rows_out": 6190090,
+      "dropped_nan": 0,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    },
+    "CHFJPY": {
+      "rows_in": 8122904,
+      "rows_out": 8102508,
+      "dropped_nan": 20396,
+      "dropped_nonpositive": 0,
+      "dropped_out_of_band": 0,
+      "dropped_off_scale": 0,
+      "unaccounted": 0
+    }
+  }
+}

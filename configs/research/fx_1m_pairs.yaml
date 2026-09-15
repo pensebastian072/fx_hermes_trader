@@ -1,0 +1,36 @@
+# Research universe for gpu_meanrev/ — resolved 2026-08-04 against the real
+# elthariel/histdata_fx_1m catalog (66 symbols total incl. commodities/indices;
+# all 28 majors+crosses candidates matched, none missing).
+#
+# Do NOT confuse with configs/active/watchlist.yaml — that file gates which
+# symbols the LIVE webhook accepts (a production control surface). This is a
+# separate, broader research-only universe.
+pairs:
+  - EURUSD
+  - GBPUSD
+  - USDJPY
+  - USDCHF
+  - USDCAD
+  - AUDUSD
+  - NZDUSD
+  - EURGBP
+  - EURJPY
+  - EURCHF
+  - EURAUD
+  - EURCAD
+  - EURNZD
+  - GBPJPY
+  - GBPCHF
+  - GBPAUD
+  - GBPCAD
+  - GBPNZD
+  - AUDJPY
+  - AUDCHF
+  - AUDCAD
+  - AUDNZD
+  - NZDJPY
+  - NZDCHF
+  - NZDCAD
+  - CADJPY
+  - CADCHF
+  - CHFJPY

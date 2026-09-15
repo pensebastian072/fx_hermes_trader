@@ -1,0 +1,281 @@
+{
+  "battery_id": "B01_zscore_reversion_PILOT",
+  "winning_combo": {
+    "lookback_min": 480,
+    "entry_z": 1.5,
+    "exit_rule": "max_hold",
+    "session": "24h",
+    "signal_family": "zscore_only"
+  },
+  "per_pair": [
+    {
+      "pair": "EURUSD",
+      "n_trades": 59,
+      "profit_factor": 1.8139959939885129,
+      "sharpe": 0.23160923925773708,
+      "dsr_ratio": 1.8177,
+      "dsr_prob": 0.9654
+    },
+    {
+      "pair": "GBPUSD",
+      "n_trades": 59,
+      "profit_factor": 2.3307450016925326,
+      "sharpe": 0.2943072368599953,
+      "dsr_ratio": 2.1464,
+      "dsr_prob": 0.9841
+    },
+    {
+      "pair": "USDJPY",
+      "n_trades": 59,
+      "profit_factor": 1.1930442470163969,
+      "sharpe": 0.060580623851021406,
+      "dsr_ratio": 0.4633,
+      "dsr_prob": 0.6784
+    },
+    {
+      "pair": "USDCHF",
+      "n_trades": 58,
+      "profit_factor": 0.9085056395865392,
+      "sharpe": -0.03742863302941321,
+      "dsr_ratio": -0.2854,
+      "dsr_prob": 0.3877
+    },
+    {
+      "pair": "USDCAD",
+      "n_trades": 58,
+      "profit_factor": 0.7000766811538821,
+      "sharpe": -0.1521537906133766,
+      "dsr_ratio": -1.126,
+      "dsr_prob": 0.1301
+    },
+    {
+      "pair": "AUDUSD",
+      "n_trades": 58,
+      "profit_factor": 0.8675315430059376,
+      "sharpe": -0.05707809818036368,
+      "dsr_ratio": -0.432,
+      "dsr_prob": 0.3329
+    },
+    {
+      "pair": "NZDUSD",
+      "n_trades": 58,
+      "profit_factor": 1.1631734259549718,
+      "sharpe": 0.06368950286018477,
+      "dsr_ratio": 0.479,
+      "dsr_prob": 0.684
+    },
+    {
+      "pair": "EURGBP",
+      "n_trades": 59,
+      "profit_factor": 1.9492999398726638,
+      "sharpe": 0.22762003901203837,
+      "dsr_ratio": 1.8021,
+      "dsr_prob": 0.9642
+    },
+    {
+      "pair": "EURJPY",
+      "n_trades": 59,
+      "profit_factor": 1.4800436404269222,
+      "sharpe": 0.14130149119517954,
+      "dsr_ratio": 1.1074,
+      "dsr_prob": 0.8659
+    },
+    {
+      "pair": "EURCHF",
+      "n_trades": 59,
+      "profit_factor": 1.071303161867941,
+      "sharpe": 0.02551453242985278,
+      "dsr_ratio": 0.1938,
+      "dsr_prob": 0.5768
+    },
+    {
+      "pair": "EURAUD",
+      "n_trades": 59,
+      "profit_factor": 1.2871896736293194,
+      "sharpe": 0.09748848769540805,
+      "dsr_ratio": 0.7471,
+      "dsr_prob": 0.7725
+    },
+    {
+      "pair": "EURCAD",
+      "n_trades": 59,
+      "profit_factor": 0.8310345787923262,
+      "sharpe": -0.07311544800875483,
+      "dsr_ratio": -0.558,
+      "dsr_prob": 0.2884
+    },
+    {
+      "pair": "EURNZD",
+      "n_trades": 58,
+      "profit_factor": 2.2022882504457373,
+      "sharpe": 0.29683223276492626,
+      "dsr_ratio": 2.1031,
+      "dsr_prob": 0.9823
+    },
+    {
+      "pair": "GBPJPY",
+      "n_trades": 59,
+      "profit_factor": 0.9143736500243599,
+      "sharpe": -0.03077847063641139,
+      "dsr_ratio": -0.2355,
+      "dsr_prob": 0.4069
+    },
+    {
+      "pair": "GBPCHF",
+      "n_trades": 59,
+      "profit_factor": 1.2508701597144343,
+      "sharpe": 0.06751529628931895,
+      "dsr_ratio": 0.4834,
+      "dsr_prob": 0.6856
+    },
+    {
+      "pair": "GBPAUD",
+      "n_trades": 59,
+      "profit_factor": 0.7045361247128799,
+      "sharpe": -0.12088061565474759,
+      "dsr_ratio": -0.9921,
+      "dsr_prob": 0.1606
+    },
+    {
+      "pair": "GBPCAD",
+      "n_trades": 59,
+      "profit_factor": 1.571955312067721,
+      "sharpe": 0.1469879936414098,
+      "dsr_ratio": 1.1183,
+      "dsr_prob": 0.8683
+    },
+    {
+      "pair": "GBPNZD",
+      "n_trades": 57,
+      "profit_factor": 1.3231879194916036,
+      "sharpe": 0.09624716742173103,
+      "dsr_ratio": 0.6763,
+      "dsr_prob": 0.7506
+    },
+    {
+      "pair": "AUDJPY",
+      "n_trades": 59,
+      "profit_factor": 0.65893236256404,
+      "sharpe": -0.1493404365397046,
+      "dsr_ratio": -1.23,
+      "dsr_prob": 0.1093
+    },
+    {
+      "pair": "AUDCHF",
+      "n_trades": 58,
+      "profit_factor": 1.1838925995917173,
+      "sharpe": 0.07004265821738016,
+      "dsr_ratio": 0.5262,
+      "dsr_prob": 0.7006
+    },
+    {
+      "pair": "AUDCAD",
+      "n_trades": 59,
+      "profit_factor": 1.45228631162727,
+      "sharpe": 0.14465780991966287,
+      "dsr_ratio": 1.0516,
+      "dsr_prob": 0.8535
+    },
+    {
+      "pair": "AUDNZD",
+      "n_trades": 60,
+      "profit_factor": 0.9500626335697344,
+      "sharpe": -0.019953566378025325,
+      "dsr_ratio": -0.1533,
+      "dsr_prob": 0.4391
+    },
+    {
+      "pair": "NZDJPY",
+      "n_trades": 59,
+      "profit_factor": 0.7649214467129988,
+      "sharpe": -0.10008298521843839,
+      "dsr_ratio": -0.8116,
+      "dsr_prob": 0.2085
+    },
+    {
+      "pair": "NZDCHF",
+      "n_trades": 58,
+      "profit_factor": 1.1450318213217086,
+      "sharpe": 0.05770134631379157,
+      "dsr_ratio": 0.4382,
+      "dsr_prob": 0.6694
+    },
+    {
+      "pair": "NZDCAD",
+      "n_trades": 59,
+      "profit_factor": 1.2573876934656014,
+      "sharpe": 0.09401791541690523,
+      "dsr_ratio": 0.7022,
+      "dsr_prob": 0.7587
+    },
+    {
+      "pair": "CADJPY",
+      "n_trades": 59,
+      "profit_factor": 1.565977032786026,
+      "sharpe": 0.15454789092958493,
+      "dsr_ratio": 1.2631,
+      "dsr_prob": 0.8967
+    },
+    {
+      "pair": "CADCHF",
+      "n_trades": 59,
+      "profit_factor": 0.8656872082612248,
+      "sharpe": -0.054647198147575626,
+      "dsr_ratio": -0.4283,
+      "dsr_prob": 0.3342
+    },
+    {
+      "pair": "CHFJPY",
+      "n_trades": 59,
+      "profit_factor": 0.6103577399707414,
+      "sharpe": -0.18273036845981766,
+      "dsr_ratio": -1.5033,
+      "dsr_prob": 0.0664
+    }
+  ],
+  "clustering": {
+    "n_trades": 1644,
+    "distinct_entry_minutes": 1503,
+    "distinct_session_days": 90,
+    "minute_cluster_ratio": 1.094,
+    "day_cluster_ratio": 18.267
+  },
+  "pooled_verdict": {
+    "passes": false,
+    "deflated_sharpe": {
+      "sr": 0.0471,
+      "ratio": -0.8013,
+      "prob": 0.2115,
+      "n": 1644,
+      "n_trials": 160,
+      "psr_z": 1.8905,
+      "bracket": 2.6918,
+      "sr_star": 0.067067,
+      "sigma_sr": 0.024916
+    },
+    "pbo": 0.0079,
+    "profit_factor": 1.1404,
+    "sharpe": 0.047101905419865066,
+    "n_trades": 1644,
+    "thresholds": {
+      "deflated_sharpe_min": 1.645,
+      "pbo_max": 0.5
+    },
+    "reasons": [
+      "deflated_sharpe_ratio -0.8013 <= 1.645"
+    ],
+    "bootstrap_ci": {
+      "device": "cuda",
+      "n_boot": 10000,
+      "n_perm": 10000,
+      "sharpe_ci": [
+        -0.0009,
+        0.0967
+      ],
+      "sharpe_prob_positive": 0.972,
+      "mean": 0.000402,
+      "perm_p_value": 0.0292
+    }
+  },
+  "shadow": true
+}

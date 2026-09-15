@@ -1,0 +1,38 @@
+# Deterministic risk limits. The risk engine enforces these and has final veto power.
+# Do not loosen these without explicit human approval.
+
+starting_capital: 10000
+base_risk_per_trade: 0.0025
+max_risk_per_trade: 0.005
+a_plus_max_risk_per_trade: 0.0075
+max_open_portfolio_risk: 0.015
+max_daily_loss: 0.01
+max_weekly_loss: 0.03
+max_monthly_drawdown: 0.06
+max_open_trades: 4
+max_trades_per_day: 6
+max_trades_per_pair_per_day: 2
+max_correlated_usd_trades: 2
+max_correlated_jpy_trades: 2
+
+# Reward/risk floor for any accepted trade
+min_reward_risk: 1.5
+
+# When true, no new positions may be opened (existing paper positions may close)
+close_only: false
+
+# Regime-probability position scaling (PROJECT_PLAN.md 29.1).
+# Size ramps linearly from 1.0 at scale_start_probability down to 0.0 at
+# halt_probability; at/above halt_probability new trades are vetoed.
+regime_scaling:
+  enabled: true
+  crisis_regime: HIGH_VOL_CRISIS
+  scale_start_probability: 0.5
+  halt_probability: 0.8
+
+# Event blackout calendar. Entries are tz-aware ISO timestamps.
+# Example:
+#   - name: "US CPI"
+#     start: "2026-06-12T08:00:00-04:00"
+#     end:   "2026-06-12T09:00:00-04:00"
+event_blackout_calendar: []
