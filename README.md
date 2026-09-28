@@ -1,5 +1,13 @@
 # FX Hermes Trader
 
+<!-- one-tap-install -->
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-2ea44f?style=for-the-badge&logo=github)](https://github.com/pensebastian072/fx_hermes_trader/archive/refs/heads/main.zip)
+
+**Run it on your computer in 3 steps:** 1) [download the ZIP](https://github.com/pensebastian072/fx_hermes_trader/archive/refs/heads/main.zip) · 2) unzip it · 3) double-click **`install.bat`** (Windows) or run **`./install.sh`** (macOS/Linux).
+The Streamlit dashboard opens in your browser at `http://127.0.0.1:8503` - it runs only on your machine. Next time use `start.bat` / `./start.sh`.
+Paper trading only.
+<!-- one-tap-install -->
+
 Local-first, **paper-trading only** FX research harness.
 
 - FastAPI webhook receiver for TradingView-style alerts
